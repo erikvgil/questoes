@@ -1,0 +1,1200 @@
+{
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Identifique a resposta correta: Quantas estrofes há no trecho do poema apresentado?",
+      "options": [
+        "Uma",
+        "Duas",
+        "Três",
+        "Quatro"
+      ],
+      "correctAnswer": "Uma",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Quantas estrofes há no trecho do poema apresentado?",
+      "options": [
+        "Uma",
+        "Duas",
+        "Três",
+        "Quatro"
+      ],
+      "correctAnswer": "Uma",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Identifique a resposta correta: Na frase 'Cuidado com o cão bravo!', qual o sinal de pontuação usado?",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Em 'Por que sai lágrima quando sinto remorso?', qual o sinal usado?",
+      "options": [
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto-final",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Ponto de interrogação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: A palavra 'janela' é classificada como:",
+      "options": [
+        "Monossílaba",
+        "Dissílaba",
+        "Trissílaba",
+        "Polissílaba"
+      ],
+      "correctAnswer": "Trissílaba",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: Frases que indicam surpresa ou espanto são finalizadas com _____.",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: Na frase 'Cuidado com o cão bravo!', qual o sinal de pontuação usado?",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: Qual é a sílaba tônica da palavra 'janela'?",
+      "options": [
+        "Ja",
+        "Ne",
+        "La"
+      ],
+      "correctAnswer": "Ne",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: A palavra 'janela' é classificada como:",
+      "options": [
+        "Monossílaba",
+        "Dissílaba",
+        "Trissílaba",
+        "Polissílaba"
+      ],
+      "correctAnswer": "Trissílaba",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: A palavra 'lâmpada' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Proparoxítona",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Identifique a resposta correta: Frases que indicam surpresa ou espanto são finalizadas com _____.",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Qual palavra é uma monossílaba?",
+      "options": [
+        "Casa",
+        "Pé",
+        "Sapato",
+        "Janela"
+      ],
+      "correctAnswer": "Pé",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: A palavra 'computador' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Paroxítona",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Palavras com acento na última sílaba são chamadas de:",
+      "options": [
+        "Oxítonas",
+        "Paroxítonas",
+        "Proparoxítonas"
+      ],
+      "correctAnswer": "Oxítonas",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: A palavra 'lâmpada' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Proparoxítona",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "complete",
+      "question": "Assinale a alternativa correta: Que pontuação indica uma interrupção ou insinuação no pensamento?",
+      "options": [
+        "Ponto-final",
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Reticências",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: A frase 'Eu não gosto de comer salada.' é exemplo de:",
+      "options": [
+        "Afirmativa",
+        "Interrogativa",
+        "Exclamativa",
+        "Negativa"
+      ],
+      "correctAnswer": "Negativa",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Assinale a alternativa correta: Quantas estrofes há no trecho do poema apresentado?",
+      "options": [
+        "Uma",
+        "Duas",
+        "Três",
+        "Quatro"
+      ],
+      "correctAnswer": "Uma",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Qual é a sílaba tônica da palavra 'janela'?",
+      "options": [
+        "Ja",
+        "Ne",
+        "La"
+      ],
+      "correctAnswer": "Ne",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: Frases afirmativas são finalizadas com que sinal?",
+      "options": [
+        "Exclamação",
+        "Ponto-final",
+        "Interrogação",
+        "Reticências"
+      ],
+      "correctAnswer": "Ponto-final",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: Qual palavra é uma monossílaba?",
+      "options": [
+        "Casa",
+        "Pé",
+        "Sapato",
+        "Janela"
+      ],
+      "correctAnswer": "Pé",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "match",
+      "question": "Associe as palavras que rimam no poema:",
+      "options": [
+        {
+          "left": "dinheiro",
+          "right": "inteiro"
+        },
+        {
+          "left": "tranquilo",
+          "right": "aquilo"
+        }
+      ],
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Assinale a alternativa correta: Que pontuação indica uma interrupção ou insinuação no pensamento?",
+      "options": [
+        "Ponto-final",
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Reticências",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: A palavra 'lâmpada' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Proparoxítona",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: A palavra 'lâmpada' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Proparoxítona",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: Que pontuação indica uma interrupção ou insinuação no pensamento?",
+      "options": [
+        "Ponto-final",
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Reticências",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Na frase 'Cuidado com o cão bravo!', qual o sinal de pontuação usado?",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Palavras com acento na última sílaba são chamadas de:",
+      "options": [
+        "Oxítonas",
+        "Paroxítonas",
+        "Proparoxítonas"
+      ],
+      "correctAnswer": "Oxítonas",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Assinale a alternativa correta: Frases que indicam surpresa ou espanto são finalizadas com _____.",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: Que pontuação indica uma interrupção ou insinuação no pensamento?",
+      "options": [
+        "Ponto-final",
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Reticências",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Qual é o poema que fala sobre escolhas entre 'isto' ou 'aquilo'?",
+      "options": [
+        "Vinícius de Moraes",
+        "Cecília Meireles",
+        "Carlos Drummond",
+        "Manuel Bandeira"
+      ],
+      "correctAnswer": "Cecília Meireles",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: Quantas estrofes há no trecho do poema apresentado?",
+      "options": [
+        "Uma",
+        "Duas",
+        "Três",
+        "Quatro"
+      ],
+      "correctAnswer": "Uma",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: Qual é o poema que fala sobre escolhas entre 'isto' ou 'aquilo'?",
+      "options": [
+        "Vinícius de Moraes",
+        "Cecília Meireles",
+        "Carlos Drummond",
+        "Manuel Bandeira"
+      ],
+      "correctAnswer": "Cecília Meireles",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: Frases afirmativas são finalizadas com que sinal?",
+      "options": [
+        "Exclamação",
+        "Ponto-final",
+        "Interrogação",
+        "Reticências"
+      ],
+      "correctAnswer": "Ponto-final",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "match",
+      "question": "Associe as palavras que rimam no poema:",
+      "options": [
+        {
+          "left": "dinheiro",
+          "right": "inteiro"
+        },
+        {
+          "left": "tranquilo",
+          "right": "aquilo"
+        }
+      ],
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Assinale a alternativa correta: Na frase 'Cuidado com o cão bravo!', qual o sinal de pontuação usado?",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Qual é a sílaba tônica da palavra 'janela'?",
+      "options": [
+        "Ja",
+        "Ne",
+        "La"
+      ],
+      "correctAnswer": "Ne",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: A palavra 'computador' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Paroxítona",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Assinale a alternativa correta: Qual é o poema que fala sobre escolhas entre 'isto' ou 'aquilo'?",
+      "options": [
+        "Vinícius de Moraes",
+        "Cecília Meireles",
+        "Carlos Drummond",
+        "Manuel Bandeira"
+      ],
+      "correctAnswer": "Cecília Meireles",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Qual é o poema que fala sobre escolhas entre 'isto' ou 'aquilo'?",
+      "options": [
+        "Vinícius de Moraes",
+        "Cecília Meireles",
+        "Carlos Drummond",
+        "Manuel Bandeira"
+      ],
+      "correctAnswer": "Cecília Meireles",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Qual palavra é uma monossílaba?",
+      "options": [
+        "Casa",
+        "Pé",
+        "Sapato",
+        "Janela"
+      ],
+      "correctAnswer": "Pé",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Qual palavra é uma monossílaba?",
+      "options": [
+        "Casa",
+        "Pé",
+        "Sapato",
+        "Janela"
+      ],
+      "correctAnswer": "Pé",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Identifique a resposta correta: A palavra 'computador' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Paroxítona",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: Frases afirmativas são finalizadas com que sinal?",
+      "options": [
+        "Exclamação",
+        "Ponto-final",
+        "Interrogação",
+        "Reticências"
+      ],
+      "correctAnswer": "Ponto-final",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: A palavra 'computador' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Paroxítona",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: Qual é a sílaba tônica da palavra 'janela'?",
+      "options": [
+        "Ja",
+        "Ne",
+        "La"
+      ],
+      "correctAnswer": "Ne",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: Quantos versos há no trecho apresentado?",
+      "options": [
+        "3 versos",
+        "4 versos",
+        "5 versos",
+        "6 versos"
+      ],
+      "correctAnswer": "4 versos",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: A frase 'Eu não gosto de comer salada.' é exemplo de:",
+      "options": [
+        "Afirmativa",
+        "Interrogativa",
+        "Exclamativa",
+        "Negativa"
+      ],
+      "correctAnswer": "Negativa",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Qual palavra é uma monossílaba?",
+      "options": [
+        "Casa",
+        "Pé",
+        "Sapato",
+        "Janela"
+      ],
+      "correctAnswer": "Pé",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Frases afirmativas são finalizadas com que sinal?",
+      "options": [
+        "Exclamação",
+        "Ponto-final",
+        "Interrogação",
+        "Reticências"
+      ],
+      "correctAnswer": "Ponto-final",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Assinale a alternativa correta: Qual palavra é uma monossílaba?",
+      "options": [
+        "Casa",
+        "Pé",
+        "Sapato",
+        "Janela"
+      ],
+      "correctAnswer": "Pé",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: Em 'Por que sai lágrima quando sinto remorso?', qual o sinal usado?",
+      "options": [
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto-final",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Ponto de interrogação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: A palavra 'computador' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Paroxítona",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: A palavra 'janela' é classificada como:",
+      "options": [
+        "Monossílaba",
+        "Dissílaba",
+        "Trissílaba",
+        "Polissílaba"
+      ],
+      "correctAnswer": "Trissílaba",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: A palavra 'janela' é classificada como:",
+      "options": [
+        "Monossílaba",
+        "Dissílaba",
+        "Trissílaba",
+        "Polissílaba"
+      ],
+      "correctAnswer": "Trissílaba",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Em 'Por que sai lágrima quando sinto remorso?', qual o sinal usado?",
+      "options": [
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto-final",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Ponto de interrogação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Quantos versos há no trecho apresentado?",
+      "options": [
+        "3 versos",
+        "4 versos",
+        "5 versos",
+        "6 versos"
+      ],
+      "correctAnswer": "4 versos",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: Quantas estrofes há no trecho do poema apresentado?",
+      "options": [
+        "Uma",
+        "Duas",
+        "Três",
+        "Quatro"
+      ],
+      "correctAnswer": "Uma",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: A frase 'Eu não gosto de comer salada.' é exemplo de:",
+      "options": [
+        "Afirmativa",
+        "Interrogativa",
+        "Exclamativa",
+        "Negativa"
+      ],
+      "correctAnswer": "Negativa",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: Que tipo de frase é finalizada com ponto de interrogação?",
+      "options": [
+        "Frase afirmativa",
+        "Frase exclamativa",
+        "Frase interrogativa",
+        "Frase declarativa"
+      ],
+      "correctAnswer": "Frase interrogativa",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Identifique a resposta correta: A frase 'Eu não gosto de comer salada.' é exemplo de:",
+      "options": [
+        "Afirmativa",
+        "Interrogativa",
+        "Exclamativa",
+        "Negativa"
+      ],
+      "correctAnswer": "Negativa",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Que tipo de frase é finalizada com ponto de interrogação?",
+      "options": [
+        "Frase afirmativa",
+        "Frase exclamativa",
+        "Frase interrogativa",
+        "Frase declarativa"
+      ],
+      "correctAnswer": "Frase interrogativa",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Em 'Por que sai lágrima quando sinto remorso?', qual o sinal usado?",
+      "options": [
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto-final",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Ponto de interrogação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Qual é a sílaba tônica da palavra 'janela'?",
+      "options": [
+        "Ja",
+        "Ne",
+        "La"
+      ],
+      "correctAnswer": "Ne",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: Quantos versos há no trecho apresentado?",
+      "options": [
+        "3 versos",
+        "4 versos",
+        "5 versos",
+        "6 versos"
+      ],
+      "correctAnswer": "4 versos",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Identifique a resposta correta: Quantos versos há no trecho apresentado?",
+      "options": [
+        "3 versos",
+        "4 versos",
+        "5 versos",
+        "6 versos"
+      ],
+      "correctAnswer": "4 versos",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Palavras com acento na última sílaba são chamadas de:",
+      "options": [
+        "Oxítonas",
+        "Paroxítonas",
+        "Proparoxítonas"
+      ],
+      "correctAnswer": "Oxítonas",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: Na frase 'Cuidado com o cão bravo!', qual o sinal de pontuação usado?",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Palavras com acento na última sílaba são chamadas de:",
+      "options": [
+        "Oxítonas",
+        "Paroxítonas",
+        "Proparoxítonas"
+      ],
+      "correctAnswer": "Oxítonas",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: A palavra 'janela' é classificada como:",
+      "options": [
+        "Monossílaba",
+        "Dissílaba",
+        "Trissílaba",
+        "Polissílaba"
+      ],
+      "correctAnswer": "Trissílaba",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "match",
+      "question": "Associe as palavras que rimam no poema:",
+      "options": [
+        {
+          "left": "dinheiro",
+          "right": "inteiro"
+        },
+        {
+          "left": "tranquilo",
+          "right": "aquilo"
+        }
+      ],
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: A palavra 'janela' é classificada como:",
+      "options": [
+        "Monossílaba",
+        "Dissílaba",
+        "Trissílaba",
+        "Polissílaba"
+      ],
+      "correctAnswer": "Trissílaba",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Quantas estrofes há no trecho do poema apresentado?",
+      "options": [
+        "Uma",
+        "Duas",
+        "Três",
+        "Quatro"
+      ],
+      "correctAnswer": "Uma",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Frases que indicam surpresa ou espanto são finalizadas com _____.",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Que tipo de frase é finalizada com ponto de interrogação?",
+      "options": [
+        "Frase afirmativa",
+        "Frase exclamativa",
+        "Frase interrogativa",
+        "Frase declarativa"
+      ],
+      "correctAnswer": "Frase interrogativa",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Que tipo de frase é finalizada com ponto de interrogação?",
+      "options": [
+        "Frase afirmativa",
+        "Frase exclamativa",
+        "Frase interrogativa",
+        "Frase declarativa"
+      ],
+      "correctAnswer": "Frase interrogativa",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "match",
+      "question": "Associe as palavras que rimam no poema:",
+      "options": [
+        {
+          "left": "dinheiro",
+          "right": "inteiro"
+        },
+        {
+          "left": "tranquilo",
+          "right": "aquilo"
+        }
+      ],
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Assinale a alternativa correta: A palavra 'lâmpada' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Proparoxítona",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "match",
+      "question": "Associe as palavras que rimam no poema:",
+      "options": [
+        {
+          "left": "dinheiro",
+          "right": "inteiro"
+        },
+        {
+          "left": "tranquilo",
+          "right": "aquilo"
+        }
+      ],
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: Qual é a sílaba tônica da palavra 'janela'?",
+      "options": [
+        "Ja",
+        "Ne",
+        "La"
+      ],
+      "correctAnswer": "Ne",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Identifique a resposta correta: Que tipo de frase é finalizada com ponto de interrogação?",
+      "options": [
+        "Frase afirmativa",
+        "Frase exclamativa",
+        "Frase interrogativa",
+        "Frase declarativa"
+      ],
+      "correctAnswer": "Frase interrogativa",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "match",
+      "question": "Associe as palavras que rimam no poema:",
+      "options": [
+        {
+          "left": "dinheiro",
+          "right": "inteiro"
+        },
+        {
+          "left": "tranquilo",
+          "right": "aquilo"
+        }
+      ],
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Assinale a alternativa correta: Que pontuação indica uma interrupção ou insinuação no pensamento?",
+      "options": [
+        "Ponto-final",
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Reticências",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Na frase 'Cuidado com o cão bravo!', qual o sinal de pontuação usado?",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Selecione a alternativa correta: Frases afirmativas são finalizadas com que sinal?",
+      "options": [
+        "Exclamação",
+        "Ponto-final",
+        "Interrogação",
+        "Reticências"
+      ],
+      "correctAnswer": "Ponto-final",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Quantos versos há no trecho apresentado?",
+      "options": [
+        "3 versos",
+        "4 versos",
+        "5 versos",
+        "6 versos"
+      ],
+      "correctAnswer": "4 versos",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Frases que indicam surpresa ou espanto são finalizadas com _____.",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Assinale a alternativa correta: Qual é o poema que fala sobre escolhas entre 'isto' ou 'aquilo'?",
+      "options": [
+        "Vinícius de Moraes",
+        "Cecília Meireles",
+        "Carlos Drummond",
+        "Manuel Bandeira"
+      ],
+      "correctAnswer": "Cecília Meireles",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: Em 'Por que sai lágrima quando sinto remorso?', qual o sinal usado?",
+      "options": [
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto-final",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Ponto de interrogação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Escolha a opção certa: Frases afirmativas são finalizadas com que sinal?",
+      "options": [
+        "Exclamação",
+        "Ponto-final",
+        "Interrogação",
+        "Reticências"
+      ],
+      "correctAnswer": "Ponto-final",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Escolha a opção certa: Que tipo de frase é finalizada com ponto de interrogação?",
+      "options": [
+        "Frase afirmativa",
+        "Frase exclamativa",
+        "Frase interrogativa",
+        "Frase declarativa"
+      ],
+      "correctAnswer": "Frase interrogativa",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Assinale a alternativa correta: Em 'Por que sai lágrima quando sinto remorso?', qual o sinal usado?",
+      "options": [
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto-final",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Ponto de interrogação",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: A frase 'Eu não gosto de comer salada.' é exemplo de:",
+      "options": [
+        "Afirmativa",
+        "Interrogativa",
+        "Exclamativa",
+        "Negativa"
+      ],
+      "correctAnswer": "Negativa",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: A palavra 'computador' é:",
+      "options": [
+        "Oxítona",
+        "Paroxítona",
+        "Proparoxítona"
+      ],
+      "correctAnswer": "Paroxítona",
+      "topic": "Classificação de Sílabas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: A frase 'Eu não gosto de comer salada.' é exemplo de:",
+      "options": [
+        "Afirmativa",
+        "Interrogativa",
+        "Exclamativa",
+        "Negativa"
+      ],
+      "correctAnswer": "Negativa",
+      "topic": "Construção de frases (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Marque a resposta correta: Que pontuação indica uma interrupção ou insinuação no pensamento?",
+      "options": [
+        "Ponto-final",
+        "Ponto de exclamação",
+        "Reticências",
+        "Ponto de interrogação"
+      ],
+      "correctAnswer": "Reticências",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Assinale a alternativa correta: Palavras com acento na última sílaba são chamadas de:",
+      "options": [
+        "Oxítonas",
+        "Paroxítonas",
+        "Proparoxítonas"
+      ],
+      "correctAnswer": "Oxítonas",
+      "topic": "Tonicidade das Palavras"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Selecione a alternativa correta: Qual é o poema que fala sobre escolhas entre 'isto' ou 'aquilo'?",
+      "options": [
+        "Vinícius de Moraes",
+        "Cecília Meireles",
+        "Carlos Drummond",
+        "Manuel Bandeira"
+      ],
+      "correctAnswer": "Cecília Meireles",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a resposta correta: Frases que indicam surpresa ou espanto são finalizadas com _____.",
+      "options": [
+        "Ponto de interrogação",
+        "Reticências",
+        "Ponto de exclamação",
+        "Ponto-final"
+      ],
+      "correctAnswer": "Ponto de exclamação",
+      "topic": "Frases e Pontuação (Página 40)"
+    },
+    {
+      "type": "complete",
+      "question": "Assinale a alternativa correta: Quantos versos há no trecho apresentado?",
+      "options": [
+        "3 versos",
+        "4 versos",
+        "5 versos",
+        "6 versos"
+      ],
+      "correctAnswer": "4 versos",
+      "topic": "Poema 'Ou Isto ou Aquilo' (Página 41)"
+    }
+  ]
+}

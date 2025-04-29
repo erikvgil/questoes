@@ -1,60 +1,9 @@
-// Questões sobre pontuação
-const questions = [
-    // Múltipla escolha (20 questões)
-    {type: 'multiple-choice', question: 'Qual sinal usamos para fazer uma pergunta?', options: ['Ponto-final', 'Ponto de interrogação', 'Ponto de exclamação', 'Reticências'], correctAnswer: 'Ponto de interrogação'},
-    {type: 'multiple-choice', question: 'Frases afirmativas terminam com qual sinal?', options: ['Ponto-final', 'Exclamação', 'Interrogação', 'Reticências'], correctAnswer: 'Ponto-final'},
-    {type: 'multiple-choice', question: 'Que frase termina com ponto de exclamação?', options: ['Você gosta?', 'Que dia lindo!', 'Ontem fui à escola.', 'A chuva caiu...'], correctAnswer: 'Que dia lindo!'},
-    {type: 'multiple-choice', question: 'O que indicam as reticências?', options: ['Fim', 'Continuidade', 'Interrupção', 'Felicidade'], correctAnswer: 'Interrupção'},
-    {type: 'multiple-choice', question: 'Qual frase expressa uma pergunta?', options: ['Ele está estudando.', 'Onde você mora?', 'Que lugar bonito!', 'O céu está azul.'], correctAnswer: 'Onde você mora?'},
-    {type: 'multiple-choice', question: 'Qual frase expressa uma surpresa?', options: ['Eu gosto de pizza.', 'Que delícia de bolo!', 'A aula começa às oito.', 'Vamos à praia.'], correctAnswer: 'Que delícia de bolo!'},
-    {type: 'multiple-choice', question: 'Qual é o sinal de pontuação usado em "Você está feliz?"?', options: ['Ponto de exclamação', 'Ponto de interrogação', 'Ponto-final', 'Reticências'], correctAnswer: 'Ponto de interrogação'},
-    {type: 'multiple-choice', question: 'O que finaliza uma frase declarativa?', options: ['Exclamação', 'Interrogação', 'Ponto-final', 'Reticências'], correctAnswer: 'Ponto-final'},
-    {type: 'multiple-choice', question: 'Qual frase é afirmativa?', options: ['Você gosta de brincar?', 'Que casa bonita!', 'Hoje está frio.', 'Onde está o brinquedo?'], correctAnswer: 'Hoje está frio.'},
-    {type: 'multiple-choice', question: 'Qual frase tem reticências?', options: ['O sol brilhou.', 'Eu acho que...', 'Você vai à escola?', 'Que bom!'], correctAnswer: 'Eu acho que...'},
-    {type: 'multiple-choice', question: 'A frase "Você estudou para a prova?" termina com qual sinal?', options: ['Exclamação', 'Interrogação', 'Ponto-final', 'Reticências'], correctAnswer: 'Interrogação'},
-    {type: 'multiple-choice', question: 'Qual frase mostra surpresa?', options: ['Hoje choveu.', 'Que dia quente!', 'Ele está correndo.', 'Você gosta de sorvete?'], correctAnswer: 'Que dia quente!'},
-    {type: 'multiple-choice', question: 'Que sinal é usado para expressar dúvida?', options: ['Exclamação', 'Reticências', 'Interrogação', 'Ponto-final'], correctAnswer: 'Reticências'},
-    {type: 'multiple-choice', question: 'Qual frase tem exclamação?', options: ['Que lindo!', 'Está chovendo.', 'Você está estudando?', 'Ele saiu.'], correctAnswer: 'Que lindo!'},
-    {type: 'multiple-choice', question: 'As reticências indicam:', options: ['Alegria', 'Mistério', 'Certeza', 'Confirmação'], correctAnswer: 'Mistério'},
-    {type: 'multiple-choice', question: 'Ponto de interrogação serve para:', options: ['Afirmar', 'Admirar', 'Perguntar', 'Declarar'], correctAnswer: 'Perguntar'},
-    {type: 'multiple-choice', question: 'Frases de ordem podem terminar com:', options: ['Ponto-final', 'Exclamação', 'Interrogação', 'Reticências'], correctAnswer: 'Exclamação'},
-    {type: 'multiple-choice', question: 'O que termina uma frase afirmativa?', options: ['Exclamação', 'Ponto-final', 'Reticências', 'Interrogação'], correctAnswer: 'Ponto-final'},
-    {type: 'multiple-choice', question: 'Qual frase não é uma pergunta?', options: ['Você gosta de ler?', 'Vamos à escola?', 'Ele leu um livro.', 'Você vai?'], correctAnswer: 'Ele leu um livro.'},
-    {type: 'multiple-choice', question: 'Sinal usado para expressar forte emoção:', options: ['Ponto-final', 'Exclamação', 'Interrogação', 'Reticências'], correctAnswer: 'Exclamação'},
-
-    // Completar frases (20 questões)
-    {type: 'complete', question: 'A frase "Você gosta de estudar?" termina com _____.', options: ['ponto-final', 'ponto de interrogação', 'ponto de exclamação', 'reticências'], correctAnswer: 'ponto de interrogação'},
-    {type: 'complete', question: 'Usamos _____ para terminar frases afirmativas.', options: ['ponto de exclamação', 'ponto de interrogação', 'ponto-final', 'reticências'], correctAnswer: 'ponto-final'},
-    {type: 'complete', question: 'Para expressar surpresa usamos _____.', options: ['reticências', 'ponto de interrogação', 'ponto-final', 'ponto de exclamação'], correctAnswer: 'ponto de exclamação'},
-    {type: 'complete', question: 'Uma frase com reticências indica _____.', options: ['certeza', 'continuidade ou dúvida', 'afirmação', 'negação'], correctAnswer: 'continuidade ou dúvida'},
-    {type: 'complete', question: 'Frases exclamativas expressam _____.', options: ['tristeza', 'admiração', 'negação', 'certeza'], correctAnswer: 'admiração'},
-    {type: 'complete', question: 'O sinal _____ indica que a frase continua.', options: ['ponto-final', 'ponto de interrogação', 'reticências', 'ponto de exclamação'], correctAnswer: 'reticências'},
-    {type: 'complete', question: 'Frases interrogativas são usadas para _____.', options: ['afirmar', 'dar ordens', 'perguntar', 'expressar dúvidas'], correctAnswer: 'perguntar'},
-    {type: 'complete', question: 'Usamos ponto de exclamação para frases que expressam _____.', options: ['tristeza', 'surpresa', 'calma', 'certeza'], correctAnswer: 'surpresa'},
-    {type: 'complete', question: 'O sinal de exclamação transmite _____.', options: ['calma', 'emoção', 'indiferença', 'tristeza'], correctAnswer: 'emoção'},
-    {type: 'complete', question: 'O sinal de interrogação indica _____.', options: ['afirmação', 'pergunta', 'admiração', 'tristeza'], correctAnswer: 'pergunta'},
-    {type: 'complete', question: 'Para mostrar continuidade usamos _____.', options: ['ponto de interrogação', 'reticências', 'ponto-final', 'ponto de exclamação'], correctAnswer: 'reticências'},
-    {type: 'complete', question: 'Final de frase com forte emoção usa _____.', options: ['reticências', 'ponto de exclamação', 'ponto-final', 'interrogação'], correctAnswer: 'ponto de exclamação'},
-    {type: 'complete', question: 'Afirmações terminam com _____.', options: ['exclamação', 'interrogação', 'ponto-final', 'reticências'], correctAnswer: 'ponto-final'},
-    {type: 'complete', question: 'Frases de surpresa terminam com _____.', options: ['ponto-final', 'reticências', 'interrogação', 'ponto de exclamação'], correctAnswer: 'ponto de exclamação'},
-    {type: 'complete', question: 'Frases de pergunta terminam com _____.', options: ['ponto de interrogação', 'ponto-final', 'reticências', 'ponto de exclamação'], correctAnswer: 'ponto de interrogação'},
-    {type: 'complete', question: 'Frases abertas ou incompletas terminam com _____.', options: ['reticências', 'ponto-final', 'exclamação', 'interrogação'], correctAnswer: 'reticências'},
-    {type: 'complete', question: 'O sinal que indica pergunta é o _____.', options: ['ponto-final', 'ponto de interrogação', 'exclamação', 'reticências'], correctAnswer: 'ponto de interrogação'},
-    {type: 'complete', question: 'O sinal que expressa surpresa é o _____.', options: ['reticências', 'ponto de exclamação', 'ponto-final', 'interrogação'], correctAnswer: 'ponto de exclamação'},
-    {type: 'complete', question: 'O sinal que expressa dúvida ou continuação é o _____.', options: ['reticências', 'exclamação', 'ponto-final', 'interrogação'], correctAnswer: 'reticências'},
-
-    // Ligar pontos (10 questões)
-    {type: 'match', question: 'Ligue o tipo de frase ao seu sinal correto:', options: [
-        {left: 'Frase afirmativa', right: 'Ponto-final'},
-        {left: 'Frase interrogativa', right: 'Ponto de interrogação'},
-        {left: 'Frase exclamativa', right: 'Ponto de exclamação'},
-        {left: 'Frase de continuidade', right: 'Reticências'}
-    ], correctAnswer: ['Frase afirmativa-Ponto-final', 'Frase interrogativa-Ponto de interrogação', 'Frase exclamativa-Ponto de exclamação', 'Frase de continuidade-Reticências']}
-];
-
+// Variáveis globais
+let questions = [];
+let originalQuestions = []; // Array para manter as questões originais
 let currentQuestionIndex = 0;
 let score = 0;
-let userAnswers = new Array(questions.length).fill(null);
+let userAnswers = [];
 let answeredQuestions = new Set();
 
 // Elementos do DOM
@@ -63,6 +12,7 @@ const optionsContainer = document.getElementById('options-container');
 const feedback = document.getElementById('feedback');
 const nextButton = document.getElementById('next-button');
 const prevButton = document.getElementById('prev-button');
+const resetButton = document.getElementById('reset-button');
 const currentQuestionSpan = document.getElementById('current-question');
 const totalQuestionsSpan = document.getElementById('total-questions');
 const progressBar = document.querySelector('.progress');
@@ -84,10 +34,31 @@ const statsAnswered = document.getElementById('stats-answered');
 const correctBar = document.getElementById('correct-bar');
 const incorrectBar = document.getElementById('incorrect-bar');
 
-// Inicialização
-totalQuestionsSpan.textContent = questions.length;
-updateProgress();
-updateStats();
+// Função para randomizar array usando o algoritmo Fisher-Yates
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Carregar questões do arquivo JSON
+async function loadQuestions() {
+    try {
+        const response = await fetch('questoes_portugues.json');
+        const data = await response.json();
+        originalQuestions = [...data.questions]; // Guarda uma cópia das questões originais
+        questions = shuffleArray([...originalQuestions]); // Randomiza as questões
+        userAnswers = new Array(questions.length).fill(null);
+        totalQuestionsSpan.textContent = questions.length;
+        updateProgress();
+        updateStats();
+        showQuestion();
+    } catch (error) {
+        console.error('Erro ao carregar questões:', error);
+    }
+}
 
 // Função para atualizar a barra de progresso
 function updateProgress() {
@@ -125,7 +96,14 @@ function updateStats() {
 // Função para mostrar a questão atual
 function showQuestion() {
     const question = questions[currentQuestionIndex];
-    questionText.textContent = question.question;
+    const topicElement = document.createElement('div');
+    topicElement.className = 'question-topic';
+    topicElement.textContent = question.topic;
+    
+    questionText.innerHTML = '';
+    questionText.appendChild(topicElement);
+    questionText.appendChild(document.createTextNode(question.question));
+    
     optionsContainer.innerHTML = '';
     currentQuestionSpan.textContent = currentQuestionIndex + 1;
 
@@ -139,7 +117,6 @@ function showQuestion() {
             button.className = 'option';
             button.textContent = option;
             
-            // Marcar opção selecionada anteriormente
             if (userAnswers[currentQuestionIndex] === option) {
                 button.classList.add('selected');
             }
@@ -189,14 +166,23 @@ function showQuestion() {
                 const draggedText = e.dataTransfer.getData('text/plain');
                 const targetText = e.target.textContent;
                 
-                // Verificar se a combinação está correta
-                const isCorrect = question.correctAnswer.includes(`${draggedText}-${targetText}`);
+                const isCorrect = question.correctAnswer ? 
+                    question.correctAnswer.includes(`${draggedText}-${targetText}`) :
+                    question.options.some(opt => 
+                        (opt.left === draggedText && opt.right === targetText) ||
+                        (opt.right === draggedText && opt.left === targetText)
+                    );
                 
                 if (isCorrect) {
                     e.target.classList.add('correct');
                     e.target.style.pointerEvents = 'none';
-                    score++;
-                    updateStats();
+                    if (!userAnswers[currentQuestionIndex]) {
+                        score++;
+                        userAnswers[currentQuestionIndex] = true;
+                        answeredQuestions.add(currentQuestionIndex);
+                        updateStats();
+                        updateProgress();
+                    }
                 } else {
                     e.target.classList.add('incorrect');
                 }
@@ -316,21 +302,38 @@ function showResults() {
     results.classList.remove('hidden');
 }
 
-// Evento para o botão de reiniciar
-restartButton.addEventListener('click', () => {
-    currentQuestionIndex = 0;
-    score = 0;
-    userAnswers = new Array(questions.length).fill(null);
-    answeredQuestions.clear();
-    
-    document.getElementById('question-container').classList.remove('hidden');
-    document.querySelector('.navigation-buttons').classList.remove('hidden');
-    results.classList.add('hidden');
-    
-    updateProgress();
-    updateStats();
-    showQuestion();
-});
+// Função para reiniciar o quiz
+function resetQuiz() {
+    if (confirm('Tem certeza que deseja reiniciar? Todo o seu progresso será perdido.')) {
+        // Randomizar questões novamente
+        questions = shuffleArray([...originalQuestions]);
+        
+        // Resetar variáveis
+        currentQuestionIndex = 0;
+        score = 0;
+        userAnswers = new Array(questions.length).fill(null);
+        answeredQuestions = new Set();
+
+        // Limpar feedback
+        feedback.classList.add('hidden');
+        feedback.textContent = '';
+
+        // Resetar UI
+        results.classList.add('hidden');
+        document.getElementById('question-container').classList.remove('hidden');
+        document.querySelector('.navigation-buttons').classList.remove('hidden');
+
+        // Atualizar progresso e estatísticas
+        updateProgress();
+        updateStats();
+
+        // Mostrar primeira questão
+        showQuestion();
+    }
+}
+
+// Adicionar evento de clique ao botão de reiniciar
+resetButton.addEventListener('click', resetQuiz);
 
 // Evento para o botão de alternar painel de estatísticas
 toggleStatsButton.addEventListener('click', () => {
@@ -339,4 +342,4 @@ toggleStatsButton.addEventListener('click', () => {
 });
 
 // Iniciar o jogo
-showQuestion(); 
+loadQuestions(); 
