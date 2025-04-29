@@ -83,8 +83,8 @@ function formatDisplayName(filename) {
 async function listJsonFiles() {
     // Lista fixa de todos os arquivos
     return [
-        'json/questoes_portugues.json',
-        'json/questoes_200_final_corrigido.json'
+        'questoes_portugues.json',
+        'questoes_200_final_corrigido.json'
     ];
 }
 
