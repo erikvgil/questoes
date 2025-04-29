@@ -5,6 +5,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let userAnswers = [];
 let answeredQuestions = new Set();
+let currentQuizFile = null; // Será definido dinamicamente
 
 // Elementos do DOM
 const questionText = document.getElementById('question-text');
@@ -43,13 +44,157 @@ function shuffleArray(array) {
     return array;
 }
 
+// Função para verificar se um arquivo JSON existe
+async function checkFileExists(file) {
+    try {
+        const response = await fetch(file);
+        return response.ok;
+    } catch {
+        return false;
+    }
+}
+
+// Função para formatar o nome do arquivo para exibição
+function formatDisplayName(filename) {
+    // Remove o caminho do diretório, se houver
+    const baseName = filename.split('/').pop();
+    // Remove a extensão .json e o prefixo questoes_
+    let displayName = baseName.replace('.json', '').replace('questoes_', '');
+    
+    // Formata casos especiais
+    if (displayName === 'portugues') {
+        return 'Português';
+    } else if (displayName.includes('final')) {
+        return displayName.replace('_', ' ').replace('final', 'Final');
+    }
+    
+    // Formata números
+    if (!isNaN(displayName)) {
+        return `Questões ${displayName}`;
+    }
+    
+    // Formata outros casos
+    return displayName.split('_').map(word => 
+        word.charAt(0).toUpperCase() + word.slice(1)
+    ).join(' ');
+}
+
+// Função para listar arquivos JSON no diretório
+async function listJsonFiles() {
+    // Lista fixa de todos os arquivos
+    return [
+        'json/questoes_portugues.json',
+        'json/questoes_200_final_corrigido.json'
+    ];
+}
+
+// Função para criar o menu de quizzes
+async function createQuizMenu() {
+    const quizList = document.getElementById('quiz-list');
+    quizList.innerHTML = '';
+
+    try {
+        // Obter lista de arquivos JSON
+        const knownFiles = await listJsonFiles();
+
+        // Verifica quais arquivos existem
+        const existingFiles = [];
+        for (const file of knownFiles) {
+            if (await checkFileExists(file)) {
+                existingFiles.push(file);
+            }
+        }
+
+        // Define o arquivo inicial se ainda não foi definido
+        if (!currentQuizFile && existingFiles.length > 0) {
+            currentQuizFile = existingFiles[0];
+        }
+
+        // Cria os itens do menu para cada arquivo encontrado
+        existingFiles.forEach(file => {
+            const quizItem = document.createElement('div');
+            quizItem.className = 'quiz-item';
+            if (file === currentQuizFile) {
+                quizItem.classList.add('active');
+            }
+            
+            quizItem.textContent = formatDisplayName(file);
+            quizItem.dataset.file = file;
+            quizItem.addEventListener('click', () => selectQuiz(file));
+            quizList.appendChild(quizItem);
+        });
+
+        if (existingFiles.length === 0) {
+            quizList.innerHTML = '<div class="error-message">Nenhum arquivo de questões encontrado</div>';
+        }
+    } catch (error) {
+        console.error('Erro ao carregar lista de arquivos:', error);
+        quizList.innerHTML = '<div class="error-message">Erro ao carregar lista de arquivos</div>';
+    }
+}
+
+// Função para selecionar um quiz
+async function selectQuiz(quizFile) {
+    try {
+        // Limpar estado atual
+        questions = [];
+        originalQuestions = [];
+        currentQuestionIndex = 0;
+        score = 0;
+        userAnswers = [];
+        answeredQuestions = new Set();
+        
+        // Atualizar arquivo atual
+        currentQuizFile = quizFile;
+        console.log('Selecionando novo quiz:', currentQuizFile);
+        
+        // Atualizar visual do menu
+        document.querySelectorAll('.quiz-item').forEach(item => {
+            item.classList.remove('active');
+            if (item.dataset.file === quizFile) {
+                item.classList.add('active');
+            }
+        });
+        
+        // Limpar UI
+        questionText.textContent = 'Carregando questões...';
+        optionsContainer.innerHTML = '';
+        feedback.classList.add('hidden');
+        
+        // Carregar novas questões
+        await loadQuestions();
+        
+    } catch (error) {
+        console.error('Erro ao selecionar quiz:', error);
+        questionText.textContent = 'Erro ao carregar o quiz. Por favor, tente novamente.';
+    }
+}
+
 // Carregar questões do arquivo JSON
 async function loadQuestions() {
     try {
-        const response = await fetch('questoes_portugues.json');
+        if (!currentQuizFile) {
+            throw new Error('Nenhum arquivo de questões selecionado');
+        }
+        
+        // Adicionar timestamp para evitar cache
+        const timestamp = new Date().getTime();
+        const response = await fetch(`${currentQuizFile}?t=${timestamp}`);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
         const data = await response.json();
-        originalQuestions = [...data.questions]; // Guarda uma cópia das questões originais
-        questions = shuffleArray([...originalQuestions]); // Randomiza as questões
+        
+        if (!data.questions || !Array.isArray(data.questions) || data.questions.length === 0) {
+            throw new Error('Formato de arquivo inválido ou sem questões');
+        }
+        
+        console.log(`Carregadas ${data.questions.length} questões do arquivo ${currentQuizFile}`);
+        
+        originalQuestions = [...data.questions];
+        questions = shuffleArray([...originalQuestions]);
         userAnswers = new Array(questions.length).fill(null);
         totalQuestionsSpan.textContent = questions.length;
         updateProgress();
@@ -57,6 +202,9 @@ async function loadQuestions() {
         showQuestion();
     } catch (error) {
         console.error('Erro ao carregar questões:', error);
+        console.error('Arquivo atual:', currentQuizFile);
+        // Mostrar mensagem de erro para o usuário
+        questionText.textContent = `Erro ao carregar as questões: ${error.message}`;
     }
 }
 
@@ -303,8 +451,8 @@ function showResults() {
 }
 
 // Função para reiniciar o quiz
-function resetQuiz() {
-    if (confirm('Tem certeza que deseja reiniciar? Todo o seu progresso será perdido.')) {
+function resetQuiz(forceReset = false) {
+    if (forceReset || confirm('Tem certeza que deseja reiniciar? Todo o seu progresso será perdido.')) {
         // Randomizar questões novamente
         questions = shuffleArray([...originalQuestions]);
         
@@ -333,7 +481,7 @@ function resetQuiz() {
 }
 
 // Adicionar evento de clique ao botão de reiniciar
-resetButton.addEventListener('click', resetQuiz);
+resetButton.addEventListener('click', () => resetQuiz(false));
 
 // Evento para o botão de alternar painel de estatísticas
 toggleStatsButton.addEventListener('click', () => {
@@ -341,5 +489,13 @@ toggleStatsButton.addEventListener('click', () => {
     toggleStatsButton.textContent = statsPanel.classList.contains('collapsed') ? '▶' : '◀';
 });
 
-// Iniciar o jogo
-loadQuestions(); 
+// Inicializar o aplicativo
+async function initializeApp() {
+    await createQuizMenu();
+    await loadQuestions();
+}
+
+initializeApp().catch(error => {
+    console.error('Erro ao inicializar o aplicativo:', error);
+    questionText.textContent = 'Erro ao carregar as questões. Por favor, recarregue a página.';
+}); 
