@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do HEITOR - Questões Divertidas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1>Site do HEITOR</h1>
+            <h2 class="subtitle">Questões Divertidas</h2>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="question-counter">Questão <span id="current-question">1</span> de <span id="total-questions">50</span></div>
+            <div id="question-container">
+                <div id="question-text"></div>
+                <div id="options-container"></div>
+            </div>
+            <div id="feedback" class="hidden"></div>
+            <div class="navigation-buttons">
+                <button id="prev-button" class="nav-button">← Anterior</button>
+                <button id="next-button" class="nav-button">Próxima →</button>
+            </div>
+            <div id="results" class="hidden">
+                <h2>Resultado Final</h2>
+                <div class="score-container">
+                    <div class="score-circle">
+                        <span id="final-score">0</span>
+                        <span class="score-label">pontos</span>
+                    </div>
+                </div>
+                <div class="results-details">
+                    <div class="result-item">
+                        <span class="result-label">Acertos:</span>
+                        <span id="correct-count" class="correct-count">0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Erros:</span>
+                        <span id="incorrect-count" class="incorrect-count">0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="result-label">Porcentagem:</span>
+                        <span id="percentage">0%</span>
+                    </div>
+                </div>
+                <div class="question-review">
+                    <h3>Revisão das Questões</h3>
+                    <div id="questions-review"></div>
+                </div>
+                <button id="restart-button" class="restart-button">Jogar Novamente</button>
+            </div>
+        </div>
+        
+        <div id="stats-panel" class="stats-panel">
+            <div class="stats-header">
+                <h3>Estatísticas</h3>
+                <button id="toggle-stats" class="toggle-button">◀</button>
+            </div>
+            <div class="stats-content">
+                <div class="stat-item">
+                    <span class="stat-label">Acertos:</span>
+                    <span id="stats-correct" class="stat-value correct">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Erros:</span>
+                    <span id="stats-incorrect" class="stat-value incorrect">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Porcentagem:</span>
+                    <span id="stats-percentage" class="stat-value">0%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Questões respondidas:</span>
+                    <span id="stats-answered" class="stat-value">0/50</span>
+                </div>
+                <div class="stat-chart">
+                    <div class="chart-bar">
+                        <div id="correct-bar" class="correct-bar"></div>
+                        <div id="incorrect-bar" class="incorrect-bar"></div>
+                    </div>
+                    <div class="chart-labels">
+                        <span>Acertos</span>
+                        <span>Erros</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
