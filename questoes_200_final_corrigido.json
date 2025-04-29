@@ -1,0 +1,1518 @@
+{
+  "questions": [  {
+    "type": "multiple-choice",
+    "question": "Qual destas frases é uma frase declarativa?",
+    "options": ["Que susto!", "Você viu meu lápis?", "O gato dorme no sofá.", "Abra a porta!"],
+    "correctAnswer": "O gato dorme no sofá.",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Frases declarativas servem principalmente para:",
+    "options": ["Fazer perguntas", "Expressar surpresa", "Dar informações ou afirmar algo", "Dar ordens"],
+    "correctAnswer": "Dar informações ou afirmar algo",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual sinal de pontuação geralmente termina uma frase declarativa afirmativa?",
+    "options": ["?", "!", ".", ","],
+    "correctAnswer": ".",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra termina com a letra 'E', mas pronunciamos com som de 'I' no final?",
+    "options": ["Boné", "Café", "Verde", "Ali"],
+    "correctAnswer": "Verde",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'abacate' termina com a letra...",
+    "options": ["I", "E", "O", "U"],
+    "correctAnswer": "E",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Na palavra 'ponte', a última sílaba ('te') tem som de...",
+    "options": ["'ti' forte", "'ti' fraco", "'te' forte", "'te' fraco"],
+    "correctAnswer": "'ti' fraco",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual destas palavras termina com a letra 'U'?",
+    "options": ["Carro", "Menino", "Pneu", "Livro"],
+    "correctAnswer": "Pneu",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'sapato' termina com a letra...",
+    "options": ["U", "O", "A", "E"],
+    "correctAnswer": "O",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra termina com 'O', mas tem som fraco de 'U' no final?",
+    "options": ["Vovô", "Dominó", "Braço", "Jiló"],
+    "correctAnswer": "Braço",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que é um verbete de dicionário?",
+    "options": ["Um tipo de poema", "Uma pequena história", "A explicação sobre uma palavra", "Um trava-língua"],
+    "correctAnswer": "A explicação sobre uma palavra",
+    "topic": "O que é um verbete"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Onde podemos encontrar verbetes?",
+    "options": ["Em livros de receita", "Em gibis", "Em dicionários e enciclopédias", "Em cartas"],
+    "correctAnswer": "Em dicionários e enciclopédias",
+    "topic": "Onde encontrar verbetes"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual informação NÃO encontramos geralmente em um verbete de dicionário?",
+    "options": ["Significado da palavra", "Separação silábica", "Classe gramatical (ex: substantivo)", "O nome de quem inventou a palavra"],
+    "correctAnswer": "O nome de quem inventou a palavra",
+    "topic": "Informações contidas no verbete"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Por que a palavra 'tatu' termina com 'U' e não 'O'?",
+    "options": ["Porque é nome de animal", "Porque a última sílaba ('tu') é a mais forte e tem som fechado de /u/", "Porque começa com 'T'", "Porque é uma palavra pequena"],
+    "correctAnswer": "Porque a última sílaba ('tu') é a mais forte e tem som fechado de /u/",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual outra palavra, como 'tatu' e 'urubu', termina com 'U' porque a última sílaba é tônica com som de /u/?",
+    "options": ["Caju", "Menino", "Dedo", "Pato"],
+    "correctAnswer": "Caju",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual sinal de pontuação usamos para indicar surpresa ou admiração?",
+    "options": [".", "?", "!", "..."],
+    "correctAnswer": "!",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O ponto de interrogação (?) é usado no final de qual tipo de frase?",
+    "options": ["Afirmativa", "Exclamativa", "Negativa", "Interrogativa"],
+    "correctAnswer": "Interrogativa",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "As reticências (...) indicam:",
+    "options": ["Uma pergunta direta", "Uma afirmação completa", "Uma pausa ou pensamento não terminado", "Uma ordem"],
+    "correctAnswer": "Uma pausa ou pensamento não terminado",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual destas frases é interrogativa?",
+    "options": ["Eu adoro chocolate.", "Que dia frio!", "Você quer jogar bola?", "Não pise na grama."],
+    "correctAnswer": "Você quer jogar bola?",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A frase 'Que cachorro bravo!' é do tipo:",
+    "options": ["Declarativa", "Interrogativa", "Exclamativa", "Imperativa"],
+    "correctAnswer": "Exclamativa",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual frase é afirmativa?",
+    "options": ["Não gosto de chuva.", "Você está bem?", "O livro está na mesa.", "Que legal!"],
+    "correctAnswer": "O livro está na mesa.",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Na palavra 'futebol', qual é a sílaba tônica (mais forte)?",
+    "options": ["fu", "te", "bol"],
+    "correctAnswer": "bol",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual a sílaba tônica da palavra 'urubu'?",
+    "options": ["u", "ru", "bu"],
+    "correctAnswer": "bu",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Na palavra 'prato', a sílaba tônica é 'pra'. Ela termina com a vogal...",
+    "options": ["O", "U", "A", "E"],
+    "correctAnswer": "A",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Para que serve um dicionário principalmente?",
+    "options": ["Para colorir desenhos", "Para aprender a cozinhar", "Para saber o significado e a escrita das palavras", "Para ler notícias"],
+    "correctAnswer": "Para saber o significado e a escrita das palavras",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Se você não sabe como se escreve uma palavra, onde pode procurar?",
+    "options": ["No caderno de matemática", "No dicionário", "Na televisão", "No rádio"],
+    "correctAnswer": "No dicionário",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Além do significado, o que mais o dicionário pode informar sobre uma palavra?",
+    "options": ["A cor favorita dela", "Como ela se separa em sílabas", "Quantos anos ela tem", "Onde ela mora"],
+    "correctAnswer": "Como ela se separa em sílabas",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que significa a abreviação 's.f.' ao lado de uma palavra no dicionário?",
+    "options": ["Sem força", "Substantivo feminino", "Sempre feliz", "Siga em frente"],
+    "correctAnswer": "Substantivo feminino",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Quando devemos usar um dicionário?",
+    "options": ["Apenas na escola", "Quando temos dúvida sobre uma palavra (significado, escrita, etc.)", "Só para palavras difíceis", "Nunca"],
+    "correctAnswer": "Quando temos dúvida sobre uma palavra (significado, escrita, etc.)",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O dicionário organiza as palavras em qual ordem?",
+    "options": ["Do maior para o menor", "Por cor", "Em ordem alfabética", "Por tipo"],
+    "correctAnswer": "Em ordem alfabética",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual parte do jornal geralmente tem as letras maiores para chamar atenção?",
+    "options": ["Nome do Jornal", "Corpo do texto", "Título Principal", "Título Auxiliar"],
+    "correctAnswer": "Título Principal",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Onde lemos a notícia completa em um jornal?",
+    "options": ["No Título Principal", "No Corpo do texto", "No Nome do Jornal", "Na legenda da foto"],
+    "correctAnswer": "No Corpo do texto",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O 'Título Auxiliar' em um jornal serve para:",
+    "options": ["Mostrar o preço do jornal", "Dar mais detalhes sobre o Título Principal", "Indicar a data", "Ser o nome do jornalista"],
+    "correctAnswer": "Dar mais detalhes sobre o Título Principal",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que é um verso em um poema?",
+    "options": ["O título do poema", "Cada linha do poema", "Um conjunto de linhas", "O nome do autor"],
+    "correctAnswer": "Cada linha do poema",
+    "topic": "Versos e estrofes"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Um grupo de versos forma uma:",
+    "options": ["Rima", "Palavra", "Estrofe", "Frase"],
+    "correctAnswer": "Estrofe",
+    "topic": "Versos e estrofes"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Quantos versos tem uma estrofe de quatro linhas?",
+    "options": ["Um", "Dois", "Três", "Quatro"],
+    "correctAnswer": "Quatro",
+    "topic": "Versos e estrofes"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra rima com 'gato'?",
+    "options": ["Cachorro", "Pato", "Leão", "Mesa"],
+    "correctAnswer": "Pato",
+    "topic": "Rimas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "'Flor' rima com:",
+    "options": ["Amor", "Casa", "Árvore", "Sol"],
+    "correctAnswer": "Amor",
+    "topic": "Rimas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual par de palavras NÃO rima?",
+    "options": ["Céu e Chapéu", "Mão e Pão", "Bola e Cola", "Faca e Pente"],
+    "correctAnswer": "Faca e Pente",
+    "topic": "Rimas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A frase 'A menina não foi ao parque.' é uma frase declarativa...",
+    "options": ["Afirmativa", "Negativa", "Interrogativa", "Exclamativa"],
+    "correctAnswer": "Negativa",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra tem a letra 'I' na última sílaba e essa sílaba é a tônica (mais forte)?",
+    "options": ["Lápis", "Dificil", "Saci", "Fácil"],
+    "correctAnswer": "Saci",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra termina com 'O' e a sílaba tônica é a última?",
+    "options": ["Médico", "Pássaro", "Paletó", "Óculos"],
+    "correctAnswer": "Paletó",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Um verbete pode explicar o significado de:",
+    "options": ["Apenas nomes de pessoas", "Apenas nomes de lugares", "Qualquer palavra da língua", "Apenas verbos"],
+    "correctAnswer": "Qualquer palavra da língua",
+    "topic": "O que é um verbete"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Por que 'peru' termina com 'U'?",
+    "options": ["Porque é nome de ave", "Porque a última sílaba 'ru' é tônica com som /u/", "Porque tem a letra R", "Porque sim"],
+    "correctAnswer": "Porque a última sílaba 'ru' é tônica com som /u/",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual ponto usamos para mostrar que a frase terminou?",
+    "options": ["Ponto final (.)", "Vírgula (,)", "Travessão (-)", "Dois pontos (:)"],
+    "correctAnswer": "Ponto final (.)",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "'Como você se chama?' é uma frase:",
+    "options": ["Exclamativa", "Declarativa", "Imperativa", "Interrogativa"],
+    "correctAnswer": "Interrogativa",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Na palavra 'mágico', qual a sílaba tônica?",
+    "options": ["má", "gi", "co"],
+    "correctAnswer": "má",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O dicionário ajuda a tirar dúvidas sobre:",
+    "options": ["Apenas significados", "Apenas escrita", "Significado, escrita, separação silábica, etc.", "Apenas pronúncia"],
+    "correctAnswer": "Significado, escrita, separação silábica, etc.",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que significa 'v.t.' em um verbete de dicionário?",
+    "options": ["Verbo transitivo", "Veja também", "Volte tudo", "Muito velho"],
+    "correctAnswer": "Verbo transitivo",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual o nome que fica na parte de cima da página do jornal, geralmente grande?",
+    "options": ["Corpo do texto", "Título Auxiliar", "Nome do Jornal", "Legenda"],
+    "correctAnswer": "Nome do Jornal",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual destas é uma frase declarativa negativa?",
+    "options": ["O cachorro latiu alto.", "Você quer sorvete?", "Eu não gosto de jiló.", "Que lindo pôr do sol!"],
+    "correctAnswer": "Eu não gosto de jiló.",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra \"elefante\" termina com E, mas a sílaba tônica é:",
+    "options": ["phan", "te", "fan", "le"],
+    "correctAnswer": "fan",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra termina com \"U\" e tem a última sílaba como tônica?",
+    "options": ["Bambu", "Livro", "Menino", "Copo"],
+    "correctAnswer": "Bambu",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que um verbete de enciclopédia geralmente explica?",
+    "options": ["Apenas o significado de uma palavra", "Informações mais detalhadas sobre um assunto, pessoa ou lugar", "Como fazer uma receita", "Regras de um jogo"],
+    "correctAnswer": "Informações mais detalhadas sobre um assunto, pessoa ou lugar",
+    "topic": "Verbetes (enciclopédias)"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra \"baú\" termina com \"U\" porque:",
+    "options": ["É pequena", "Tem a letra B", "A última vogal \"u\" forma um hiato tônico", "É nome de objeto"],
+    "correctAnswer": "A última vogal \"u\" forma um hiato tônico",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual sinal de pontuação pode indicar ironia ou dúvida em alguns contextos?",
+    "options": [".", "!", "?", "..."],
+    "correctAnswer": "?",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A frase \"Por favor, feche a porta.\" é principalmente:",
+    "options": ["Declarativa", "Interrogativa", "Exclamativa", "Imperativa (pedido)"],
+    "correctAnswer": "Imperativa (pedido)",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Na palavra \"óculos\", a sílaba tônica é \"ó\". Ela termina com qual vogal?",
+    "options": ["O", "U", "A", "E"],
+    "correctAnswer": "O",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Usar o dicionário ajuda a melhorar a...",
+    "options": ["Letra", "Leitura e escrita", "Voz", "Memória"],
+    "correctAnswer": "Leitura e escrita",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que significa a palavra \"verbete\" em um dicionário?",
+    "options": ["A capa do dicionário", "Cada palavra listada com suas informações", "A lista de abreviações", "O índice"],
+    "correctAnswer": "Cada palavra listada com suas informações",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "É importante usar o dicionário quando encontramos uma palavra...",
+    "options": ["Bonita", "Repetida", "Desconhecida", "Curta"],
+    "correctAnswer": "Desconhecida",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual tipo de letra é usado para o texto principal da notícia em um jornal?",
+    "options": ["Letras muito grandes e decoradas", "Letras pequenas e claras para facilitar a leitura", "Apenas letras maiúsculas", "Letras coloridas"],
+    "correctAnswer": "Letras pequenas e claras para facilitar a leitura",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Um poema pode ter estrofes com número de versos...",
+    "options": ["Sempre igual a 4", "Sempre igual a 10", "Variado (diferentes números)", "Sempre par"],
+    "correctAnswer": "Variado (diferentes números)",
+    "topic": "Versos e estrofes"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra rima com \"anel\"?",
+    "options": ["Dedo", "Mão", "Papel", "Pulseira"],
+    "correctAnswer": "Papel",
+    "topic": "Rimas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A frase \"O filme foi interessante.\" é:",
+    "options": ["Declarativa afirmativa", "Declarativa negativa", "Interrogativa", "Exclamativa"],
+    "correctAnswer": "Declarativa afirmativa",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra termina com \"E\" e tem a última sílaba tônica?",
+    "options": ["Pé", "Parede", "Doce", "Alface"],
+    "correctAnswer": "Pé",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra \"bônus\" termina com \"U\", mas a sílaba tônica é:",
+    "options": ["nus", "bô"],
+    "correctAnswer": "bô",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Em um verbete, a separação silábica ajuda a saber como...",
+    "options": ["Desenhar a palavra", "Pronunciar a palavra corretamente", "Soletrar a palavra", "Dividir a palavra no final da linha"],
+    "correctAnswer": "Dividir a palavra no final da linha",
+    "topic": "Informações contidas no verbete"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual destas palavras NÃO termina com \"U\" por ter a última sílaba tônica com som /u/?",
+    "options": ["Tabu", "Pitu", "Igual", "Bauru"],
+    "correctAnswer": "Igual",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O ponto final (.) também é usado no final de frases...",
+    "options": ["Exclamativas", "Interrogativas", "Imperativas (ordens ou pedidos)", "Apenas afirmativas"],
+    "correctAnswer": "Imperativas (ordens ou pedidos)",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual frase expressa um desejo ou pedido?",
+    "options": ["Que horas são?", "O céu está nublado.", "Tomara que chova!", "Eu gosto de ler."],
+    "correctAnswer": "Tomara que chova!",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Na palavra \"vovô\", a sílaba tônica é \"vô\". Ela termina com a vogal...",
+    "options": ["O", "U", "A", "E"],
+    "correctAnswer": "O",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Consultar o dicionário antes de escrever ajuda a evitar...",
+    "options": ["Ficar com sono", "Erros de ortografia", "Perder o lápis", "Desenhar torto"],
+    "correctAnswer": "Erros de ortografia",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que significa a indicação \"(pl.)\" em um verbete?",
+    "options": ["Palavra longa", "Plural", "Pouco usada", "Planeta"],
+    "correctAnswer": "Plural",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Um dicionário pode ser encontrado em formato de...",
+    "options": ["Apenas livro", "Apenas online", "Livro ou online/aplicativo", "Apenas revista"],
+    "correctAnswer": "Livro ou online/aplicativo",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Por que os jornais usam diferentes tamanhos e tipos de letras?",
+    "options": ["Para gastar mais tinta", "Para organizar a informação e chamar atenção para o que é importante", "Porque acabou um tipo de letra", "Para confundir o leitor"],
+    "correctAnswer": "Para organizar a informação e chamar atenção para o que é importante",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que são versos brancos em um poema?",
+    "options": ["Versos que não têm rima", "Versos muito curtos", "Versos escritos em tinta branca", "Versos que não fazem sentido"],
+    "correctAnswer": "Versos que não têm rima",
+    "topic": "Versos e estrofes"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra rima com \"caneta\"?",
+    "options": ["Lápis", "Borracha", "Janela", "Violeta"],
+    "correctAnswer": "Violeta",
+    "topic": "Rimas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A frase \"Amanhã não haverá aula.\" é:",
+    "options": ["Declarativa afirmativa", "Declarativa negativa", "Interrogativa", "Exclamativa"],
+    "correctAnswer": "Declarativa negativa",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra termina com \"I\" e tem essa vogal como tônica?",
+    "options": ["Aqui", "Lápis", "Fácil", "Tênis"],
+    "correctAnswer": "Aqui",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra termina com \"O\" átono (som fraco de /u/)?",
+    "options": ["Metrô", "Dominó", "Dado", "Avó"],
+    "correctAnswer": "Dado",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que significa a classe gramatical \"adj.\" em um verbete?",
+    "options": ["Adjetivo", "Advérbio", "Adição", "Adjunto"],
+    "correctAnswer": "Adjetivo",
+    "topic": "Informações contidas no verbete"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra \"menu\" termina com \"U\" porque:",
+    "options": ["É de origem estrangeira (francês)", "A última sílaba é tônica", "Tem a letra M", "É curta"],
+    "correctAnswer": "É de origem estrangeira (francês)",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual pontuação usamos para separar itens em uma lista?",
+    "options": [".", "!", "?", ","],
+    "correctAnswer": ",",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A frase \"Que ideia genial!\" é:",
+    "options": ["Declarativa", "Interrogativa", "Exclamativa", "Imperativa"],
+    "correctAnswer": "Exclamativa",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Na palavra \"abacaxi\", a sílaba tônica é \"xi\". Ela termina com qual vogal?",
+    "options": ["O", "U", "A", "I"],
+    "correctAnswer": "I",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O dicionário pode ajudar a entender palavras usadas em...",
+    "options": ["Apenas livros antigos", "Apenas conversas", "Livros, jornais, conversas, etc.", "Apenas na escola"],
+    "correctAnswer": "Livros, jornais, conversas, etc.",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Alguns dicionários trazem exemplos de frases usando a palavra. Isso serve para:",
+    "options": ["Encher espaço", "Mostrar como a palavra é usada em um contexto", "Deixar o dicionário mais bonito", "Testar o leitor"],
+    "correctAnswer": "Mostrar como a palavra é usada em um contexto",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O que fazer se você não encontra uma palavra no dicionário?",
+    "options": ["Desistir de procurar", "Verificar se escreveu a palavra corretamente", "Inventar o significado", "Perguntar para qualquer pessoa"],
+    "correctAnswer": "Verificar se escreveu a palavra corretamente",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "O nome do jornal geralmente aparece em destaque para:",
+    "options": ["O leitor saber qual jornal está lendo", "Enfeitar a página", "Mostrar a data", "Indicar o preço"],
+    "correctAnswer": "O leitor saber qual jornal está lendo",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Como se chama a repetição de sons parecidos no final dos versos?",
+    "options": ["Estrofe", "Ritmo", "Rima", "Métrica"],
+    "correctAnswer": "Rima",
+    "topic": "Versos e estrofes / Rimas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra rima com \"feliz\"?",
+    "options": ["Triste", "Nariz", "Alegre", "Content"],
+    "correctAnswer": "Nariz",
+    "topic": "Rimas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual frase é declarativa e informa um fato?",
+    "options": ["Você gosta de chuva?", "Que chuva forte!", "A Terra gira em torno do Sol.", "Tomara que não chova."],
+    "correctAnswer": "A Terra gira em torno do Sol.",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra \"júri\" termina com \"I\" e tem acento porque é uma...",
+    "options": ["Oxítona terminada em i", "Paroxítona terminada em i", "Proparoxítona", "Monossílaba tônica"],
+    "correctAnswer": "Paroxítona terminada em i",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra termina com \"U\" e NÃO tem a última sílaba como tônica?",
+    "options": ["Peru", "Caju", "Ímpeto", "Urubu"],
+    "correctAnswer": "Ímpeto",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Um verbete pode conter a origem da palavra (etimologia)?",
+    "options": ["Nunca", "Sempre", "Às vezes, em dicionários mais completos", "Apenas em enciclopédias"],
+    "correctAnswer": "Às vezes, em dicionários mais completos",
+    "topic": "Informações contidas no verbete"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual sinal de pontuação indica uma pausa curta dentro da frase?",
+    "options": [".", "!", "?", ","],
+    "correctAnswer": ",",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual tipo de frase usamos para dar uma ordem direta?",
+    "options": ["Declarativa", "Interrogativa", "Exclamativa", "Imperativa"],
+    "correctAnswer": "Imperativa",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Na palavra \"ônibus\", a sílaba tônica é \"ô\". Ela termina com qual vogal?",
+    "options": ["O", "U", "I", "E"],
+    "correctAnswer": "O",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "Uma frase que afirma algo, como 'O sol é quente', é uma frase _____ afirmativa.",
+    "options": ["interrogativa", "exclamativa", "declarativa", "imperativa"],
+    "correctAnswer": "declarativa",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra 'doce' termina com a letra E, mas o som final é fraco, parecido com _____.",
+    "options": ["A", "O", "U", "I"],
+    "correctAnswer": "I",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra 'carro' termina com O, e a sílaba tônica é _____.",
+    "options": ["ca", "rro", "car", "ro"],
+    "correctAnswer": "ca",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "No dicionário, cada palavra explicada é chamada de _____.",
+    "options": ["capítulo", "verso", "verbete", "título"],
+    "correctAnswer": "verbete",
+    "topic": "O que é um verbete"
+  },
+  {
+    "type": "complete",
+    "question": "Palavras como 'urubu' terminam com U porque a última sílaba é _____ e tem som /u/.",
+    "options": ["fraca", "tônica", "longa", "curta"],
+    "correctAnswer": "tônica",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "complete",
+    "question": "Para mostrar muita alegria ou surpresa no final de uma frase, usamos o ponto de _____.",
+    "options": ["interrogação", "exclamação", "final", "vírgula"],
+    "correctAnswer": "exclamação",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "complete",
+    "question": "A frase 'Que horas são?' é um exemplo de frase _____.",
+    "options": ["afirmativa", "exclamativa", "negativa", "interrogativa"],
+    "correctAnswer": "interrogativa",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "complete",
+    "question": "Na palavra 'pássaro', a sílaba tônica 'pás' termina com a vogal _____.",
+    "options": ["O", "U", "A", "E"],
+    "correctAnswer": "A",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "O dicionário serve para consultarmos o _____ das palavras.",
+    "options": ["tamanho", "significado", "desenho", "som"],
+    "correctAnswer": "significado",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "Além do significado, o verbete do dicionário pode mostrar a separação _____ da palavra.",
+    "options": ["de cores", "silábica", "de letras", "numérica"],
+    "correctAnswer": "silábica",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "Devemos usar o dicionário quando temos _____ sobre uma palavra.",
+    "options": ["certeza", "fome", "dúvida", "sono"],
+    "correctAnswer": "dúvida",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "No jornal, o _____ Principal geralmente usa as maiores letras da página.",
+    "options": ["Nome", "Corpo", "Título", "Rodapé"],
+    "correctAnswer": "Título",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "complete",
+    "question": "Cada linha de um poema é chamada de _____.",
+    "options": ["estrofe", "rima", "verso", "parágrafo"],
+    "correctAnswer": "verso",
+    "topic": "Versos e estrofes"
+  },
+  {
+    "type": "complete",
+    "question": "Palavras que terminam com sons parecidos, como 'mão' e 'pão', possuem _____.",
+    "options": ["versos", "estrofes", "letras", "rimas"],
+    "correctAnswer": "rimas",
+    "topic": "Rimas"
+  },
+  {
+    "type": "complete",
+    "question": "A frase 'Eu gosto de brincar' é uma frase declarativa _____.",
+    "options": ["negativa", "interrogativa", "afirmativa", "exclamativa"],
+    "correctAnswer": "afirmativa",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra 'jornalista' termina com A, mas a sílaba tônica é _____.",
+    "options": ["jor", "na", "lis", "ta"],
+    "correctAnswer": "lis",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra 'menino' termina com O, mas o som final é fraco, parecido com _____.",
+    "options": ["A", "E", "I", "U"],
+    "correctAnswer": "U",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "Um verbete de enciclopédia costuma ser mais _____ que um verbete de dicionário.",
+    "options": ["curto", "caro", "longo", "raro"],
+    "correctAnswer": "longo",
+    "topic": "Verbetes (dicionários e enciclopédias)"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra 'baú' termina com U e tem acento gráfico porque o 'u' forma um _____ tônico com a vogal anterior.",
+    "options": ["ditongo", "hiato", "encontro", "tritongo"],
+    "correctAnswer": "hiato",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "complete",
+    "question": "Para indicar que um pensamento foi interrompido ou continua, usamos as _____.",
+    "options": ["vírgulas", "reticências", "aspas", "exclamações"],
+    "correctAnswer": "reticências",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "complete",
+    "question": "A frase 'Nossa, que lindo!' é um exemplo de frase _____.",
+    "options": ["declarativa", "interrogativa", "exclamativa", "negativa"],
+    "correctAnswer": "exclamativa",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "complete",
+    "question": "Na palavra 'dominó', a sílaba tônica 'nó' termina com a vogal _____.",
+    "options": ["A", "E", "I", "O"],
+    "correctAnswer": "O",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "Consultar o dicionário amplia nosso _____.",
+    "options": ["apetite", "tamanho", "medo", "vocabulário"],
+    "correctAnswer": "vocabulário",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "A indicação 's.m.' em um verbete significa _____ masculino.",
+    "options": ["sem", "substantivo", "somente", "sempre"],
+    "correctAnswer": "substantivo",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "As palavras no dicionário estão organizadas em ordem _____.",
+    "options": ["numérica", "alfabética", "cronológica", "de tamanho"],
+    "correctAnswer": "alfabética",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "O texto principal de uma notícia no jornal fica no _____ do texto.",
+    "options": ["título", "corpo", "início", "fim"],
+    "correctAnswer": "corpo",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "complete",
+    "question": "Um conjunto de versos agrupados em um poema forma uma _____.",
+    "options": ["rima", "linha", "estrofe", "palavra"],
+    "correctAnswer": "estrofe",
+    "topic": "Versos e estrofes"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra 'escola' rima com _____.",
+    "options": ["caderno", "lápis", "bola", "livro"],
+    "correctAnswer": "bola",
+    "topic": "Rimas"
+  },
+  {
+    "type": "complete",
+    "question": "A frase 'Hoje não está chovendo.' é uma frase declarativa _____.",
+    "options": ["afirmativa", "negativa", "interrogativa", "exclamativa"],
+    "correctAnswer": "negativa",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra 'difícil' tem a sílaba tônica 'fí'. Ela termina com a letra _____.",
+    "options": ["L", "I", "F", "C"],
+    "correctAnswer": "I",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"bambu\" termina com U e a sílaba tônica é _____.",
+    "options": ["bam", "bu", "ambu", "ba"],
+    "correctAnswer": "bu",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "Em um verbete, podemos encontrar exemplos de como a palavra é _____ em frases.",
+    "options": ["desenhada", "cantada", "usada", "esquecida"],
+    "correctAnswer": "usada",
+    "topic": "Informações contidas no verbete"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"caju\" termina com U porque a última sílaba \"ju\" é _____ e tem som /u/.",
+    "options": ["fraca", "tônica", "primeira", "longa"],
+    "correctAnswer": "tônica",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "complete",
+    "question": "O ponto de _____ (?) é usado para fazer perguntas.",
+    "options": ["exclamação", "interrogação", "final", "vírgula"],
+    "correctAnswer": "interrogação",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "complete",
+    "question": "A frase \"Eu não quero ir.\" é um exemplo de frase declarativa _____.",
+    "options": ["afirmativa", "negativa", "interrogativa", "exclamativa"],
+    "correctAnswer": "negativa",
+    "topic": "Tipos de frases / Frases declarativas"
+  },
+  {
+    "type": "complete",
+    "question": "Na palavra \"lâmpada\", a sílaba tônica \"lâm\" termina com a vogal _____.",
+    "options": ["A", "O", "E", "U"],
+    "correctAnswer": "A",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "O dicionário nos ajuda a entender palavras _____.",
+    "options": ["iguais", "novas ou desconhecidas", "curtas", "coloridas"],
+    "correctAnswer": "novas ou desconhecidas",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "A classe gramatical de uma palavra (substantivo, verbo, adjetivo) é uma _____ encontrada no dicionário.",
+    "options": ["cor", "informação", "letra", "dúvida"],
+    "correctAnswer": "informação",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "Usamos o dicionário para verificar a escrita _____ das palavras.",
+    "options": ["rápida", "lenta", "correta", "bonita"],
+    "correctAnswer": "correta",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "O _____ auxiliar no jornal complementa a informação do título principal.",
+    "options": ["corpo", "nome", "título", "rodapé"],
+    "correctAnswer": "título",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "complete",
+    "question": "Poemas são textos geralmente escritos em _____ e estrofes.",
+    "options": ["parágrafos", "linhas", "versos", "capítulos"],
+    "correctAnswer": "versos",
+    "topic": "Versos e estrofes"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"chapéu\" rima com _____.",
+    "options": ["cabeça", "boné", "céu", "sol"],
+    "correctAnswer": "céu",
+    "topic": "Rimas"
+  },
+  {
+    "type": "complete",
+    "question": "Uma frase que apenas informa algo, como \"O cachorro é marrom\", é _____.",
+    "options": ["interrogativa", "exclamativa", "declarativa", "imperativa"],
+    "correctAnswer": "declarativa",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"táxi\" termina com I e tem acento porque é uma paroxítona terminada em _____.",
+    "options": ["E", "O", "U", "I"],
+    "correctAnswer": "I",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"livro\" termina com O, mas a sílaba tônica é _____.",
+    "options": ["li", "vro", "liv", "ro"],
+    "correctAnswer": "li",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "Podemos encontrar verbetes em dicionários impressos ou _____.",
+    "options": ["perdidos", "online", "rasgados", "coloridos"],
+    "correctAnswer": "online",
+    "topic": "Onde encontrar verbetes"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"peru\" termina com U porque a sílaba \"ru\" é _____ e tem som /u/.",
+    "options": ["fraca", "tônica", "primeira", "última"],
+    "correctAnswer": "tônica",
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "complete",
+    "question": "O ponto _____ (.) é usado no final de frases declarativas.",
+    "options": ["final", "de interrogação", "de exclamação", "e vírgula"],
+    "correctAnswer": "final",
+    "topic": "Pontuação"
+  },
+  {
+    "type": "complete",
+    "question": "A frase \"Você está feliz?\" é do tipo _____.",
+    "options": ["declarativa", "interrogativa", "exclamativa", "afirmativa"],
+    "correctAnswer": "interrogativa",
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "complete",
+    "question": "Na palavra \"café\", a sílaba tônica \"fé\" termina com a vogal _____.",
+    "options": ["A", "E", "I", "O"],
+    "correctAnswer": "E",
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "complete",
+    "question": "O dicionário é uma ferramenta útil para quem está aprendendo a _____ e escrever.",
+    "options": ["correr", "pular", "ler", "dormir"],
+    "correctAnswer": "ler",
+    "topic": "Para que serve um dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "Alguns verbetes indicam se a palavra é um substantivo, verbo ou _____.",
+    "options": ["número", "cor", "adjetivo", "lugar"],
+    "correctAnswer": "adjetivo",
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "Consultar o dicionário ajuda a usar as palavras de forma mais _____.",
+    "options": ["rápida", "lenta", "precisa", "alta"],
+    "correctAnswer": "precisa",
+    "topic": "O que é e quando usar um dicionário"
+  },
+  {
+    "type": "complete",
+    "question": "O nome do _____ identifica a publicação que estamos lendo.",
+    "options": ["leitor", "jornal", "texto", "dia"],
+    "correctAnswer": "jornal",
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "complete",
+    "question": "A _____ é a repetição de sons no final dos versos.",
+    "options": ["estrofe", "rima", "letra", "palavra"],
+    "correctAnswer": "rima",
+    "topic": "Versos e estrofes / Rimas"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"amor\" rima com _____.",
+    "options": ["ódio", "carinho", "flor", "beijo"],
+    "correctAnswer": "flor",
+    "topic": "Rimas"
+  },
+  {
+    "type": "complete",
+    "question": "A frase \"O gato subiu no telhado.\" é uma frase _____.",
+    "options": ["interrogativa", "exclamativa", "declarativa afirmativa", "declarativa negativa"],
+    "correctAnswer": "declarativa afirmativa",
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"ponte\" termina com E, mas a pronúncia comum do final é como _____.",
+    "options": ["O", "U", "A", "I"],
+    "correctAnswer": "I",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"picolé\" termina com E e a sílaba tônica é _____.",
+    "options": ["pi", "co", "lé"],
+    "correctAnswer": "lé",
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "complete",
+    "question": "A palavra \"vovó\" termina com O e a sílaba tônica é _____.",
+    "options": ["vo (primeira)", "vó (segunda)"],
+    "correctAnswer": "vó (segunda)",
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o tipo de frase declarativa ao exemplo.",
+    "options": [
+      { "left": "Declarativa Afirmativa", "right": "O céu está azul." },
+      { "left": "Declarativa Negativa", "right": "Eu não gosto de chuva." }
+    ],
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua terminação correta (E ou I).",
+    "options": [
+      { "left": "Abacat...", "right": "E" },
+      { "left": "Sac...", "right": "I" },
+      { "left": "Verd...", "right": "E" },
+      { "left": "Jabot...", "right": "I" }
+    ],
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua terminação correta (O ou U).",
+    "options": [
+      { "left": "Menin...", "right": "O" },
+      { "left": "Tat...", "right": "U" },
+      { "left": "Sap...", "right": "O" },
+      { "left": "Caj...", "right": "U" }
+    ],
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a informação ao que ela representa em um verbete.",
+    "options": [
+      { "left": "s.m.", "right": "Substantivo masculino" },
+      { "left": "Significado 1", "right": "Primeira definição da palavra" },
+      { "left": "[ca-sa]", "right": "Separação silábica" },
+      { "left": "adj.", "right": "Adjetivo" }
+    ],
+    "topic": "Informações contidas no verbete / dicionário"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra terminada em U ao motivo.",
+    "options": [
+      { "left": "Tatu", "right": "Última sílaba tônica com som /u/" },
+      { "left": "Menu", "right": "Origem estrangeira" },
+      { "left": "Baú", "right": "Hiato tônico com a vogal anterior" }
+    ],
+    "topic": "Palavras terminadas com U e não com O"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o sinal de pontuação ao seu nome.",
+    "options": [
+      { "left": "!", "right": "Ponto de exclamação" },
+      { "left": "?", "right": "Ponto de interrogação" },
+      { "left": ".", "right": "Ponto final" },
+      { "left": "...", "right": "Reticências" }
+    ],
+    "topic": "Pontuação"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o tipo de frase à sua principal função.",
+    "options": [
+      { "left": "Afirmativa", "right": "Afirmar algo" },
+      { "left": "Interrogativa", "right": "Perguntar algo" },
+      { "left": "Exclamativa", "right": "Expressar emoção/surpresa" }
+    ],
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua sílaba tônica.",
+    "options": [
+      { "left": "Urubu", "right": "bu" },
+      { "left": "Dominó", "right": "nó" },
+      { "left": "Médico", "right": "Mé" },
+      { "left": "Paletó", "right": "tó" }
+    ],
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a ação à utilidade do dicionário.",
+    "options": [
+      { "left": "Não sei o que significa \"perspicaz\".", "right": "Consultar o significado no dicionário" },
+      { "left": "É \"geito\" ou \"jeito\"?", "right": "Verificar a escrita correta no dicionário" },
+      { "left": "Como separo \"bicicleta\"?", "right": "Consultar a separação silábica no dicionário" }
+    ],
+    "topic": "Para que serve um dicionário / O que é e quando usar"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a parte do jornal à sua função.",
+    "options": [
+      { "left": "Título Principal", "right": "Chamar atenção para a notícia mais importante" },
+      { "left": "Corpo do Texto", "right": "Apresentar a notícia completa" },
+      { "left": "Nome do Jornal", "right": "Identificar a publicação" }
+    ],
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o elemento do poema à sua definição.",
+    "options": [
+      { "left": "Verso", "right": "Cada linha do poema" },
+      { "left": "Estrofe", "right": "Conjunto de versos" },
+      { "left": "Rima", "right": "Repetição de sons parecidos no final dos versos" }
+    ],
+    "topic": "Versos e estrofes / Rimas"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua rima.",
+    "options": [
+      { "left": "Avião", "right": "Coração" },
+      { "left": "Janela", "right": "Panela" },
+      { "left": "Amor", "right": "Flor" },
+      { "left": "Caneta", "right": "Violeta" }
+    ],
+    "topic": "Rimas"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a frase declarativa ao seu tipo.",
+    "options": [
+      { "left": "O cachorro brinca no jardim.", "right": "Afirmativa" },
+      { "left": "Não quero ir dormir agora.", "right": "Negativa" }
+    ],
+    "topic": "Frases declarativas"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à tonicidade da última sílaba (som E/I).",
+    "options": [
+      { "left": "Café", "right": "Tônica (som /é/)" },
+      { "left": "Verde", "right": "Átona (som /i/)" },
+      { "left": "Saci", "right": "Tônica (som /i/)" },
+      { "left": "Leite", "right": "Átona (som /i/)" }
+    ],
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à tonicidade da última sílaba (som O/U).",
+    "options": [
+      { "left": "Avô", "right": "Tônica (som /ô/)" },
+      { "left": "Menino", "right": "Átona (som /u/)" },
+      { "left": "Urubu", "right": "Tônica (som /u/)" },
+      { "left": "Carro", "right": "Átona (som /u/)" }
+    ],
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o local à informação que ele contém.",
+    "options": [
+      { "left": "Dicionário", "right": "Significado e escrita das palavras" },
+      { "left": "Enciclopédia", "right": "Informações detalhadas sobre assuntos diversos" },
+      { "left": "Verbete", "right": "Conjunto de informações sobre uma palavra ou assunto" }
+    ],
+    "topic": "Verbetes (o que são, onde encontrar)"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o sinal de pontuação à sua função principal.",
+    "options": [
+      { "left": "?", "right": "Indicar pergunta" },
+      { "left": "!", "right": "Indicar surpresa/emoção" },
+      { "left": ".", "right": "Finalizar frase declarativa/imperativa" },
+      { "left": "...", "right": "Indicar interrupção/continuação" }
+    ],
+    "topic": "Pontuação"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o tipo de frase ao exemplo.",
+    "options": [
+      { "left": "Declarativa", "right": "O sol nasceu." },
+      { "left": "Interrogativa", "right": "Você está bem?" },
+      { "left": "Exclamativa", "right": "Que lindo!" }
+    ],
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua sílaba tônica.",
+    "options": [
+      { "left": "Abacaxi", "right": "xi" },
+      { "left": "Fácil", "right": "Fá" },
+      { "left": "Picolé", "right": "lé" },
+      { "left": "Ônibus", "right": "Ô" }
+    ],
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a dúvida ao uso do dicionário.",
+    "options": [
+      { "left": "Qual o significado de \"efêmero\"?", "right": "Consultar dicionário" },
+      { "left": "Como se escreve \"exceção\"?", "right": "Consultar dicionário" },
+      { "left": "Qual o plural de \"cidadão\"?", "right": "Consultar dicionário" }
+    ],
+    "topic": "Para que serve um dicionário / O que é e quando usar"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a informação encontrada no dicionário à sua descrição.",
+    "options": [
+      { "left": "Classe gramatical", "right": "Indica se é substantivo, verbo, adjetivo, etc." },
+      { "left": "Etimologia", "right": "Origem da palavra" },
+      { "left": "Exemplo de uso", "right": "Frase mostrando como usar a palavra" }
+    ],
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a parte do jornal ao tipo de letra geralmente usado.",
+    "options": [
+      { "left": "Título Principal", "right": "Letras grandes e chamativas" },
+      { "left": "Corpo do Texto", "right": "Letras menores e fáceis de ler" },
+      { "left": "Nome do Jornal", "right": "Letra característica da publicação" }
+    ],
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o termo ao seu significado em poesia.",
+    "options": [
+      { "left": "Verso", "right": "Uma linha" },
+      { "left": "Estrofe", "right": "Um conjunto de linhas" },
+      { "left": "Rima", "right": "Som parecido no final das linhas" }
+    ],
+    "topic": "Versos e estrofes / Rimas"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua rima.",
+    "options": [
+      { "left": "Feliz", "right": "Nariz" },
+      { "left": "Escola", "right": "Bola" },
+      { "left": "Martelo", "right": "Castelo" },
+      { "left": "Anel", "right": "Papel" }
+    ],
+    "topic": "Rimas"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra terminada em E/I à sua escrita correta.",
+    "options": [
+      { "left": "Peix...", "right": "E" },
+      { "left": "Jabut...", "right": "I" },
+      { "left": "Av...", "right": "E" },
+      { "left": "Bilhet...", "right": "E" }
+    ],
+    "topic": "Escrita de palavras terminadas com E e I"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra terminada em O/U à sua escrita correta.",
+    "options": [
+      { "left": "Chapé...", "right": "U" },
+      { "left": "Lob...", "right": "O" },
+      { "left": "Bamb...", "right": "U" },
+      { "left": "Prat...", "right": "O" }
+    ],
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a abreviação comum em verbetes ao seu significado.",
+    "options": [
+      { "left": "v.", "right": "Verbo" },
+      { "left": "pl.", "right": "Plural" },
+      { "left": "fem.", "right": "Feminino" },
+      { "left": "masc.", "right": "Masculino" }
+    ],
+    "topic": "Informações contidas no dicionário"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o sinal de pontuação ao exemplo de uso.",
+    "options": [
+      { "left": "?", "right": "Qual o seu nome?" },
+      { "left": "!", "right": "Que dia lindo!" },
+      { "left": ".", "right": "O gato bebeu leite." },
+      { "left": "...", "right": "Eu ia dizer que... ah, deixa pra lá." }
+    ],
+    "topic": "Pontuação"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o tipo de frase à sua característica.",
+    "options": [
+      { "left": "Declarativa", "right": "Informa ou declara algo" },
+      { "left": "Interrogativa", "right": "Faz uma pergunta" },
+      { "left": "Exclamativa", "right": "Expressa forte emoção" }
+    ],
+    "topic": "Tipos de frases"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua sílaba tônica.",
+    "options": [
+      { "left": "Caneta", "right": "ne" },
+      { "left": "Árvore", "right": "Ár" },
+      { "left": "Sofá", "right": "fá" },
+      { "left": "Animal", "right": "mal" }
+    ],
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a situação à utilidade do dicionário.",
+    "options": [
+      { "left": "Preciso escrever um texto sem erros.", "right": "Consultar dicionário para verificar ortografia" },
+      { "left": "Li uma palavra que não conheço.", "right": "Consultar dicionário para ver o significado" },
+      { "left": "Quero saber se \"lápis\" tem acento.", "right": "Consultar dicionário para verificar acentuação" }
+    ],
+    "topic": "Para que serve um dicionário / O que é e quando usar"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a parte do jornal à sua localização comum.",
+    "options": [
+      { "left": "Nome do Jornal", "right": "Topo da primeira página" },
+      { "left": "Título Principal", "right": "Destaque na página, geralmente acima da notícia" },
+      { "left": "Corpo do Texto", "right": "Abaixo do título, onde a notícia é desenvolvida" }
+    ],
+    "topic": "Tipos de letras em jornais"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o elemento da poesia à sua descrição.",
+    "options": [
+      { "left": "Verso", "right": "Cada linha" },
+      { "left": "Estrofe", "right": "Agrupamento de linhas" },
+      { "left": "Rima", "right": "Semelhança sonora no final das linhas" }
+    ],
+    "topic": "Versos e estrofes / Rimas"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua rima.",
+    "options": [
+      { "left": "Céu", "right": "Chapéu" },
+      { "left": "Pente", "right": "Dente" },
+      { "left": "Lata", "right": "Barata" },
+      { "left": "Fivela", "right": "Panela" }
+    ],
+    "topic": "Rimas"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua terminação correta (E ou I).",
+    "options": [
+      { "left": "Trib...", "right": "O" },
+      { "left": "Per...", "right": "U" },
+      { "left": "Bôn...", "right": "US" },
+      { "left": "Ded...", "right": "O" }
+    ],
+    "topic": "Escrita de palavras terminadas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a informação ao local onde é encontrada.",
+    "options": [
+      { "left": "Significado de palavras", "right": "Dicionário" },
+      { "left": "Explicação sobre a Revolução Francesa", "right": "Enciclopédia" },
+      { "left": "Separação silábica de \"constituição\".", "right": "Dicionário" }
+    ],
+    "topic": "Verbetes (o que são, onde encontrar)"
+  },
+  {
+    "type": "match",
+    "question": "Ligue o sinal de pontuação ao sentimento que pode expressar.",
+    "options": [
+      { "left": "!", "right": "Surpresa, Alegria, Raiva" },
+      { "left": "?", "right": "Dúvida, Curiosidade" },
+      { "left": "...", "right": "Suspense, Hesitação" }
+    ],
+    "topic": "Pontuação"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua sílaba tônica.",
+    "options": [
+      { "left": "Sílaba", "right": "Sí" },
+      { "left": "Português", "right": "guês" },
+      { "left": "Fácil", "right": "Fá" },
+      { "left": "Também", "right": "bém" }
+    ],
+    "topic": "Sílabas tônicas com O e U"
+  },
+  {
+    "type": "match",
+    "question": "Ligue a palavra à sua rima.",
+    "options": [
+      { "left": "Caminhão", "right": "Melão" },
+      { "left": "Sapato", "right": "Rato" },
+      { "left": "Brilhante", "right": "Elefante" },
+      { "left": "Tesoura", "right": "Vassoura" }
+    ],
+    "topic": "Rimas"
+  }
+
+]
+}
