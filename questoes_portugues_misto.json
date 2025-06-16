@@ -1,0 +1,220 @@
+{
+    "questions": [
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'alegre': (Sinônimos)",
+            "options": [
+                "Triste",
+                "Contente",
+                "Bravo",
+                "Cansado"
+            ],
+            "correctAnswer": "Contente",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'feliz': (Sinônimos)",
+            "options": [
+                "Triste",
+                "Bravo",
+                "Contente",
+                "Desanimado"
+            ],
+            "correctAnswer": "Contente",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'rápido': (Sinônimos)",
+            "options": [
+                "Veloz",
+                "Devagar",
+                "Parado",
+                "Calmo"
+            ],
+            "correctAnswer": "Veloz",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'grande': (Sinônimos)",
+            "options": [
+                "Pequeno",
+                "Enorme",
+                "Curto",
+                "Magro"
+            ],
+            "correctAnswer": "Enorme",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'triste': (Sinônimos)",
+            "options": [
+                "Feliz",
+                "Sorrindo",
+                "Chateado",
+                "Animado"
+            ],
+            "correctAnswer": "Chateado",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Escolha o antônimo da palavra 'claro': (Antônimos)",
+            "options": [
+                "Escuro",
+                "Branco",
+                "Luz",
+                "Iluminado"
+            ],
+            "correctAnswer": "Escuro",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Escolha o antônimo da palavra 'feliz': (Antônimos)",
+            "options": [
+                "Alegre",
+                "Triste",
+                "Contente",
+                "Sorrindo"
+            ],
+            "correctAnswer": "Triste",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Escolha o antônimo da palavra 'limpo': (Antônimos)",
+            "options": [
+                "Sujo",
+                "Branco",
+                "Claro",
+                "Cheiroso"
+            ],
+            "correctAnswer": "Sujo",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Escolha o antônimo da palavra 'rápido': (Antônimos)",
+            "options": [
+                "Veloz",
+                "Devagar",
+                "Ágil",
+                "Esperto"
+            ],
+            "correctAnswer": "Devagar",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Escolha o antônimo da palavra 'grande': (Antônimos)",
+            "options": [
+                "Gigante",
+                "Pequeno",
+                "Enorme",
+                "Alto"
+            ],
+            "correctAnswer": "Pequeno",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: A palavra ca__po deve ser escrita com (M ou N)?",
+            "correctAnswer": "M",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: Quando temos a letra P depois, usamos a letra __ antes.",
+            "correctAnswer": "M",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: O oposto de 'feliz' é __________.",
+            "correctAnswer": "triste",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: O sinônimo de 'rápido' é __________.",
+            "correctAnswer": "veloz",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: Na palavra bo__ba, usamos (M ou N)?",
+            "correctAnswer": "M",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: O contrário de 'claro' é __________.",
+            "correctAnswer": "escuro",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: Na palavra ca__tar, usamos (M ou N)?",
+            "correctAnswer": "N",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: O sinônimo de 'bonito' é __________.",
+            "correctAnswer": "lindo",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: O antônimo de 'forte' é __________.",
+            "correctAnswer": "fraco",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "fill-in-the-blank",
+            "question": "Complete: A palavra ta__bor é escrita com (M ou N)?",
+            "correctAnswer": "M",
+            "topic": "Preenchimento de lacunas"
+        },
+        {
+            "type": "match-pairs",
+            "question": "Ligue os sinônimos:",
+            "pairs": {
+                "Alegre": "Contente",
+                "Forte": "Robusto",
+                "Bonito": "Lindo",
+                "Esperto": "Inteligente",
+                "Grande": "Enorme"
+            },
+            "topic": "Ligar colunas"
+        },
+        {
+            "type": "match-pairs",
+            "question": "Ligue os antônimos:",
+            "pairs": {
+                "Claro": "Escuro",
+                "Feliz": "Triste",
+                "Cheio": "Vazio",
+                "Forte": "Fraco",
+                "Rápido": "Devagar"
+            },
+            "topic": "Ligar colunas"
+        },
+        {
+            "type": "match-pairs",
+            "question": "Ligue a palavra com a letra correta (M ou N) que deve ser usada:",
+            "pairs": {
+                "Ca__po": "M",
+                "Ca__tar": "N",
+                "Bo__ba": "M",
+                "A__dar": "N",
+                "Ta__bor": "M"
+            },
+            "topic": "Uso do M ou N"
+        }
+    ]
+}
