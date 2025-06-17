@@ -1,0 +1,752 @@
+{
+    "questions": [
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'bravo':",
+            "options": [
+                "Feliz",
+                "Nervoso",
+                "Calmo",
+                "Sorridente"
+            ],
+            "correctAnswer": "Nervoso",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'bonito':",
+            "options": [
+                "Feio",
+                "Horrível",
+                "Lindo",
+                "Triste"
+            ],
+            "correctAnswer": "Lindo",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'barulhento':",
+            "options": [
+                "Silencioso",
+                "Calado",
+                "Ruidoso",
+                "Quieto"
+            ],
+            "correctAnswer": "Ruidoso",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'esperto':",
+            "options": [
+                "Bobo",
+                "Inteligente",
+                "Lento",
+                "Desatento"
+            ],
+            "correctAnswer": "Inteligente",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'rápido':",
+            "options": [
+                "Veloz",
+                "Devagar",
+                "Parado",
+                "Calmo"
+            ],
+            "correctAnswer": "Veloz",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'forte':",
+            "options": [
+                "Fraco",
+                "Magro",
+                "Robusto",
+                "Mole"
+            ],
+            "correctAnswer": "Robusto",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'triste':",
+            "options": [
+                "Feliz",
+                "Sorrindo",
+                "Chateado",
+                "Animado"
+            ],
+            "correctAnswer": "Chateado",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'feliz':",
+            "options": [
+                "Triste",
+                "Bravo",
+                "Contente",
+                "Desanimado"
+            ],
+            "correctAnswer": "Contente",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'grande':",
+            "options": [
+                "Pequeno",
+                "Enorme",
+                "Curto",
+                "Magro"
+            ],
+            "correctAnswer": "Enorme",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'alegre':",
+            "options": [
+                "Triste",
+                "Contente",
+                "Bravo",
+                "Cansado"
+            ],
+            "correctAnswer": "Contente",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'claro':",
+            "options": [
+                "Escuro",
+                "Branco",
+                "Luz",
+                "Iluminado"
+            ],
+            "correctAnswer": "Escuro",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'forte':",
+            "options": [
+                "Fraco",
+                "Pesado",
+                "Robusto",
+                "Grande"
+            ],
+            "correctAnswer": "Fraco",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'feliz':",
+            "options": [
+                "Infeliz",
+                "Satisfeito",
+                "Animado",
+                "Contente"
+            ],
+            "correctAnswer": "Infeliz",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'feliz':",
+            "options": [
+                "Alegre",
+                "Triste",
+                "Contente",
+                "Sorrindo"
+            ],
+            "correctAnswer": "Triste",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'calmo':",
+            "options": [
+                "Nervoso",
+                "Tranquilo",
+                "Quieto",
+                "Sossegado"
+            ],
+            "correctAnswer": "Nervoso",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'limpo':",
+            "options": [
+                "Sujo",
+                "Branco",
+                "Claro",
+                "Cheiroso"
+            ],
+            "correctAnswer": "Sujo",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'grande':",
+            "options": [
+                "Gigante",
+                "Pequeno",
+                "Enorme",
+                "Alto"
+            ],
+            "correctAnswer": "Pequeno",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'rápido':",
+            "options": [
+                "Veloz",
+                "Devagar",
+                "Ágil",
+                "Esperto"
+            ],
+            "correctAnswer": "Devagar",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'bom':",
+            "options": [
+                "Ótimo",
+                "Bom",
+                "Ruim",
+                "Legal"
+            ],
+            "correctAnswer": "Ruim",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'cheio':",
+            "options": [
+                "Vazio",
+                "Completo",
+                "Total",
+                "Inteiro"
+            ],
+            "correctAnswer": "Vazio",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'ca__po' deve ser completada com:",
+            "options": [
+                "M",
+                "N"
+            ],
+            "correctAnswer": "M",
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'bo__ba' deve ser completada com:",
+            "options": [
+                "M",
+                "N"
+            ],
+            "correctAnswer": "M",
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'ca__tar' deve ser completada com:",
+            "options": [
+                "M",
+                "N"
+            ],
+            "correctAnswer": "N",
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'ta__bor' deve ser completada com:",
+            "options": [
+                "M",
+                "N"
+            ],
+            "correctAnswer": "M",
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'ca__po' deve ser completada com:",
+            "options": [
+                "M",
+                "N"
+            ],
+            "correctAnswer": "M",
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'bo__ba' deve ser completada com:",
+            "options": [
+                "M",
+                "N"
+            ],
+            "correctAnswer": "M",
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'ca__tar' deve ser completada com:",
+            "options": [
+                "M",
+                "N"
+            ],
+            "correctAnswer": "N",
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'ta__bor' deve ser completada com:",
+            "options": [
+                "M",
+                "N"
+            ],
+            "correctAnswer": "M",
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'ca__oça' deve ser completada com:",
+            "options": [
+                "r",
+                "rr"
+            ],
+            "correctAnswer": "rr",
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "complete",
+            "question": "Na palavra 'pa__eira' usamos:",
+            "options": [
+                "r",
+                "rr"
+            ],
+            "correctAnswer": "rr",
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'pa__ar' deve ser completada com:",
+            "options": [
+                "r",
+                "rr"
+            ],
+            "correctAnswer": "r",
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "complete",
+            "question": "Complete: co__er (significa correr).",
+            "options": [
+                "r",
+                "rr"
+            ],
+            "correctAnswer": "rr",
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'ca__oça' deve ser completada com:",
+            "options": [
+                "r",
+                "rr"
+            ],
+            "correctAnswer": "rr",
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "complete",
+            "question": "Na palavra 'pa__eira' usamos:",
+            "options": [
+                "r",
+                "rr"
+            ],
+            "correctAnswer": "rr",
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "complete",
+            "question": "A palavra 'pa__ar' deve ser completada com:",
+            "options": [
+                "r",
+                "rr"
+            ],
+            "correctAnswer": "r",
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "complete",
+            "question": "Complete: co__er (significa correr).",
+            "options": [
+                "r",
+                "rr"
+            ],
+            "correctAnswer": "rr",
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "match",
+            "question": "Ligue os sinônimos:",
+            "options": [
+                {
+                    "left": "Alegre",
+                    "right": "Contente"
+                },
+                {
+                    "left": "Bonito",
+                    "right": "Lindo"
+                },
+                {
+                    "left": "Esperto",
+                    "right": "Inteligente"
+                },
+                {
+                    "left": "Grande",
+                    "right": "Enorme"
+                },
+                {
+                    "left": "Forte",
+                    "right": "Robusto"
+                }
+            ],
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "match",
+            "question": "Ligue os antônimos:",
+            "options": [
+                {
+                    "left": "Feliz",
+                    "right": "Triste"
+                },
+                {
+                    "left": "Claro",
+                    "right": "Escuro"
+                },
+                {
+                    "left": "Cheio",
+                    "right": "Vazio"
+                },
+                {
+                    "left": "Forte",
+                    "right": "Fraco"
+                },
+                {
+                    "left": "Rápido",
+                    "right": "Devagar"
+                }
+            ],
+            "topic": "Antônimos"
+        },
+        {
+            "type": "match",
+            "question": "Ligue a palavra com a letra correta (M ou N):",
+            "options": [
+                {
+                    "left": "Ca__po",
+                    "right": "M"
+                },
+                {
+                    "left": "Ca__tar",
+                    "right": "N"
+                },
+                {
+                    "left": "Bo__ba",
+                    "right": "M"
+                },
+                {
+                    "left": "A__dar",
+                    "right": "N"
+                },
+                {
+                    "left": "Ta__bor",
+                    "right": "M"
+                }
+            ],
+            "topic": "Uso do M ou N"
+        },
+        {
+            "type": "match",
+            "question": "Ligue a palavra com a letra correta (R ou RR):",
+            "options": [
+                {
+                    "left": "Ca__oça",
+                    "right": "rr"
+                },
+                {
+                    "left": "Pa__ar",
+                    "right": "r"
+                },
+                {
+                    "left": "Pa__eira",
+                    "right": "rr"
+                },
+                {
+                    "left": "Ca__eta",
+                    "right": "r"
+                },
+                {
+                    "left": "Co__er",
+                    "right": "rr"
+                }
+            ],
+            "topic": "Uso do R e RR"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'bravo':",
+            "options": [
+                "Feliz",
+                "Nervoso",
+                "Calmo",
+                "Sorridente"
+            ],
+            "correctAnswer": "Nervoso",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'bonito':",
+            "options": [
+                "Feio",
+                "Horrível",
+                "Lindo",
+                "Triste"
+            ],
+            "correctAnswer": "Lindo",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'barulhento':",
+            "options": [
+                "Silencioso",
+                "Calado",
+                "Ruidoso",
+                "Quieto"
+            ],
+            "correctAnswer": "Ruidoso",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'esperto':",
+            "options": [
+                "Bobo",
+                "Inteligente",
+                "Lento",
+                "Desatento"
+            ],
+            "correctAnswer": "Inteligente",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'rápido':",
+            "options": [
+                "Veloz",
+                "Devagar",
+                "Parado",
+                "Calmo"
+            ],
+            "correctAnswer": "Veloz",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'forte':",
+            "options": [
+                "Fraco",
+                "Magro",
+                "Robusto",
+                "Mole"
+            ],
+            "correctAnswer": "Robusto",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'triste':",
+            "options": [
+                "Feliz",
+                "Sorrindo",
+                "Chateado",
+                "Animado"
+            ],
+            "correctAnswer": "Chateado",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'feliz':",
+            "options": [
+                "Triste",
+                "Bravo",
+                "Contente",
+                "Desanimado"
+            ],
+            "correctAnswer": "Contente",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'grande':",
+            "options": [
+                "Pequeno",
+                "Enorme",
+                "Curto",
+                "Magro"
+            ],
+            "correctAnswer": "Enorme",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o sinônimo da palavra 'alegre':",
+            "options": [
+                "Triste",
+                "Contente",
+                "Bravo",
+                "Cansado"
+            ],
+            "correctAnswer": "Contente",
+            "topic": "Sinônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'claro':",
+            "options": [
+                "Escuro",
+                "Branco",
+                "Luz",
+                "Iluminado"
+            ],
+            "correctAnswer": "Escuro",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'forte':",
+            "options": [
+                "Fraco",
+                "Pesado",
+                "Robusto",
+                "Grande"
+            ],
+            "correctAnswer": "Fraco",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'feliz':",
+            "options": [
+                "Infeliz",
+                "Satisfeito",
+                "Animado",
+                "Contente"
+            ],
+            "correctAnswer": "Infeliz",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'feliz':",
+            "options": [
+                "Alegre",
+                "Triste",
+                "Contente",
+                "Sorrindo"
+            ],
+            "correctAnswer": "Triste",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'calmo':",
+            "options": [
+                "Nervoso",
+                "Tranquilo",
+                "Quieto",
+                "Sossegado"
+            ],
+            "correctAnswer": "Nervoso",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'limpo':",
+            "options": [
+                "Sujo",
+                "Branco",
+                "Claro",
+                "Cheiroso"
+            ],
+            "correctAnswer": "Sujo",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'grande':",
+            "options": [
+                "Gigante",
+                "Pequeno",
+                "Enorme",
+                "Alto"
+            ],
+            "correctAnswer": "Pequeno",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'rápido':",
+            "options": [
+                "Veloz",
+                "Devagar",
+                "Ágil",
+                "Esperto"
+            ],
+            "correctAnswer": "Devagar",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'bom':",
+            "options": [
+                "Ótimo",
+                "Bom",
+                "Ruim",
+                "Legal"
+            ],
+            "correctAnswer": "Ruim",
+            "topic": "Antônimos"
+        },
+        {
+            "type": "multiple-choice",
+            "question": "Marque o antônimo da palavra 'cheio':",
+            "options": [
+                "Vazio",
+                "Completo",
+                "Total",
+                "Inteiro"
+            ],
+            "correctAnswer": "Vazio",
+            "topic": "Antônimos"
+        }
+    ]
+}
