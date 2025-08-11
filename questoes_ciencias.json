@@ -1,0 +1,284 @@
+{
+    "questions": [
+      {
+        "type": "multiple-choice",
+        "question": "Os seres vivos se relacionam com outros seres e com componentes não vivos para conseguir recursos. Qual opção NÃO é um recurso necessário?",
+        "options": ["Abrigo", "Solo", "Televisão", "Luz e calor do Sol"],
+        "correctAnswer": "Televisão",
+        "topic": "Relações e recursos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "As fezes da capivara servem como:",
+        "options": ["Água para aves", "Abrigo para minhocas", "Adubo para plantas", "Alimento para jacarés"],
+        "correctAnswer": "Adubo para plantas",
+        "topic": "Relações entre seres vivos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Qual animal usa ramos e folhas para construir ninhos nas árvores?",
+        "options": ["Capivara", "Cavalo", "Ave", "Minhoca"],
+        "correctAnswer": "Ave",
+        "topic": "Relações entre seres vivos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Para produzir seu próprio alimento, as plantas realizam:",
+        "options": ["Fotossíntese", "Digitação", "Respiração pulmonar", "Transpiração"],
+        "correctAnswer": "Fotossíntese",
+        "topic": "Fotossíntese"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Qual das opções NÃO é um componente ambiental não vivo citado como recurso?",
+        "options": ["Luz e calor do Sol", "Água", "Ar", "Television"],
+        "correctAnswer": "Television",
+        "topic": "Componentes não vivos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Levar o pólen de uma flor para outra é o processo de:",
+        "options": ["Respiração", "Polinização", "Germinação", "Fotossíntese"],
+        "correctAnswer": "Polinização",
+        "topic": "Relações entre seres vivos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "O solo de grandes áreas está contaminado principalmente por:",
+        "options": ["Pedras e areia", "Lixo e outros materiais", "Plantas e árvores", "Água e folhas"],
+        "correctAnswer": "Lixo e outros materiais",
+        "topic": "Solo e impactos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Qual elemento do ambiente é usado por animais para construir tocas e ninhos?",
+        "options": ["Ar", "Solo", "Luz", "Água"],
+        "correctAnswer": "Solo",
+        "topic": "Solo"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Por que os seres vivos precisam de ar?",
+        "options": ["Para nadar", "Para crescer na terra", "Para respirar e usar os alimentos no corpo", "Para construir casas"],
+        "correctAnswer": "Para respirar e usar os alimentos no corpo",
+        "topic": "Ar"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "O ar respirado pode estar:",
+        "options": ["Somente no céu", "Misturado à água, à terra ou ao redor dos seres", "Apenas em cavernas", "Apenas nos ninhos"],
+        "correctAnswer": "Misturado à água, à terra ou ao redor dos seres",
+        "topic": "Ar"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "As plantas retiram água e sais minerais do solo por meio das:",
+        "options": ["Folhas", "Raízes", "Flores", "Sementes"],
+        "correctAnswer": "Raízes",
+        "topic": "Solo e plantas"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Se a água perdida não é reposta, pode ocorrer:",
+        "options": ["Apenas sede", "Mais sono", "Desidratação", "Fome"],
+        "correctAnswer": "Desidratação",
+        "topic": "Água e saúde"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "No ciclo do sapo, ovos e filhotes (girinos) são:",
+        "options": ["Terrestres", "Aquáticos", "Aéreos", "Voadoras"],
+        "correctAnswer": "Aquáticos",
+        "topic": "Água e animais"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Para obter alimento e proteção contra calor ou frio, alguns animais constroem:",
+        "options": ["Jardins", "Tocas", "Carrinhos", "Florestas"],
+        "correctAnswer": "Tocas",
+        "topic": "Abrigo"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Há competição entre seres vivos por recursos como:",
+        "options": ["Conhecimento", "Espaço e luz do Sol", "Computadores", "Cores"],
+        "correctAnswer": "Espaço e luz do Sol",
+        "topic": "Relações e competição"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Os cavalos andam e correm sobre o:",
+        "options": ["Água", "Ar", "Solo", "Luz"],
+        "correctAnswer": "Solo",
+        "topic": "Solo e animais"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Em cavernas e tocas subterrâneas:",
+        "options": ["Há muita luz solar", "Há pouca ou nenhuma luz solar", "As plantas se desenvolvem bem", "É mais quente que no deserto"],
+        "correctAnswer": "Há pouca ou nenhuma luz solar",
+        "topic": "Luz e ambientes"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Devemos evitar exposição ao Sol nos horários mais quentes para:",
+        "options": ["Economizar energia", "Não se molhar", "Evitar queimaduras e se proteger", "Chover mais"],
+        "correctAnswer": "Evitar queimaduras e se proteger",
+        "topic": "Cuidados com o Sol"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "A bromélia se fixa em galhos e troncos para:",
+        "options": ["Se esconder dos pássaros", "Pegar mais luz", "Dormir melhor", "Comer folhas"],
+        "correctAnswer": "Pegar mais luz",
+        "topic": "Relações entre seres vivos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "As crianças devem usar, ao se expor ao Sol:",
+        "options": ["Botas e capa de chuva", "Protetor solar, chapéu/boné e óculos escuros", "Pijama e luvas", "Geladeira e micro-ondas"],
+        "correctAnswer": "Protetor solar, chapéu/boné e óculos escuros",
+        "topic": "Cuidados com o Sol"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "O solo é o chão em que pisamos e é o lugar onde estão ______, ______ e ______ urbanos.",
+        "options": ["Fazendas, estradas, centros", "Praias, rios, oceanos", "Casas, montanhas, rios", "Trilhas, estradas, oceanos"],
+        "correctAnswer": "Fazendas, estradas, centros",
+        "topic": "Solo"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Transformar a luz do Sol em alimento chama-se:",
+        "options": ["Respiração", "Germinação", "Fotossíntese", "Metamorfose"],
+        "correctAnswer": "Fotossíntese",
+        "topic": "Fotossíntese"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Muitos animais dependem de ______ para se aquecer.",
+        "options": ["Fogueiras", "Ventiladores", "Luz e calor do Sol", "Gelo"],
+        "correctAnswer": "Luz e calor do Sol",
+        "topic": "Luz e calor do Sol"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Abelhas ajudam a formar ______ e ______ das plantas.",
+        "options": ["Sementes; frutos", "Folhas; ramos", "Espinhos; flores", "Raízes; troncos"],
+        "correctAnswer": "Sementes; frutos",
+        "topic": "Relações entre seres vivos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Os seres vivos precisam de ______ para respirar; ele pode estar misturado à água ou ao solo.",
+        "options": ["Solo", "Terra", "Ar", "Lua"],
+        "correctAnswer": "Ar",
+        "topic": "Ar"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "As plantas buscam água e sais minerais no solo por meio das:",
+        "options": ["Flores", "Frutos", "Raízes", "Sementes"],
+        "correctAnswer": "Raízes",
+        "topic": "Solo e plantas"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Lagartos e jacarés precisam se aquecer ao:",
+        "options": ["Ar condicionado", "Sol", "Vento", "Gelo"],
+        "correctAnswer": "Sol",
+        "topic": "Luz e calor do Sol"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Evitar uso excessivo de carros ajuda a reduzir a poluição do:",
+        "options": ["Gelo", "Ar", "Fogo", "Petróleo"],
+        "correctAnswer": "Ar",
+        "topic": "Poluição do ar"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Não há desenvolvimento de plantas em cavernas porque falta:",
+        "options": ["Vento", "Água", "Luz (luz solar)", "Sementes"],
+        "correctAnswer": "Luz (luz solar)",
+        "topic": "Luz e ambientes"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Ficar muito tempo sem beber água pode causar:",
+        "options": ["Fome", "Dor de cabeça", "Desidratação", "Alegria"],
+        "correctAnswer": "Desidratação",
+        "topic": "Água e saúde"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "O animal que se esconde no cachorro para se alimentar do sangue é a:",
+        "options": ["Abelha", "Borboleta", "Pulga", "Girafa"],
+        "correctAnswer": "Pulga",
+        "topic": "Relações entre seres vivos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Plantas, animais, fazendas, cidades e estradas ocupam o:",
+        "options": ["Mar", "Solo", "Céu", "Vento"],
+        "correctAnswer": "Solo",
+        "topic": "Solo"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Os sapos adultos vivem na terra, mas ovos e filhotes são:",
+        "options": ["Terrestres", "Aéreos", "Sombrios", "Aquáticos"],
+        "correctAnswer": "Aquáticos",
+        "topic": "Água e animais"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Um solo fértil possui ______ e ______ minerais.",
+        "options": ["Água; sais", "Fogo; madeira", "Gelo; água", "Raios; grãos"],
+        "correctAnswer": "Água; sais",
+        "topic": "Solo"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Minhocas e raízes retiram ar misturado ao:",
+        "options": ["Céu", "Vento", "Solo (terra)", "Gelo"],
+        "correctAnswer": "Solo (terra)",
+        "topic": "Solo"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Recursos como alimento, água, solo, abrigo e luz e calor do ______ são necessários aos seres vivos.",
+        "options": ["Fogo", "Luar", "Sol", "Parquinho"],
+        "correctAnswer": "Sol",
+        "topic": "Relações e recursos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "A poluição do solo e o fogo prejudicam a sua:",
+        "options": ["Diversão", "Qualidade", "Dor", "Lava"],
+        "correctAnswer": "Qualidade",
+        "topic": "Solo e impactos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Na floresta há entrada de luz; no interior de uma caverna:",
+        "options": ["Não há água", "Há sempre muito vento", "Não há entrada de luz", "Tem rios coloridos"],
+        "correctAnswer": "Não há entrada de luz",
+        "topic": "Luz e ambientes"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "No ambiente, nenhum organismo vive isolado; todos estabelecem:",
+        "options": ["Gritos", "Relações", "Computadores", "Gargalhadas"],
+        "correctAnswer": "Relações",
+        "topic": "Relações e recursos"
+      },
+      {
+        "type": "multiple-choice",
+        "question": "Para diminuir a poluição do ar, as pessoas podem usar:",
+        "options": ["Ônibus e trens", "Aviões e foguetes", "Somente carros", "Barcos e submarinos"],
+        "correctAnswer": "Ônibus e trens",
+        "topic": "Poluição do ar"
+      }
+    ]
+  }
