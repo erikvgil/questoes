@@ -83,7 +83,7 @@ function formatDisplayName(filename) {
 async function listJsonFiles() {
     // Lista fixa de todos os arquivos
     return [
-        `questoes_portugues_60.json`
+        `questoes_ciencias.json`
     ];
 }
 
