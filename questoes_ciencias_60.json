@@ -1,515 +1,244 @@
 {
-    "questions": [
-      {
-        "type": "multiple-choice",
-        "question": "Viver num planeta repleto de vida significa que existem seres vivos de muitos tamanhos (p. 62). Qual combinação traz dois exemplos corretos citados?",
-        "options": ["Baleia-jubarte e piolho", "Sequoia-gigante e formiga-leão", "Golfinho-rosa e vírus", "Onça-pintada e ameba gigante"],
-        "correctAnswer": "Baleia-jubarte e piolho",
-        "topic": "Biodiversidade"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Todo organismo que só pode ser observado com o uso de microscópio é chamado de ______ (p. 62).",
-        "options": ["plâncton", "micro-organismo", "vertebrado", "macro-organismo"],
-        "correctAnswer": "micro-organismo",
-        "topic": "Biodiversidade"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Assinale o exemplo de micro-organismo citado no texto (p. 62).",
-        "options": ["Bactéria", "Sapo", "Mariposa", "Cavalo-marinho"],
-        "correctAnswer": "Bactéria",
-        "topic": "Biodiversidade"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "A maior árvore citada é a ______, que pode ultrapassar 80 metros de altura (p. 63).",
-        "options": ["ipê-amarelo", "sequoia-gigante", "jequitibá-rosa", "castanheira"],
-        "correctAnswer": "sequoia-gigante",
-        "topic": "Biodiversidade"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Os piolhos que parasitam seres humanos medem cerca de ______ milímetros (p. 63).",
-        "options": ["3", "10", "1", "8"],
-        "correctAnswer": "3",
-        "topic": "Biodiversidade"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "O Penicillium é citado como exemplo de (p. 63):",
-        "options": ["planta", "micro-organismo", "peixe", "réptil"],
-        "correctAnswer": "micro-organismo",
-        "topic": "Biodiversidade"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Podemos organizar os seres vivos considerando critérios como ambiente, locomoção e revestimento do corpo (p. 64). Qual opção traz apenas critérios citados?",
-        "options": ["Ambiente, cor favorita e tamanho", "Ambiente (aquático/terrestre), locomoção e revestimento do corpo", "Alimentação, cor e língua falada", "Clima, cor e velocidade"],
-        "correctAnswer": "Ambiente (aquático/terrestre), locomoção e revestimento do corpo",
-        "topic": "Classificação por critérios"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "A classificação dos seres vivos em cinco grandes grupos é chamada de (p. 66):",
-        "options": ["reinos", "famílias", "classes", "ordens"],
-        "correctAnswer": "reinos",
-        "topic": "Reinos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "No Reino dos Fungos, há organismos (p. 66):",
-        "options": ["apenas microscópicos", "apenas visíveis a olho nu", "microscópicos e também visíveis a olho nu", "apenas aquáticos"],
-        "correctAnswer": "microscópicos e também visíveis a olho nu",
-        "topic": "Reinos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Euglena é citada como exemplo de ser vivo do Reino dos ______ (p. 66).",
-        "options": ["Animais", "Protistas", "Plantas", "Fungos"],
-        "correctAnswer": "Protistas",
-        "topic": "Reinos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "No Reino das Moneras, os representantes mais conhecidos são as ______ (p. 66).",
-        "options": ["bactérias", "algas pluricelulares", "musgos", "samambaias"],
-        "correctAnswer": "bactérias",
-        "topic": "Reinos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "As plantas são seres macroscópicos que produzem seu próprio alimento por meio da ______ (p. 69).",
-        "options": ["respiração", "polinização", "fotossíntese", "digestão"],
-        "correctAnswer": "fotossíntese",
-        "topic": "Plantas e fotossíntese"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "No processo de fotossíntese, as plantas utilizam (p. 69):",
-        "options": ["gás carbônico, água e luz do Sol", "oxigênio e sal", "luz do Sol e terra", "apenas água e solo"],
-        "correctAnswer": "gás carbônico, água e luz do Sol",
-        "topic": "Plantas e fotossíntese"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "As folhas são verdes porque possuem bastante ______, de cor esverdeada (p. 69).",
-        "options": ["celulose", "clorofila", "cloroplasto", "cutina"],
-        "correctAnswer": "clorofila",
-        "topic": "Plantas e fotossíntese"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "A maioria das plantas possui as seguintes partes (p. 73):",
-        "options": ["raiz, caule, folha, flor, fruto e semente", "raiz, asa, pelo e bico", "tronco, pena e dente", "casco, asa e antena"],
-        "correctAnswer": "raiz, caule, folha, flor, fruto e semente",
-        "topic": "Estrutura das plantas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "A função conjunta das partes da planta permite que ela (p. 73):",
-        "options": ["viva bem e se reproduza", "corra e voe", "respire debaixo d’água como peixe", "ouça sons como mamíferos"],
-        "correctAnswer": "viva bem e se reproduza",
-        "topic": "Estrutura das plantas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "As raízes absorvem ______ e ______ de que a planta precisa e a mantêm fixa ao solo ou a outro suporte (p. 74).",
-        "options": ["oxigênio; sal", "água; minerais", "açúcar; vitaminas", "vento; luz"],
-        "correctAnswer": "água; minerais",
-        "topic": "Raiz"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Além de suas funções principais, as raízes podem também (p. 74):",
-        "options": ["produzir sementes", "armazenar alimento", "realizar polinização", "absorver luz diretamente"],
-        "correctAnswer": "armazenar alimento",
-        "topic": "Raiz"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "O aguapé possui raízes ______, mergulhadas na água (p. 74).",
-        "options": ["flutuantes", "subterrâneas", "aéreas de mangue", "secas"],
-        "correctAnswer": "flutuantes",
-        "topic": "Raiz"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Nos manguezais, as pontas das raízes se elevam sobre o nível da água, permitindo que as plantas (p. 74):",
-        "options": ["respirem o ar", "fujam de animais", "façam mais flores", "mudem de reino"],
-        "correctAnswer": "respirem o ar",
-        "topic": "Raiz"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "O caule pode ser subterrâneo ou aéreo e sustenta (p. 75):",
-        "options": ["penas", "folhas, flores e frutos", "nadadeiras", "garras"],
-        "correctAnswer": "folhas, flores e frutos",
-        "topic": "Caule"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "O caule conduz materiais na planta: os retirados pela raiz e os produzidos pela ______ (p. 75).",
-        "options": ["respiração", "fotossíntese", "polinização", "germinação"],
-        "correctAnswer": "fotossíntese",
-        "topic": "Caule"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Batata-inglesa é exemplo de planta formada por (p. 75):",
-        "options": ["frutos modificados", "caule", "raiz aérea", "flor subterrânea"],
-        "correctAnswer": "caule",
-        "topic": "Caule"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "A cebola é citada como um ______, formado por caule e folhas modificadas (p. 75).",
-        "options": ["bulbo", "rizoma", "semente", "fruto seco"],
-        "correctAnswer": "bulbo",
-        "topic": "Caule"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Alguns caules muito resistentes, chamados ______, podem atingir grande altura e largura (p. 75).",
-        "options": ["pétalas", "troncos", "estames", "raízes"],
-        "correctAnswer": "troncos",
-        "topic": "Caule"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "As folhas são as principais partes em que ocorre a fotossíntese; por isso, receber ______ é essencial (p. 78).",
-        "options": ["areia", "luz", "sal", "vento"],
-        "correctAnswer": "luz",
-        "topic": "Folhas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Ambientes muito escuros, como cavernas, não permitem a ______ das plantas (p. 78).",
-        "options": ["sobrevivência", "queda", "floração automática", "dormência eterna"],
-        "correctAnswer": "sobrevivência",
-        "topic": "Folhas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "As folhas também são as principais estruturas por onde entram e saem os ______ usados na fotossíntese e na respiração (p. 78).",
-        "options": ["gases", "sais", "pedras", "líquidos corrosivos"],
-        "correctAnswer": "gases",
-        "topic": "Folhas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "A planta perde água pelas folhas em forma de gotas ou de ______, invisível no ar (p. 78).",
-        "options": ["vapor", "gelo", "areia", "clorofila"],
-        "correctAnswer": "vapor",
-        "topic": "Folhas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "No esquema da fotossíntese, gás carbônico + água, na presença de luz e __________, produzem alimento e gás oxigênio (p. 82).",
-        "options": ["clorofila", "cloroplasto", "oxigênio", "nitrato"],
-        "correctAnswer": "clorofila",
-        "topic": "Fotossíntese"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Além da fotossíntese, as plantas, de modo geral, (p. 82):",
-        "options": ["locomovem-se como animais", "vivem fixas ao solo ou a outro suporte", "não respiram", "possuem asas"],
-        "correctAnswer": "vivem fixas ao solo ou a outro suporte",
-        "topic": "Características das plantas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Os polinizadores podem ser seres vivos e componentes não vivos do ambiente (p. 82). Assinale a dupla correta citada:",
-        "options": ["Abelhas e vento", "Carros e trens", "Peixes e rochas rolando", "Lobos e montanhas"],
-        "correctAnswer": "Abelhas e vento",
-        "topic": "Polinização"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Segundo o texto, além das abelhas, são citados como polinizadores vivos (p. 82):",
-        "options": ["beija-flores, outras aves, borboletas, besouros e morcegos", "leões, zebras e pinguins", "cavalos, porcos e galinhas", "golfinhos e tubarões"],
-        "correctAnswer": "beija-flores, outras aves, borboletas, besouros e morcegos",
-        "topic": "Polinização"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Depois da polinização, é formada a ______, e parte da flor dá origem ao ______ (p. 83).",
-        "options": ["semente; fruto", "raiz; caule", "folha; semente", "casca; tronco"],
-        "correctAnswer": "semente; fruto",
-        "topic": "Fruto e semente"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Quando a semente cai em local adequado, ela ______ e origina uma nova planta (p. 83).",
-        "options": ["apodrece", "germina", "evapora", "se transforma em rocha"],
-        "correctAnswer": "germina",
-        "topic": "Germinação"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Assinale dois exemplos de frutos adocicados citados (p. 83):",
-        "options": ["Maçã e uva", "Tomate e pimentão", "Milho e arroz", "Pepino e abóbora"],
-        "correctAnswer": "Maçã e uva",
-        "topic": "Frutos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "São exemplos de frutos comestíveis sem sabor adocicado, segundo o texto (p. 83):",
-        "options": ["Abóbora, tomate, pepino e pimentão", "Laranja, uva, mamão e abacate", "Maçã, pera e melancia", "Ameixa, manga e goiaba"],
-        "correctAnswer": "Abóbora, tomate, pepino e pimentão",
-        "topic": "Frutos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Consumimos muitas sementes em nossa alimentação. Qual conjunto só tem sementes citadas (p. 84)?",
-        "options": ["Feijão, soja, ervilha, lentilha, nozes, castanhas e amendoim", "Couve, alface e brócolis", "Cenoura, beterraba e mandioca", "Uva, maçã e laranja"],
-        "correctAnswer": "Feijão, soja, ervilha, lentilha, nozes, castanhas e amendoim",
-        "topic": "Alimentação"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Também consumimos flores, como ______ e ______ (p. 84).",
-        "options": ["brócolis; couve-flor", "feijão; soja", "milho; arroz", "abacate; uva"],
-        "correctAnswer": "brócolis; couve-flor",
-        "topic": "Alimentação"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "No caso da camomila, as flores são colhidas antes do total amadurecimento, secas e armazenadas para fabricar (p. 84):",
-        "options": ["geleias", "chás", "pães", "suco"],
-        "correctAnswer": "chás",
-        "topic": "Alimentação"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Alguns frutos possuem sabor que agrada a aves, macacos, cutias e outros animais; esses animais engolem as sementes que saem em suas fezes. Esse processo ajuda na ______ (p. 84).",
-        "options": ["polinização", "dispersão de sementes", "germinação dentro do fruto", "perda de água"],
-        "correctAnswer": "dispersão de sementes",
-        "topic": "Dispersão"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "O picão possui frutos que se prendem à pelagem de animais e são levados para longe (p. 85). Essa é uma forma de:",
-        "options": ["dispersão de sementes", "polinização por vento", "fotossíntese", "respiração das plantas"],
-        "correctAnswer": "dispersão de sementes",
-        "topic": "Dispersão"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "O dente-de-leão tem frutos muito leves com pluma na ponta; eles são levados pelo ______ (p. 85).",
-        "options": ["sol", "vento", "chuva ácida", "fogo"],
-        "correctAnswer": "vento",
-        "topic": "Dispersão"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As plantas vivem fixas ao ______ ou a outro suporte para se desenvolver (p. 82).",
-        "options": ["ar", "solo", "fruto", "folha"],
-        "correctAnswer": "solo",
-        "topic": "Características das plantas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As plantas, assim como os animais, ______ (p. 82).",
-        "options": ["não respiram", "respiram", "têm penas", "andam e correm"],
-        "correctAnswer": "respiram",
-        "topic": "Características das plantas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: Após a polinização, a chegada de grãos de pólen às flores é necessária para a formação do ______ e das ______ (p. 82).",
-        "options": ["caule; folhas", "fruto; sementes", "raiz; flores", "tronco; casca"],
-        "correctAnswer": "fruto; sementes",
-        "topic": "Polinização"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As folhas variam muito em ______ e ______, representando adaptações a diferentes ambientes (p. 78).",
-        "options": ["cor; cheiro", "formato; tamanho", "peso; densidade", "idade; massa"],
-        "correctAnswer": "formato; tamanho",
-        "topic": "Folhas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: A batata-doce, beterraba e mandioca são exemplos de raízes ______ que reservam alimento (p. 74).",
-        "options": ["flutuantes", "subterrâneas", "aéreas", "secas"],
-        "correctAnswer": "subterrâneas",
-        "topic": "Raiz"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: O caule pode, ainda, ______ alimento (p. 75).",
-        "options": ["perder", "reservar", "queimar", "evaporar"],
-        "correctAnswer": "reservar",
-        "topic": "Caule"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: A fotossíntese acontece na presença de ______ e dentro da ______ (p. 82).",
-        "options": ["vento; raiz", "luz; clorofila", "chuva; casca", "sombra; semente"],
-        "correctAnswer": "luz; clorofila",
-        "topic": "Fotossíntese"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: A maior parte dos frutos e sementes usados na alimentação humana é polinizada por seres vivos, especialmente pelas ______ (p. 82).",
-        "options": ["formigas", "abelhas", "sardinhas", "lesmas"],
-        "correctAnswer": "abelhas",
-        "topic": "Polinização"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As plantas sem flores têm outras formas de ______ (p. 82).",
-        "options": ["respirar", "reprodução", "correr", "ver"],
-        "correctAnswer": "reprodução",
-        "topic": "Reprodução das plantas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: No manguezal, raízes que se elevam sobre a água ajudam a planta a ______ (p. 74).",
-        "options": ["absorver calor", "respirar o ar", "produzir sementes", "germinar no fruto"],
-        "correctAnswer": "respirar o ar",
-        "topic": "Raiz"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: A camomila é usada em chás e é citada como exemplo de ______ consumida na alimentação (p. 84).",
-        "options": ["folha", "flor", "semente", "raiz"],
-        "correctAnswer": "flor",
-        "topic": "Alimentação"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: Maçã, laranja, abacate, mamão e uva são exemplos de frutos ______ (p. 83).",
-        "options": ["adocicados", "secos", "não comestíveis", "amargos"],
-        "correctAnswer": "adocicados",
-        "topic": "Frutos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: O grão de milho e o grão de arroz são exemplos de frutos comestíveis ______ (p. 83).",
-        "options": ["adocicados", "sem sabor adocicado", "amargos", "ácidos"],
-        "correctAnswer": "sem sabor adocicado",
-        "topic": "Frutos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: Os cogumelos pertencem ao Reino dos ______ (p. 66).",
-        "options": ["Animais", "Plantas", "Fungos", "Protistas"],
-        "correctAnswer": "Fungos",
-        "topic": "Reinos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: Bactérias são seres do Reino das ______ (p. 66).",
-        "options": ["Moneras", "Plantas", "Animais", "Fungos"],
-        "correctAnswer": "Moneras",
-        "topic": "Reinos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: A euglena vive em ambiente ______ (p. 66).",
-        "options": ["desértico", "aquático", "glacial", "montanhoso"],
-        "correctAnswer": "aquático",
-        "topic": "Reinos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: A fotossíntese produz alimento para a planta e libera gás ______ (p. 82).",
-        "options": ["nitrogênio", "oxigênio", "hélio", "carbônico"],
-        "correctAnswer": "oxigênio",
-        "topic": "Fotossíntese"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As plantas não se locomovem; elas ______ no ambiente (p. 82).",
-        "options": ["voam", "ficam fixas", "correm", "nadam"],
-        "correctAnswer": "ficam fixas",
-        "topic": "Características das plantas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As flores são estruturas de ______, que dão origem a novas plantas (p. 82).",
-        "options": ["proteção", "reprodução", "locomoção", "respiração"],
-        "correctAnswer": "reprodução",
-        "topic": "Flores"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: O transporte de grãos de pólen de uma flor para outra é chamado de ______ (p. 82).",
-        "options": ["fotossíntese", "polinização", "germinação", "respiração"],
-        "correctAnswer": "polinização",
-        "topic": "Polinização"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As sementes precisam cair em um local ______ para germinar (p. 83).",
-        "options": ["inadequado", "adequado", "muito seco", "muito salgado"],
-        "correctAnswer": "adequado",
-        "topic": "Germinação"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: O papagaio se alimenta do fruto da palmeira e é citado como grande ______ de sementes (p. 84).",
-        "options": ["consumidor", "dispersor", "polinizador não vivo", "predador"],
-        "correctAnswer": "dispersor",
-        "topic": "Dispersão"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: Cada haste do dente-de-leão com uma pluma na ponta é um ______ (p. 85).",
-        "options": ["fruto", "grão de pólen", "caule", "rizoma"],
-        "correctAnswer": "fruto",
-        "topic": "Frutos e dispersão"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: O picão tem frutos com ______ e forma que facilitam fixar-se na pelagem de animais (p. 85).",
-        "options": ["peso alto", "tamanho e forma", "água e açúcar", "clorofila"],
-        "correctAnswer": "tamanho e forma",
-        "topic": "Frutos e dispersão"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As raízes podem ser subterrâneas, situadas acima do solo ou ______ (p. 74).",
-        "options": ["flutuantes", "de papel", "luminosas", "duras como pedra"],
-        "correctAnswer": "flutuantes",
-        "topic": "Raiz"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: Samambaias têm caule que pode ser ______ (p. 75).",
-        "options": ["subterrâneo", "de vidro", "apenas aéreo", "com penas"],
-        "correctAnswer": "subterrâneo",
-        "topic": "Caule"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: As folhas permitem as trocas gasosas e também a ______ de água (p. 78).",
-        "options": ["entrada", "perda", "fervura", "solidificação"],
-        "correctAnswer": "perda",
-        "topic": "Folhas"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: A diversidade de seres vivos levou à necessidade de ______ e organizar esses seres para estudá-los (p. 66).",
-        "options": ["brincar com", "nomeá-los", "pintá-los", "cozinhá-los"],
-        "correctAnswer": "nomeá-los",
-        "topic": "Reinos"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: Baleias-jubarte podem medir até ______ metros de comprimento (p. 63).",
-        "options": ["6", "16", "60", "160"],
-        "correctAnswer": "16",
-        "topic": "Biodiversidade"
-      },
-      {
-        "type": "multiple-choice",
-        "question": "Complete: Frutos como tomate e pimentão são citados como comestíveis porém ______ (p. 83).",
-        "options": ["sempre amargos", "sem sabor adocicado", "não comestíveis", "apenas sementes"],
-        "correctAnswer": "sem sabor adocicado",
-        "topic": "Frutos"
-      }
-    ]
-  }
+  "questions": [
+    {
+      "id": 201,
+      "question": "Qual é o nome dado a cada pedacinho de palavra pronunciado separadamente? (p.164)",
+      "options": ["Vogal", "Sílaba", "Letra", "Consoante"],
+      "answer": "Sílaba"
+    },
+    {
+      "id": 202,
+      "question": "A palavra 'fadas' tem quantas sílabas? (p.164)",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+      "id": 203,
+      "question": "Complete a frase: A palavra 'príncipe' tem ___ sílabas. (p.164)",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": 204,
+      "question": "A palavra 'castelo' foi dividida corretamente como: (p.164)",
+      "options": ["cas-te-lo", "cast-e-lo", "ca-ste-lo", "cas-tel-o"],
+      "answer": "cas-te-lo"
+    },
+    {
+      "id": 205,
+      "question": "A palavra 'flor' pertence a qual grupo? (p.164)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Monossílaba"
+    },
+    {
+      "id": 206,
+      "question": "A palavra 'crianças' foi separada corretamente como: (p.164)",
+      "options": ["cri-an-ças", "crian-ças", "crian-ça-s", "cri-a-nças"],
+      "answer": "cri-an-ças"
+    },
+    {
+      "id": 207,
+      "question": "A palavra 'mágicos' tem quantas sílabas? (p.164)",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": 208,
+      "question": "A palavra 'ilha' foi dividida corretamente em: (p.164)",
+      "options": ["i-lha", "ilh-a", "il-ha", "i-lh-a"],
+      "answer": "i-lha"
+    },
+    {
+      "id": 209,
+      "question": "A palavra 'irmãs' possui: (p.164)",
+      "options": ["1 sílaba", "2 sílabas", "3 sílabas", "4 sílabas"],
+      "answer": "2 sílabas"
+    },
+    {
+      "id": 210,
+      "question": "A palavra 'feitiçeira' tem quantas sílabas? (p.164)",
+      "options": ["2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": 211,
+      "question": "A palavra 'dom' não foi separada porque: (p.164)",
+      "options": ["É verbo", "É substantivo", "É monossílaba", "Tem ditongo"],
+      "answer": "É monossílaba"
+    },
+    {
+      "id": 212,
+      "question": "Qual palavra abaixo é polissílaba? (p.164)",
+      "options": ["ilha", "mágicos", "dom", "feitiçeira"],
+      "answer": "feitiçeira"
+    },
+    {
+      "id": 213,
+      "question": "Qual palavra é dissílaba? (p.164)",
+      "options": ["dom", "irmãs", "crianças", "feitiçeira"],
+      "answer": "irmãs"
+    },
+    {
+      "id": 214,
+      "question": "A palavra 'mágicos' pertence a qual grupo? (p.164)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Trissílaba"
+    },
+    {
+      "id": 215,
+      "question": "Complete: 'dom' é um exemplo de ___. (p.164)",
+      "options": ["Dissílaba", "Monossílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Monossílaba"
+    },
+    {
+      "id": 216,
+      "question": "A palavra 'serra' tem quantas sílabas? (p.184)",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+      "id": 217,
+      "question": "A palavra 'arara' pertence a qual grupo? (p.184)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Trissílaba"
+    },
+    {
+      "id": 218,
+      "question": "A palavra 'chiclete' tem quantas sílabas? (p.184)",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": 219,
+      "question": "A palavra 'lancheonete' deve ser classificada como: (p.184)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Polissílaba"
+    },
+    {
+      "id": 220,
+      "question": "A palavra 'inteligente' possui: (p.184)",
+      "options": ["2 sílabas", "3 sílabas", "4 sílabas", "5 sílabas"],
+      "answer": "5 sílabas"
+    },
+    {
+      "id": 221,
+      "question": "Qual destas palavras é monossílaba? (p.184)",
+      "options": ["espirro", "pé", "chiclete", "lancheonete"],
+      "answer": "pé"
+    },
+    {
+      "id": 222,
+      "question": "A palavra 'espirro' pertence a qual grupo? (p.184)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Trissílaba"
+    },
+    {
+      "id": 223,
+      "question": "A palavra 'sabão' possui quantas sílabas? (p.184)",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+      "id": 224,
+      "question": "Complete: 'pé', 'pão' e 'sim' são exemplos de ___. (p.184)",
+      "options": ["Trissílabos", "Polissílabos", "Monossílabos", "Dissílabos"],
+      "answer": "Monossílabos"
+    },
+    {
+      "id": 225,
+      "question": "A palavra 'osso' foi classificada como: (p.184)",
+      "options": ["Dissílaba", "Trissílaba", "Monossílaba", "Polissílaba"],
+      "answer": "Dissílaba"
+    },
+    {
+      "id": 226,
+      "question": "A palavra 'espelho' está corretamente separada como: (p.184)",
+      "options": ["es-pe-lho", "esp-elho", "espe-lho", "es-pel-ho"],
+      "answer": "es-pe-lho"
+    },
+    {
+      "id": 227,
+      "question": "A palavra 'passado' deve ser separada corretamente como: (p.184)",
+      "options": ["pa-ssa-do", "pas-sa-do", "pasa-do", "p-assado"],
+      "answer": "pas-sa-do"
+    },
+    {
+      "id": 228,
+      "question": "A palavra 'carruagem' foi separada incorretamente como 'ca-rru-a-gem'. Qual é a forma correta? (p.184)",
+      "options": ["car-ru-a-gem", "car-rua-gem", "carru-a-gem", "carru-agem"],
+      "answer": "car-ru-a-gem"
+    },
+    {
+      "id": 229,
+      "question": "A palavra 'brilhante' pertence a qual grupo? (p.184)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Trissílaba"
+    },
+    {
+      "id": 230,
+      "question": "A palavra 'princesa' foi separada corretamente como: (p.184)",
+      "options": ["prin-ce-sa", "princ-e-sa", "pri-nces-a", "pri-nce-sa"],
+      "answer": "prin-ce-sa"
+    },
+    {
+      "id": 231,
+      "question": "A palavra 'floresta' foi dividida em: (p.184)",
+      "options": ["flo-res-ta", "flor-es-ta", "flo-re-sta", "flor-e-sta"],
+      "answer": "flo-res-ta"
+    },
+    {
+      "id": 232,
+      "question": "A palavra 'encantada' está corretamente separada em: (p.184)",
+      "options": ["en-can-ta-da", "enca-nta-da", "enc-ant-ada", "en-cant-ada"],
+      "answer": "en-can-ta-da"
+    },
+    {
+      "id": 233,
+      "question": "A palavra 'rainha' possui quantas sílabas? (p.184)",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": 234,
+      "question": "Qual das palavras abaixo é trissílaba? (p.184)",
+      "options": ["dom", "espelho", "princesa", "pé"],
+      "answer": "espelho"
+    },
+    {
+      "id": 235,
+      "question": "Qual das palavras abaixo é polissílaba? (p.184)",
+      "options": ["pão", "espirro", "lancheonete", "pé"],
+      "answer": "lancheonete"
+    },
+    {
+      "id": 236,
+      "question": "A palavra 'uma' deve ser classificada como: (p.184)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Dissílaba"
+    },
+    {
+      "id": 237,
+      "question": "A palavra 'sim' pertence a qual grupo? (p.184)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Monossílaba"
+    },
+    {
+      "id": 238,
+      "question": "A palavra 'sabonete' tem quantas sílabas? (p.184)",
+      "options": ["2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": 239,
+      "question": "A palavra 'inteligente' foi corretamente separada como: (p.184)",
+      "options": ["in-te-li-gen-te", "int-e-lig-en-te", "inte-ligen-te", "inteli-gen-te"],
+      "answer": "in-te-li-gen-te"
+    },
+    {
+      "id": 240,
+      "question": "Qual é a classificação da palavra 'esfirro'? (p.184)",
+      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+      "answer": "Trissílaba"
+    }
+  ]
+}
