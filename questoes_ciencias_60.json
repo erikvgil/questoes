@@ -1,244 +1,275 @@
-{
-  "questions": [
-    {
-      "id": 201,
-      "question": "Qual é o nome dado a cada pedacinho de palavra pronunciado separadamente? (p.164)",
-      "options": ["Vogal", "Sílaba", "Letra", "Consoante"],
-      "answer": "Sílaba"
-    },
-    {
-      "id": 202,
-      "question": "A palavra 'fadas' tem quantas sílabas? (p.164)",
-      "options": ["1", "2", "3", "4"],
-      "answer": "2"
-    },
-    {
-      "id": 203,
-      "question": "Complete a frase: A palavra 'príncipe' tem ___ sílabas. (p.164)",
-      "options": ["2", "3", "4", "5"],
-      "answer": "3"
-    },
-    {
-      "id": 204,
-      "question": "A palavra 'castelo' foi dividida corretamente como: (p.164)",
-      "options": ["cas-te-lo", "cast-e-lo", "ca-ste-lo", "cas-tel-o"],
-      "answer": "cas-te-lo"
-    },
-    {
-      "id": 205,
-      "question": "A palavra 'flor' pertence a qual grupo? (p.164)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Monossílaba"
-    },
-    {
-      "id": 206,
-      "question": "A palavra 'crianças' foi separada corretamente como: (p.164)",
-      "options": ["cri-an-ças", "crian-ças", "crian-ça-s", "cri-a-nças"],
-      "answer": "cri-an-ças"
-    },
-    {
-      "id": 207,
-      "question": "A palavra 'mágicos' tem quantas sílabas? (p.164)",
-      "options": ["2", "3", "4", "5"],
-      "answer": "3"
-    },
-    {
-      "id": 208,
-      "question": "A palavra 'ilha' foi dividida corretamente em: (p.164)",
-      "options": ["i-lha", "ilh-a", "il-ha", "i-lh-a"],
-      "answer": "i-lha"
-    },
-    {
-      "id": 209,
-      "question": "A palavra 'irmãs' possui: (p.164)",
-      "options": ["1 sílaba", "2 sílabas", "3 sílabas", "4 sílabas"],
-      "answer": "2 sílabas"
-    },
-    {
-      "id": 210,
-      "question": "A palavra 'feitiçeira' tem quantas sílabas? (p.164)",
-      "options": ["2", "3", "4", "5"],
-      "answer": "4"
-    },
-    {
-      "id": 211,
-      "question": "A palavra 'dom' não foi separada porque: (p.164)",
-      "options": ["É verbo", "É substantivo", "É monossílaba", "Tem ditongo"],
-      "answer": "É monossílaba"
-    },
-    {
-      "id": 212,
-      "question": "Qual palavra abaixo é polissílaba? (p.164)",
-      "options": ["ilha", "mágicos", "dom", "feitiçeira"],
-      "answer": "feitiçeira"
-    },
-    {
-      "id": 213,
-      "question": "Qual palavra é dissílaba? (p.164)",
-      "options": ["dom", "irmãs", "crianças", "feitiçeira"],
-      "answer": "irmãs"
-    },
-    {
-      "id": 214,
-      "question": "A palavra 'mágicos' pertence a qual grupo? (p.164)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Trissílaba"
-    },
-    {
-      "id": 215,
-      "question": "Complete: 'dom' é um exemplo de ___. (p.164)",
-      "options": ["Dissílaba", "Monossílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Monossílaba"
-    },
-    {
-      "id": 216,
-      "question": "A palavra 'serra' tem quantas sílabas? (p.184)",
-      "options": ["1", "2", "3", "4"],
-      "answer": "2"
-    },
-    {
-      "id": 217,
-      "question": "A palavra 'arara' pertence a qual grupo? (p.184)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Trissílaba"
-    },
-    {
-      "id": 218,
-      "question": "A palavra 'chiclete' tem quantas sílabas? (p.184)",
-      "options": ["2", "3", "4", "5"],
-      "answer": "3"
-    },
-    {
-      "id": 219,
-      "question": "A palavra 'lancheonete' deve ser classificada como: (p.184)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Polissílaba"
-    },
-    {
-      "id": 220,
-      "question": "A palavra 'inteligente' possui: (p.184)",
-      "options": ["2 sílabas", "3 sílabas", "4 sílabas", "5 sílabas"],
-      "answer": "5 sílabas"
-    },
-    {
-      "id": 221,
-      "question": "Qual destas palavras é monossílaba? (p.184)",
-      "options": ["espirro", "pé", "chiclete", "lancheonete"],
-      "answer": "pé"
-    },
-    {
-      "id": 222,
-      "question": "A palavra 'espirro' pertence a qual grupo? (p.184)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Trissílaba"
-    },
-    {
-      "id": 223,
-      "question": "A palavra 'sabão' possui quantas sílabas? (p.184)",
-      "options": ["1", "2", "3", "4"],
-      "answer": "2"
-    },
-    {
-      "id": 224,
-      "question": "Complete: 'pé', 'pão' e 'sim' são exemplos de ___. (p.184)",
-      "options": ["Trissílabos", "Polissílabos", "Monossílabos", "Dissílabos"],
-      "answer": "Monossílabos"
-    },
-    {
-      "id": 225,
-      "question": "A palavra 'osso' foi classificada como: (p.184)",
-      "options": ["Dissílaba", "Trissílaba", "Monossílaba", "Polissílaba"],
-      "answer": "Dissílaba"
-    },
-    {
-      "id": 226,
-      "question": "A palavra 'espelho' está corretamente separada como: (p.184)",
-      "options": ["es-pe-lho", "esp-elho", "espe-lho", "es-pel-ho"],
-      "answer": "es-pe-lho"
-    },
-    {
-      "id": 227,
-      "question": "A palavra 'passado' deve ser separada corretamente como: (p.184)",
-      "options": ["pa-ssa-do", "pas-sa-do", "pasa-do", "p-assado"],
-      "answer": "pas-sa-do"
-    },
-    {
-      "id": 228,
-      "question": "A palavra 'carruagem' foi separada incorretamente como 'ca-rru-a-gem'. Qual é a forma correta? (p.184)",
-      "options": ["car-ru-a-gem", "car-rua-gem", "carru-a-gem", "carru-agem"],
-      "answer": "car-ru-a-gem"
-    },
-    {
-      "id": 229,
-      "question": "A palavra 'brilhante' pertence a qual grupo? (p.184)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Trissílaba"
-    },
-    {
-      "id": 230,
-      "question": "A palavra 'princesa' foi separada corretamente como: (p.184)",
-      "options": ["prin-ce-sa", "princ-e-sa", "pri-nces-a", "pri-nce-sa"],
-      "answer": "prin-ce-sa"
-    },
-    {
-      "id": 231,
-      "question": "A palavra 'floresta' foi dividida em: (p.184)",
-      "options": ["flo-res-ta", "flor-es-ta", "flo-re-sta", "flor-e-sta"],
-      "answer": "flo-res-ta"
-    },
-    {
-      "id": 232,
-      "question": "A palavra 'encantada' está corretamente separada em: (p.184)",
-      "options": ["en-can-ta-da", "enca-nta-da", "enc-ant-ada", "en-cant-ada"],
-      "answer": "en-can-ta-da"
-    },
-    {
-      "id": 233,
-      "question": "A palavra 'rainha' possui quantas sílabas? (p.184)",
-      "options": ["2", "3", "4", "5"],
-      "answer": "3"
-    },
-    {
-      "id": 234,
-      "question": "Qual das palavras abaixo é trissílaba? (p.184)",
-      "options": ["dom", "espelho", "princesa", "pé"],
-      "answer": "espelho"
-    },
-    {
-      "id": 235,
-      "question": "Qual das palavras abaixo é polissílaba? (p.184)",
-      "options": ["pão", "espirro", "lancheonete", "pé"],
-      "answer": "lancheonete"
-    },
-    {
-      "id": 236,
-      "question": "A palavra 'uma' deve ser classificada como: (p.184)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Dissílaba"
-    },
-    {
-      "id": 237,
-      "question": "A palavra 'sim' pertence a qual grupo? (p.184)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Monossílaba"
-    },
-    {
-      "id": 238,
-      "question": "A palavra 'sabonete' tem quantas sílabas? (p.184)",
-      "options": ["2", "3", "4", "5"],
-      "answer": "4"
-    },
-    {
-      "id": 239,
-      "question": "A palavra 'inteligente' foi corretamente separada como: (p.184)",
-      "options": ["in-te-li-gen-te", "int-e-lig-en-te", "inte-ligen-te", "inteli-gen-te"],
-      "answer": "in-te-li-gen-te"
-    },
-    {
-      "id": 240,
-      "question": "Qual é a classificação da palavra 'esfirro'? (p.184)",
-      "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
-      "answer": "Trissílaba"
-    }
-  ]
-}
+[
+  {
+    "type": "multiple-choice",
+    "question": "Qual é o nome dado a cada pedacinho de palavra pronunciado separadamente? (p.164)",
+    "options": ["Vogal", "Sílaba", "Letra", "Consoante"],
+    "correctAnswer": "Sílaba",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'fadas' tem quantas sílabas? (p.164)",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": "2",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Complete: A palavra 'príncipe' tem ___ sílabas. (p.164)",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "3",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'castelo' foi dividida corretamente como: (p.164)",
+    "options": ["cas-te-lo", "cast-e-lo", "ca-ste-lo", "cas-tel-o"],
+    "correctAnswer": "cas-te-lo",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'flor' pertence a qual grupo? (p.164)",
+    "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Monossílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'crianças' foi separada corretamente como: (p.164)",
+    "options": ["cri-an-ças", "crian-ças", "crian-ça-s", "cri-a-nças"],
+    "correctAnswer": "cri-an-ças",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'mágicos' tem quantas sílabas? (p.164)",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "3",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'ilha' foi dividida corretamente em: (p.164)",
+    "options": ["i-lha", "ilh-a", "il-ha", "i-lh-a"],
+    "correctAnswer": "i-lha",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'irmãs' possui: (p.164)",
+    "options": ["1 sílaba", "2 sílabas", "3 sílabas", "4 sílabas"],
+    "correctAnswer": "2 sílabas",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'feitiçeira' tem quantas sílabas? (p.164)",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "4",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'dom' não foi separada porque: (p.164)",
+    "options": ["É verbo", "É substantivo", "É monossílaba", "Tem ditongo"],
+    "correctAnswer": "É monossílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra abaixo é polissílaba? (p.164)",
+    "options": ["ilha", "mágicos", "dom", "feitiçeira"],
+    "correctAnswer": "feitiçeira",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual palavra é dissílaba? (p.164)",
+    "options": ["dom", "irmãs", "crianças", "feitiçeira"],
+    "correctAnswer": "irmãs",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'mágicos' pertence a qual grupo? (p.164)",
+    "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Trissílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Complete: 'dom' é um exemplo de ___. (p.164)",
+    "options": ["Dissílaba", "Monossílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Monossílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'serra' tem quantas sílabas? (p.184)",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": "2",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'arara' pertence a qual grupo? (p.184)",
+    "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Trissílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'chiclete' tem quantas sílabas? (p.184)",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "3",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'lancheonete' deve ser classificada como: (p.184)",
+    "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Polissílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'inteligente' possui: (p.184)",
+    "options": ["2 sílabas", "3 sílabas", "4 sílabas", "5 sílabas"],
+    "correctAnswer": "5 sílabas",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual destas palavras é monossílaba? (p.184)",
+    "options": ["espirro", "pé", "chiclete", "lancheonete"],
+    "correctAnswer": "pé",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'espirro' pertence a qual grupo? (p.184)",
+    "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Trissílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'sabão' possui quantas sílabas? (p.184)",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": "2",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Complete: 'pé', 'pão' e 'sim' são exemplos de ___. (p.184)",
+    "options": ["Trissílabos", "Polissílabos", "Monossílabos", "Dissílabos"],
+    "correctAnswer": "Monossílabos",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'osso' foi classificada como: (p.184)",
+    "options": ["Dissílaba", "Trissílaba", "Monossílaba", "Polissílaba"],
+    "correctAnswer": "Dissílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'espelho' está corretamente separada como: (p.184)",
+    "options": ["es-pe-lho", "esp-elho", "espe-lho", "es-pel-ho"],
+    "correctAnswer": "es-pe-lho",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'passado' deve ser separada corretamente como: (p.184)",
+    "options": ["pa-ssa-do", "pas-sa-do", "pasa-do", "p-assado"],
+    "correctAnswer": "pas-sa-do",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'carruagem' foi separada incorretamente como 'ca-rru-a-gem'. Qual é a forma correta? (p.184)",
+    "options": ["car-ru-a-gem", "car-rua-gem", "carru-a-gem", "carru-agem"],
+    "correctAnswer": "car-ru-a-gem",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'brilhante' pertence a qual grupo? (p.184)",
+    "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Trissílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'princesa' foi separada corretamente como: (p.184)",
+    "options": ["prin-ce-sa", "princ-e-sa", "pri-nces-a", "pri-nce-sa"],
+    "correctAnswer": "prin-ce-sa",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'floresta' foi dividida em: (p.184)",
+    "options": ["flo-res-ta", "flor-es-ta", "flo-re-sta", "flor-e-sta"],
+    "correctAnswer": "flo-res-ta",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'encantada' está corretamente separada em: (p.184)",
+    "options": ["en-can-ta-da", "enca-nta-da", "enc-ant-ada", "en-cant-ada"],
+    "correctAnswer": "en-can-ta-da",
+    "topic": "Separação Silábica"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'rainha' possui quantas sílabas? (p.184)",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "3",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual das palavras abaixo é trissílaba? (p.184)",
+    "options": ["dom", "espelho", "princesa", "pé"],
+    "correctAnswer": "espelho",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Qual das palavras abaixo é polissílaba? (p.184)",
+    "options": ["pão", "espirro", "lancheonete", "pé"],
+    "correctAnswer": "lancheonete",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'uma' deve ser classificada como: (p.184)",
+    "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Dissílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'sim' pertence a qual grupo? (p.184)",
+    "options": ["Monossílaba", "Dissílaba", "Trissílaba", "Polissílaba"],
+    "correctAnswer": "Monossílaba",
+    "topic": "Classificação das Palavras"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'sabonete' tem quantas sílabas? (p.184)",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": "4",
+    "topic": "Sílabas"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "A palavra 'inteligente' foi corretamente separada como: (p.184)",
+    "options": ["in-te-li-gen-te", "int-e-lig-en-te", "inte-ligen-te", "inteli-gen-te"],
+    "correctAnswer": "in-te-li-gen-te",
+    "topic": "Separação Silábica"
+  }
+]
