@@ -2,255 +2,423 @@
   "questions": [
     {
       "type": "multiple-choice",
-      "question": "Complete: ca__inha (derivado de “casa”). Qual é a forma correta? (p.30)",
-      "options": ["casinha", "cazinha", "cassinha", "caçinha"],
-      "correctAnswer": "casinha",
-      "topic": "Ortografia S/Z"
+      "question": "Cada família tem uma história própria. O que influencia essa história? (p.62)",
+      "options": ["Apenas a escola", "O lugar de origem e o tempo em que se vive", "Somente a televisão", "Apenas os avós"],
+      "correctAnswer": "O lugar de origem e o tempo em que se vive",
+      "topic": "História - Cultura e família"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual derivado de “feliz” está correto? (p.30)",
-      "options": ["felismente", "felizmente", "felissmente", "feliçmente"],
-      "correctAnswer": "felizmente",
-      "topic": "Ortografia S/Z"
+      "question": "O que muda de acordo com o tempo e o lugar? (p.62)",
+      "options": ["Os esportes", "A cultura", "A cor da pele", "As frutas"],
+      "correctAnswer": "A cultura",
+      "topic": "História - Cultura e família"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual derivado de “lápis” está correto? (p.30)",
-      "options": ["lapizeira", "lapiseira", "lapiçeira", "lapißeira"],
-      "correctAnswer": "lapiseira",
-      "topic": "Ortografia S/Z"
+      "question": "Qual prato é comum nas famílias brasileiras? (p.62)",
+      "options": ["Pizza e hambúrguer", "Arroz com feijão", "Sushi e macarrão", "Batata frita"],
+      "correctAnswer": "Arroz com feijão",
+      "topic": "História - Hábitos alimentares"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual derivado de “rosa” está correto? (p.30)",
-      "options": ["rozeira", "roseira", "roceira", "rozeyra"],
-      "correctAnswer": "roseira",
-      "topic": "Ortografia S/Z"
+      "question": "Na Índia, é comum as mulheres usarem qual roupa? (p.62)",
+      "options": ["Kimono", "Vestido longo", "Sari", "Túnica"],
+      "correctAnswer": "Sari",
+      "topic": "História - Costumes pelo mundo"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual grafia está correta? (p.36)",
-      "options": ["belesa", "beleza", "belêza", "belezza"],
-      "correctAnswer": "beleza",
-      "topic": "Ortografia S/Z"
+      "question": "Na Escócia, é comum os homens usarem: (p.62)",
+      "options": ["Calça jeans", "Kilt", "Toga", "Bata"],
+      "correctAnswer": "Kilt",
+      "topic": "História - Costumes pelo mundo"
     },
     {
       "type": "multiple-choice",
-      "question": "Para manter o som de /s/ entre vogais, usa-se: (p.31)",
-      "options": ["s", "z", "ss", "ç"],
-      "correctAnswer": "ss",
-      "topic": "Uso de SS"
+      "question": "Cada família possui uma cultura própria chamada de: (p.64)",
+      "options": ["Cultura geral", "Cultura familiar", "Cultura nacional", "Cultura escolar"],
+      "correctAnswer": "Cultura familiar",
+      "topic": "História - Cultura e família"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual grafia está correta? (p.31)",
-      "options": ["pasaro", "pássaro", "pazaro", "paçaro"],
-      "correctAnswer": "pássaro",
-      "topic": "Uso de SS"
+      "question": "O que forma a tradição da família? (p.64)",
+      "options": ["Apenas a religião", "Hábitos e costumes ligados à forma de viver", "O bairro onde mora", "As viagens"],
+      "correctAnswer": "Hábitos e costumes ligados à forma de viver",
+      "topic": "História - Tradições"
     },
     {
       "type": "multiple-choice",
-      "question": "Complete: ma__a (som de /s/ entre vogais). (p.31)",
-      "options": ["maza", "maça", "massa", "mazza"],
-      "correctAnswer": "massa",
-      "topic": "Uso de SS"
+      "question": "O que pode ser comparado a um tesouro dentro da família? (p.64)",
+      "options": ["Dinheiro", "Valores familiares", "Brinquedos", "Casas"],
+      "correctAnswer": "Valores familiares",
+      "topic": "História - Valores"
     },
     {
       "type": "multiple-choice",
-      "question": "Em qual opção o uso de SS está correto? (p.31)",
-      "options": ["preço", "pressa", "paseio", "cozer"],
-      "correctAnswer": "pressa",
-      "topic": "Uso de SS"
+      "question": "Qual é um exemplo de valor familiar? (p.65)",
+      "options": ["Respeito", "Lavar roupas", "Comer doce", "Jogar videogame"],
+      "correctAnswer": "Respeito",
+      "topic": "História - Valores"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual grafia está correta? (p.31)",
-      "options": ["paseio", "passeio", "paçeio", "pazzeio"],
-      "correctAnswer": "passeio",
-      "topic": "Uso de SS"
+      "question": "Os valores familiares influenciam: (p.65)",
+      "options": ["Os jogos da família", "As regras, os hábitos e a história", "As compras", "As brincadeiras"],
+      "correctAnswer": "As regras, os hábitos e a história",
+      "topic": "História - Valores"
     },
     {
       "type": "multiple-choice",
-      "question": "Paródia é: (p.20)",
-      "options": ["um conto de fadas", "uma imitação engraçada ou crítica de uma obra conhecida", "um tipo de rima", "apenas um poema"],
-      "correctAnswer": "uma imitação engraçada ou crítica de uma obra conhecida",
-      "topic": "Paródia"
+      "question": "Dentro da família, cada membro tem suas: (p.71)",
+      "options": ["Viagens", "Responsabilidades", "Brincadeiras", "Casas"],
+      "correctAnswer": "Responsabilidades",
+      "topic": "História - Papéis na família"
     },
     {
       "type": "multiple-choice",
-      "question": "Reescrever uma música famosa trocando palavras para ficar engraçada é um exemplo de: (p.20)",
-      "options": ["resumo", "paródia", "rima", "notícia"],
-      "correctAnswer": "paródia",
-      "topic": "Paródia"
+      "question": "Quem geralmente paga as contas da família? (p.71)",
+      "options": ["Crianças", "Animais de estimação", "Adultos", "Professores"],
+      "correctAnswer": "Adultos",
+      "topic": "História - Papéis na família"
     },
     {
       "type": "multiple-choice",
-      "question": "Um verbete de dicionário costuma trazer: (p.20)",
-      "options": ["apenas fotos", "definição e, às vezes, exemplos", "somente sinônimos", "um capítulo de história"],
-      "correctAnswer": "definição e, às vezes, exemplos",
-      "topic": "Paródia"
+      "question": "As crianças ajudam na família quando: (p.71)",
+      "options": ["Fazem birra", "Ajudam a organizar o espaço", "Dormem cedo", "Vão para a escola"],
+      "correctAnswer": "Ajudam a organizar o espaço",
+      "topic": "História - Papéis na família"
     },
     {
       "type": "multiple-choice",
-      "question": "Complete: Paródia pode ser uma imitação ______ de uma obra conhecida. (p.20)",
-      "options": ["engraçada", "científica", "matemática", "silenciosa"],
-      "correctAnswer": "engraçada",
-      "topic": "Paródia"
+      "question": "O que também faz parte da cultura familiar? (p.72)",
+      "options": ["Regras", "Compras", "Brincadeiras", "Festas"],
+      "correctAnswer": "Regras",
+      "topic": "História - Regras e deveres"
     },
     {
       "type": "multiple-choice",
-      "question": "Passe para o plural: “A pizza é de lombinho.” (p.23)",
-      "options": ["As pizza são de lombinho.", "As pizzas são de lombinho.", "As pizzas é de lombinho.", "A pizzas são de lombinho."],
-      "correctAnswer": "As pizzas são de lombinho.",
-      "topic": "Singular e Plural"
+      "question": "As regras garantem em casa: (p.72)",
+      "options": ["Mais bagunça", "A manutenção dos espaços", "Menos higiene", "Férias"],
+      "correctAnswer": "A manutenção dos espaços",
+      "topic": "História - Regras e deveres"
     },
     {
       "type": "multiple-choice",
-      "question": "Passe para o singular: “As irmãs de Hugo fizeram ele chorar.” (p.37)",
-      "options": ["A irmã de Hugo fizeram ele chorar.", "A irmã de Hugo fez ele chorar.", "A irmãs de Hugo fez ele chorar.", "A irmã do Hugo fazeram ele chorar."],
-      "correctAnswer": "A irmã de Hugo fez ele chorar.",
-      "topic": "Singular e Plural"
+      "question": "Qual é um exemplo de regra em casa? (p.72)",
+      "options": ["Comer doces antes do almoço", "Arrumar os brinquedos", "Dormir tarde todos os dias", "Nunca tomar banho"],
+      "correctAnswer": "Arrumar os brinquedos",
+      "topic": "História - Regras e deveres"
     },
     {
       "type": "multiple-choice",
-      "question": "Passe para o plural: “O presente que ganhei é muito legal.” (p.37)",
-      "options": ["Os presente que ganhei são muito legal.", "Os presentes que ganhei são muito legais.", "Os presentes que ganhei é muito legais.", "Os presente que ganhei são muito legais."],
-      "correctAnswer": "Os presentes que ganhei são muito legais.",
-      "topic": "Singular e Plural"
+      "question": "Cada família tem sua própria: (p.74)",
+      "options": ["Rua", "Rotina", "Escola", "Praça"],
+      "correctAnswer": "Rotina",
+      "topic": "História - Rotina e lazer"
     },
     {
       "type": "multiple-choice",
-      "question": "Escolha a frase no plural corretamente escrita: “O bolo é gostoso.” (p.23)",
-      "options": ["Os bolo são gostoso.", "Os bolos são gostosos.", "Os bolos é gostoso.", "Os bolo é gostosos."],
-      "correctAnswer": "Os bolos são gostosos.",
-      "topic": "Singular e Plural"
+      "question": "Antes era comum jantar em família e depois: (p.74)",
+      "options": ["Dormir cedo", "Ir ao cinema", "Ver televisão juntos", "Brincar na rua"],
+      "correctAnswer": "Ver televisão juntos",
+      "topic": "História - Rotina e lazer"
     },
     {
       "type": "multiple-choice",
-      "question": "Passe para o plural: “A flor é amarela.” (p.23)",
-      "options": ["As flor são amarela.", "As flores são amarelas.", "As flores são amarela.", "As flor é amarelas."],
-      "correctAnswer": "As flores são amarelas.",
-      "topic": "Singular e Plural"
+      "question": "Com o passar do tempo, variam: (p.74)",
+      "options": ["Idade dos avós", "Regras e rotinas", "Comidas preferidas", "Filmes"],
+      "correctAnswer": "Regras e rotinas",
+      "topic": "História - Mudanças no tempo"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual sinal usamos para fazer perguntas? (p.13)",
-      "options": [".", "!", "?", ":"],
-      "correctAnswer": "?",
-      "topic": "Pontuação"
+      "question": "No passado, quem cuidava das tarefas domésticas? (p.88)",
+      "options": ["Homens", "Mulheres", "Crianças", "Avós"],
+      "correctAnswer": "Mulheres",
+      "topic": "História - Papéis antigos"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual sinal expressa surpresa ou emoção forte? (p.12)",
-      "options": ["?", ".", "!", ":"],
-      "correctAnswer": "!",
-      "topic": "Pontuação"
+      "question": "Aos homens cabia principalmente: (p.88)",
+      "options": ["Lavar a louça", "Sustentar a família e administrar dinheiro", "Cuidar dos bebês", "Costurar roupas"],
+      "correctAnswer": "Sustentar a família e administrar dinheiro",
+      "topic": "História - Papéis antigos"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual sinal encerra frases afirmativas? (p.13)",
-      "options": ["!", ":", ".", "?"],
-      "correctAnswer": ".",
-      "topic": "Pontuação"
+      "question": "Em Atenas, na Grécia Antiga, quem controlava a família? (p.89)",
+      "options": ["O pai", "A mãe", "Os filhos", "O avô"],
+      "correctAnswer": "O pai",
+      "topic": "História - Grécia Antiga"
     },
     {
       "type": "multiple-choice",
-      "question": "Depois do verbo “disse”, qual sinal pode introduzir a fala de um personagem? (p.13)",
-      "options": ["!", "?", ":", ";"],
-      "correctAnswer": ":",
-      "topic": "Pontuação"
+      "question": "Na Grécia Antiga, quem não podia ter propriedades? (p.89)",
+      "options": ["Os homens", "As mulheres", "Os meninos", "Os reis"],
+      "correctAnswer": "As mulheres",
+      "topic": "História - Grécia Antiga"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual sinal é usado para indicar uma pausa maior dentro de frases? (p.12)",
-      "options": [",", ".", "?", "!"],
-      "correctAnswer": ",",
-      "topic": "Pontuação"
+      "question": "Quem recebia educação formal na Grécia Antiga? (p.89)",
+      "options": ["Meninas", "Meninos", "Mulheres", "Escravizados"],
+      "correctAnswer": "Meninos",
+      "topic": "História - Grécia Antiga"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual sinal usamos para indicar continuação de pensamento ou suspensão da fala? (p.12)",
-      "options": [".", "...", ":", ";"],
-      "correctAnswer": "...",
-      "topic": "Pontuação"
+      "question": "Hoje é mais comum: (p.91)",
+      "options": ["Mulheres ficarem apenas em casa", "Homens cuidarem sozinhos dos filhos", "Mulheres trabalharem fora e homens ajudarem em casa", "Crianças trabalharem"],
+      "correctAnswer": "Mulheres trabalharem fora e homens ajudarem em casa",
+      "topic": "História - Famílias atuais"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual frase está corretamente pontuada? (p.12)",
-      "options": ["Onde você vai.", "Onde você vai?", "Onde você vai!", "Onde você vai:"],
-      "correctAnswer": "Onde você vai?",
-      "topic": "Pontuação"
+      "question": "Hoje o número de filhos costuma ser: (p.91)",
+      "options": ["Maior que antes", "Igual ao passado", "Menor que antes", "Não mudou"],
+      "correctAnswer": "Menor que antes",
+      "topic": "História - Famílias atuais"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual frase expressa surpresa corretamente? (p.12)",
-      "options": ["Que susto?", "Que susto!", "Que susto.", "Que susto:"],
-      "correctAnswer": "Que susto!",
-      "topic": "Pontuação"
+      "question": "Pode haver famílias chefiadas por: (p.91)",
+      "options": ["Apenas o pai", "Apenas os avós", "Apenas a mãe", "Apenas o tio"],
+      "correctAnswer": "Apenas a mãe",
+      "topic": "História - Famílias atuais"
     },
     {
       "type": "multiple-choice",
-      "question": "Complete: Quando queremos mostrar uma lista, usamos o sinal de ______ (p.13)",
-      "options": [".", ":", "?", "!"],
-      "correctAnswer": ":",
-      "topic": "Pontuação"
+      "question": "Conhecer a origem da família é: (p.96)",
+      "options": ["Pouco importante", "Fundamental para construir a história familiar", "Somente para os avós", "Apenas curiosidade"],
+      "correctAnswer": "Fundamental para construir a história familiar",
+      "topic": "História - Memória da família"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual frase está no plural corretamente? (p.23)",
-      "options": ["Os meninos são alegres.", "Os menino são alegres.", "O meninos são alegre.", "Os meninos é alegre."],
-      "correctAnswer": "Os meninos são alegres.",
-      "topic": "Singular e Plural"
+      "question": "Qual é um vestígio da infância guardado por famílias? (p.97)",
+      "options": ["Chocolate", "Roupa do batizado ou primeiro dente que caiu", "Caderno novo", "Brinquedo atual"],
+      "correctAnswer": "Roupa do batizado ou primeiro dente que caiu",
+      "topic": "História - Fontes históricas"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual frase está no singular corretamente? (p.23)",
-      "options": ["As meninas é felizes.", "A menina é feliz.", "A meninas são feliz.", "As menina é feliz."],
-      "correctAnswer": "A menina é feliz.",
-      "topic": "Singular e Plural"
+      "question": "As fotografias ajudam porque: (p.97)",
+      "options": ["Custam caro", "Ajudam a lembrar do passado", "São coloridas", "São modernas"],
+      "correctAnswer": "Ajudam a lembrar do passado",
+      "topic": "História - Fontes históricas"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual é a forma correta no plural de “nariz”? (p.23)",
-      "options": ["narizes", "narizs", "nariz", "narizis"],
-      "correctAnswer": "narizes",
-      "topic": "Singular e Plural"
+      "question": "Objeto usado para assistir filmes antigamente: (p.98)",
+      "options": ["DVD", "VHS (fita de vídeo)", "Celular", "Pen drive"],
+      "correctAnswer": "VHS (fita de vídeo)",
+      "topic": "História - Objetos antigos"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual é a forma correta no plural de “flor”? (p.23)",
-      "options": ["flores", "flors", "florez", "floris"],
-      "correctAnswer": "flores",
-      "topic": "Singular e Plural"
+      "question": "Objeto que perdeu espaço com o computador: (p.98)",
+      "options": ["Lousa", "Máquina de escrever", "Quadro", "Caderno"],
+      "correctAnswer": "Máquina de escrever",
+      "topic": "História - Objetos antigos"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual palavra é derivada corretamente com S/Z? (p.30)",
-      "options": ["narizeira", "florezeira", "camiseta", "camiçeta"],
-      "correctAnswer": "camiseta",
-      "topic": "Ortografia S/Z"
+      "question": "O sobrenome identifica: (p.105)",
+      "options": ["O bairro", "A família à qual pertencemos", "A escola", "A cidade"],
+      "correctAnswer": "A família à qual pertencemos",
+      "topic": "História - Sobrenomes"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual é o plural correto de “arroz”? (p.23)",
-      "options": ["arrozes", "arrozeses", "arroiz", "arros"],
-      "correctAnswer": "arrozes",
-      "topic": "Singular e Plural"
+      "question": "No Brasil, muitos sobrenomes vieram de: (p.105)",
+      "options": ["Japão", "Portugal", "Itália", "África"],
+      "correctAnswer": "Portugal",
+      "topic": "História - Sobrenomes"
     },
     {
       "type": "multiple-choice",
-      "question": "Complete: O plural de “pão” é ______ (p.23)",
-      "options": ["pãos", "pães", "paões", "pãoses"],
-      "correctAnswer": "pães",
-      "topic": "Singular e Plural"
+      "question": "Um sobrenome pode indicar: (p.105)",
+      "options": ["Apenas profissão", "Origem, cidade ou características", "Animal de estimação", "Time de futebol"],
+      "correctAnswer": "Origem, cidade ou características",
+      "topic": "História - Sobrenomes"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual frase está com pontuação incorreta? (p.13)",
-      "options": ["Hoje está calor.", "Hoje está calor!", "Hoje está calor?", "Hoje está calor:"],
-      "correctAnswer": "Hoje está calor:",
-      "topic": "Pontuação"
+      "question": "A família é o primeiro: (p.68)",
+      "options": ["Grupo social", "Trabalho", "Bairro", "Clube"],
+      "correctAnswer": "Grupo social",
+      "topic": "Geografia - Grupos sociais"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Valores importantes nos grupos sociais: (p.68)",
+      "options": ["Alegria e diversão", "Honestidade e respeito", "Brincadeira e silêncio", "Força e coragem"],
+      "correctAnswer": "Honestidade e respeito",
+      "topic": "Geografia - Convivência"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Família natural é formada por: (p.70)",
+      "options": ["Avós, pais e tios", "Pai, mãe e filhos", "Somente irmãos", "Apenas primos"],
+      "correctAnswer": "Pai, mãe e filhos",
+      "topic": "Geografia - Tipos de família"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Família extensa inclui: (p.70)",
+      "options": ["Apenas os pais", "Avós, tios e primos", "Apenas irmãos", "Somente vizinhos"],
+      "correctAnswer": "Avós, tios e primos",
+      "topic": "Geografia - Tipos de família"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Famílias recompostas surgem quando: (p.70)",
+      "options": ["Os avós criam os netos", "Os pais se separam e formam novas famílias", "Os filhos cuidam dos pais", "Os irmãos moram juntos"],
+      "correctAnswer": "Os pais se separam e formam novas famílias",
+      "topic": "Geografia - Tipos de família"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Família substituta cuida de: (p.70)",
+      "options": ["Animais de rua", "Crianças sem cuidados dos pais biológicos", "Amigos da escola", "Vizinhos"],
+      "correctAnswer": "Crianças sem cuidados dos pais biológicos",
+      "topic": "Geografia - Tipos de família"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Casais que adotam crianças formam: (p.70)",
+      "options": ["Família substituta", "Família adotiva", "Família extensa", "Família natural"],
+      "correctAnswer": "Família adotiva",
+      "topic": "Geografia - Tipos de família"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O Brasil é um país de grande: (p.76)",
+      "options": ["Diversão", "Contraste social", "Igualdade", "Tamanho"],
+      "correctAnswer": "Contraste social",
+      "topic": "Geografia - Condições sociais"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Muitas famílias vivem em condições: (p.76)",
+      "options": ["Precárias", "Ricas", "Confortáveis", "Modernas"],
+      "correctAnswer": "Precárias",
+      "topic": "Geografia - Condições sociais"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "No Sul do Brasil, muitas famílias descendem de: (p.78)",
+      "options": ["Chineses e japoneses", "Alemães e italianos", "Ingleses e franceses", "Índios e africanos"],
+      "correctAnswer": "Alemães e italianos",
+      "topic": "Geografia - Diversidade cultural"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Na China, as famílias costumam ter: (p.79)",
+      "options": ["Muitos filhos", "Apenas um filho", "Dois filhos", "Nenhum filho"],
+      "correctAnswer": "Apenas um filho",
+      "topic": "Geografia - Famílias pelo mundo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Em Angola e Índia, as famílias costumam ter: (p.79)",
+      "options": ["Um filho", "Dois filhos", "Entre seis e doze membros", "Nenhum filho"],
+      "correctAnswer": "Entre seis e doze membros",
+      "topic": "Geografia - Famílias pelo mundo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Na Índia, celebra-se: (p.79)",
+      "options": ["O primeiro corte de cabelo", "O dia da escola", "O jogo de futebol", "A prova de matemática"],
+      "correctAnswer": "O primeiro corte de cabelo",
+      "topic": "Geografia - Costumes pelo mundo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bairros movimentados têm: (p.94)",
+      "options": ["Poucas lojas", "Trânsito intenso e muitos comércios", "Apenas casas", "Muitas árvores"],
+      "correctAnswer": "Trânsito intenso e muitos comércios",
+      "topic": "Geografia - Tipos de bairros"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Um bairro residencial é: (p.94)",
+      "options": ["Com muitas indústrias", "Com casas e ruas tranquilas", "Apenas de comércio", "Apenas de escolas"],
+      "correctAnswer": "Com casas e ruas tranquilas",
+      "topic": "Geografia - Tipos de bairros"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bairro industrial possui: (p.94)",
+      "options": ["Indústrias", "Praças", "Hotéis", "Hospitais"],
+      "correctAnswer": "Indústrias",
+      "topic": "Geografia - Tipos de bairros"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Quarteirão é: (p.97)",
+      "options": ["Uma casa", "Conjunto de construções cercado por vias públicas", "Uma praça", "Uma rua grande"],
+      "correctAnswer": "Conjunto de construções cercado por vias públicas",
+      "topic": "Geografia - Vias e espaços"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Alameda é: (p.97)",
+      "options": ["Rua estreita", "Via arborizada", "Beco", "Avenida larga"],
+      "correctAnswer": "Via arborizada",
+      "topic": "Geografia - Vias e espaços"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Viela geralmente não possui: (p.97)",
+      "options": ["Calçamento, luz e esgoto", "Casas", "Crianças", "Pessoas"],
+      "correctAnswer": "Calçamento, luz e esgoto",
+      "topic": "Geografia - Vias e espaços"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Beco é uma via: (p.97)",
+      "options": ["Muito larga", "Estreita, com pouca ou nenhuma circulação de veículos", "Muito arborizada", "De trânsito intenso"],
+      "correctAnswer": "Estreita, com pouca ou nenhuma circulação de veículos",
+      "topic": "Geografia - Vias e espaços"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bairros podem ser: (p.98)",
+      "options": ["Urbanos ou rurais", "Antigos ou novos", "Grandes ou pequenos", "Simples ou modernos"],
+      "correctAnswer": "Urbanos ou rurais",
+      "topic": "Geografia - Paisagens do bairro"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bairros urbanos possuem mais: (p.99)",
+      "options": ["Elementos naturais", "Elementos humanizados (casas, ruas, prédios)", "Animais", "Fazendas"],
+      "correctAnswer": "Elementos humanizados (casas, ruas, prédios)",
+      "topic": "Geografia - Paisagens do bairro"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Bairros rurais têm mais: (p.99)",
+      "options": ["Prédios altos", "Indústrias", "Elementos naturais, como rios e plantações", "Shopping centers"],
+      "correctAnswer": "Elementos naturais, como rios e plantações",
+      "topic": "Geografia - Paisagens do bairro"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Um endereço completo precisa ter: (p.104)",
+      "options": ["Apenas o nome da rua", "Nome da rua, número, bairro, cidade, estado e CEP", "Apenas a cidade", "Apenas o bairro"],
+      "correctAnswer": "Nome da rua, número, bairro, cidade, estado e CEP",
+      "topic": "Geografia - Localização no bairro"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O que ajuda a localizar um endereço? (p.104)",
+      "options": ["Brinquedos", "Pontos de referência", "Animais", "Brincadeiras"],
+      "correctAnswer": "Pontos de referência",
+      "topic": "Geografia - Localização no bairro"
     }
   ]
 }
