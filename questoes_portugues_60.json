@@ -1,752 +1,340 @@
 {
-    "questions": [
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'bravo':",
-            "options": [
-                "Feliz",
-                "Nervoso",
-                "Calmo",
-                "Sorridente"
-            ],
-            "correctAnswer": "Nervoso",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'bonito':",
-            "options": [
-                "Feio",
-                "Horrível",
-                "Lindo",
-                "Triste"
-            ],
-            "correctAnswer": "Lindo",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'barulhento':",
-            "options": [
-                "Silencioso",
-                "Calado",
-                "Ruidoso",
-                "Quieto"
-            ],
-            "correctAnswer": "Ruidoso",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'esperto':",
-            "options": [
-                "Bobo",
-                "Inteligente",
-                "Lento",
-                "Desatento"
-            ],
-            "correctAnswer": "Inteligente",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'rápido':",
-            "options": [
-                "Veloz",
-                "Devagar",
-                "Parado",
-                "Calmo"
-            ],
-            "correctAnswer": "Veloz",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'forte':",
-            "options": [
-                "Fraco",
-                "Magro",
-                "Robusto",
-                "Mole"
-            ],
-            "correctAnswer": "Robusto",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'triste':",
-            "options": [
-                "Feliz",
-                "Sorrindo",
-                "Chateado",
-                "Animado"
-            ],
-            "correctAnswer": "Chateado",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'feliz':",
-            "options": [
-                "Triste",
-                "Bravo",
-                "Contente",
-                "Desanimado"
-            ],
-            "correctAnswer": "Contente",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'grande':",
-            "options": [
-                "Pequeno",
-                "Enorme",
-                "Curto",
-                "Magro"
-            ],
-            "correctAnswer": "Enorme",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'alegre':",
-            "options": [
-                "Triste",
-                "Contente",
-                "Bravo",
-                "Cansado"
-            ],
-            "correctAnswer": "Contente",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'claro':",
-            "options": [
-                "Escuro",
-                "Branco",
-                "Luz",
-                "Iluminado"
-            ],
-            "correctAnswer": "Escuro",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'forte':",
-            "options": [
-                "Fraco",
-                "Pesado",
-                "Robusto",
-                "Grande"
-            ],
-            "correctAnswer": "Fraco",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'feliz':",
-            "options": [
-                "Infeliz",
-                "Satisfeito",
-                "Animado",
-                "Contente"
-            ],
-            "correctAnswer": "Infeliz",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'feliz':",
-            "options": [
-                "Alegre",
-                "Triste",
-                "Contente",
-                "Sorrindo"
-            ],
-            "correctAnswer": "Triste",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'calmo':",
-            "options": [
-                "Nervoso",
-                "Tranquilo",
-                "Quieto",
-                "Sossegado"
-            ],
-            "correctAnswer": "Nervoso",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'limpo':",
-            "options": [
-                "Sujo",
-                "Branco",
-                "Claro",
-                "Cheiroso"
-            ],
-            "correctAnswer": "Sujo",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'grande':",
-            "options": [
-                "Gigante",
-                "Pequeno",
-                "Enorme",
-                "Alto"
-            ],
-            "correctAnswer": "Pequeno",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'rápido':",
-            "options": [
-                "Veloz",
-                "Devagar",
-                "Ágil",
-                "Esperto"
-            ],
-            "correctAnswer": "Devagar",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'bom':",
-            "options": [
-                "Ótimo",
-                "Bom",
-                "Ruim",
-                "Legal"
-            ],
-            "correctAnswer": "Ruim",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'cheio':",
-            "options": [
-                "Vazio",
-                "Completo",
-                "Total",
-                "Inteiro"
-            ],
-            "correctAnswer": "Vazio",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'ca__po' deve ser completada com:",
-            "options": [
-                "M",
-                "N"
-            ],
-            "correctAnswer": "M",
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'bo__ba' deve ser completada com:",
-            "options": [
-                "M",
-                "N"
-            ],
-            "correctAnswer": "M",
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'ca__tar' deve ser completada com:",
-            "options": [
-                "M",
-                "N"
-            ],
-            "correctAnswer": "N",
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'ta__bor' deve ser completada com:",
-            "options": [
-                "M",
-                "N"
-            ],
-            "correctAnswer": "M",
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'ca__po' deve ser completada com:",
-            "options": [
-                "M",
-                "N"
-            ],
-            "correctAnswer": "M",
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'bo__ba' deve ser completada com:",
-            "options": [
-                "M",
-                "N"
-            ],
-            "correctAnswer": "M",
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'ca__tar' deve ser completada com:",
-            "options": [
-                "M",
-                "N"
-            ],
-            "correctAnswer": "N",
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'ta__bor' deve ser completada com:",
-            "options": [
-                "M",
-                "N"
-            ],
-            "correctAnswer": "M",
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'ca__oça' deve ser completada com:",
-            "options": [
-                "r",
-                "rr"
-            ],
-            "correctAnswer": "rr",
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "complete",
-            "question": "Na palavra 'pa__eira' usamos:",
-            "options": [
-                "r",
-                "rr"
-            ],
-            "correctAnswer": "rr",
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'pa__ar' deve ser completada com:",
-            "options": [
-                "r",
-                "rr"
-            ],
-            "correctAnswer": "r",
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "complete",
-            "question": "Complete: co__er (significa correr).",
-            "options": [
-                "r",
-                "rr"
-            ],
-            "correctAnswer": "rr",
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'ca__oça' deve ser completada com:",
-            "options": [
-                "r",
-                "rr"
-            ],
-            "correctAnswer": "rr",
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "complete",
-            "question": "Na palavra 'pa__eira' usamos:",
-            "options": [
-                "r",
-                "rr"
-            ],
-            "correctAnswer": "rr",
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "complete",
-            "question": "A palavra 'pa__ar' deve ser completada com:",
-            "options": [
-                "r",
-                "rr"
-            ],
-            "correctAnswer": "r",
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "complete",
-            "question": "Complete: co__er (significa correr).",
-            "options": [
-                "r",
-                "rr"
-            ],
-            "correctAnswer": "rr",
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "match",
-            "question": "Ligue os sinônimos:",
-            "options": [
-                {
-                    "left": "Alegre",
-                    "right": "Contente"
-                },
-                {
-                    "left": "Bonito",
-                    "right": "Lindo"
-                },
-                {
-                    "left": "Esperto",
-                    "right": "Inteligente"
-                },
-                {
-                    "left": "Grande",
-                    "right": "Enorme"
-                },
-                {
-                    "left": "Forte",
-                    "right": "Robusto"
-                }
-            ],
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "match",
-            "question": "Ligue os antônimos:",
-            "options": [
-                {
-                    "left": "Feliz",
-                    "right": "Triste"
-                },
-                {
-                    "left": "Claro",
-                    "right": "Escuro"
-                },
-                {
-                    "left": "Cheio",
-                    "right": "Vazio"
-                },
-                {
-                    "left": "Forte",
-                    "right": "Fraco"
-                },
-                {
-                    "left": "Rápido",
-                    "right": "Devagar"
-                }
-            ],
-            "topic": "Antônimos"
-        },
-        {
-            "type": "match",
-            "question": "Ligue a palavra com a letra correta (M ou N):",
-            "options": [
-                {
-                    "left": "Ca__po",
-                    "right": "M"
-                },
-                {
-                    "left": "Ca__tar",
-                    "right": "N"
-                },
-                {
-                    "left": "Bo__ba",
-                    "right": "M"
-                },
-                {
-                    "left": "A__dar",
-                    "right": "N"
-                },
-                {
-                    "left": "Ta__bor",
-                    "right": "M"
-                }
-            ],
-            "topic": "Uso do M ou N"
-        },
-        {
-            "type": "match",
-            "question": "Ligue a palavra com a letra correta (R ou RR):",
-            "options": [
-                {
-                    "left": "Ca__oça",
-                    "right": "rr"
-                },
-                {
-                    "left": "Pa__ar",
-                    "right": "r"
-                },
-                {
-                    "left": "Pa__eira",
-                    "right": "rr"
-                },
-                {
-                    "left": "Ca__eta",
-                    "right": "r"
-                },
-                {
-                    "left": "Co__er",
-                    "right": "rr"
-                }
-            ],
-            "topic": "Uso do R e RR"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'bravo':",
-            "options": [
-                "Feliz",
-                "Nervoso",
-                "Calmo",
-                "Sorridente"
-            ],
-            "correctAnswer": "Nervoso",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'bonito':",
-            "options": [
-                "Feio",
-                "Horrível",
-                "Lindo",
-                "Triste"
-            ],
-            "correctAnswer": "Lindo",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'barulhento':",
-            "options": [
-                "Silencioso",
-                "Calado",
-                "Ruidoso",
-                "Quieto"
-            ],
-            "correctAnswer": "Ruidoso",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'esperto':",
-            "options": [
-                "Bobo",
-                "Inteligente",
-                "Lento",
-                "Desatento"
-            ],
-            "correctAnswer": "Inteligente",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'rápido':",
-            "options": [
-                "Veloz",
-                "Devagar",
-                "Parado",
-                "Calmo"
-            ],
-            "correctAnswer": "Veloz",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'forte':",
-            "options": [
-                "Fraco",
-                "Magro",
-                "Robusto",
-                "Mole"
-            ],
-            "correctAnswer": "Robusto",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'triste':",
-            "options": [
-                "Feliz",
-                "Sorrindo",
-                "Chateado",
-                "Animado"
-            ],
-            "correctAnswer": "Chateado",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'feliz':",
-            "options": [
-                "Triste",
-                "Bravo",
-                "Contente",
-                "Desanimado"
-            ],
-            "correctAnswer": "Contente",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'grande':",
-            "options": [
-                "Pequeno",
-                "Enorme",
-                "Curto",
-                "Magro"
-            ],
-            "correctAnswer": "Enorme",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o sinônimo da palavra 'alegre':",
-            "options": [
-                "Triste",
-                "Contente",
-                "Bravo",
-                "Cansado"
-            ],
-            "correctAnswer": "Contente",
-            "topic": "Sinônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'claro':",
-            "options": [
-                "Escuro",
-                "Branco",
-                "Luz",
-                "Iluminado"
-            ],
-            "correctAnswer": "Escuro",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'forte':",
-            "options": [
-                "Fraco",
-                "Pesado",
-                "Robusto",
-                "Grande"
-            ],
-            "correctAnswer": "Fraco",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'feliz':",
-            "options": [
-                "Infeliz",
-                "Satisfeito",
-                "Animado",
-                "Contente"
-            ],
-            "correctAnswer": "Infeliz",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'feliz':",
-            "options": [
-                "Alegre",
-                "Triste",
-                "Contente",
-                "Sorrindo"
-            ],
-            "correctAnswer": "Triste",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'calmo':",
-            "options": [
-                "Nervoso",
-                "Tranquilo",
-                "Quieto",
-                "Sossegado"
-            ],
-            "correctAnswer": "Nervoso",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'limpo':",
-            "options": [
-                "Sujo",
-                "Branco",
-                "Claro",
-                "Cheiroso"
-            ],
-            "correctAnswer": "Sujo",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'grande':",
-            "options": [
-                "Gigante",
-                "Pequeno",
-                "Enorme",
-                "Alto"
-            ],
-            "correctAnswer": "Pequeno",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'rápido':",
-            "options": [
-                "Veloz",
-                "Devagar",
-                "Ágil",
-                "Esperto"
-            ],
-            "correctAnswer": "Devagar",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'bom':",
-            "options": [
-                "Ótimo",
-                "Bom",
-                "Ruim",
-                "Legal"
-            ],
-            "correctAnswer": "Ruim",
-            "topic": "Antônimos"
-        },
-        {
-            "type": "multiple-choice",
-            "question": "Marque o antônimo da palavra 'cheio':",
-            "options": [
-                "Vazio",
-                "Completo",
-                "Total",
-                "Inteiro"
-            ],
-            "correctAnswer": "Vazio",
-            "topic": "Antônimos"
-        }
-    ]
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "No texto dialogado, o travessão (—) é usado para:",
+      "options": ["Separar sílabas", "Indicar a fala de uma personagem", "Mostrar que a frase terminou", "Indicar dúvida"],
+      "correctAnswer": "Indicar a fala de uma personagem",
+      "topic": "Textos dialogados - Uso do travessão"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "No discurso direto, quem fala é:",
+      "options": ["O narrador", "As personagens", "O autor do livro", "O leitor"],
+      "correctAnswer": "As personagens",
+      "topic": "Textos dialogados - Discurso direto"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O sinal usado antes de apresentar uma fala é:",
+      "options": ["Ponto e vírgula", "Dois-pontos", "Vírgula", "Ponto final"],
+      "correctAnswer": "Dois-pontos",
+      "topic": "Textos dialogados - Uso de dois-pontos"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Na frase: Maria disse: — Estou feliz! Qual parte indica a fala da personagem?",
+      "options": ["Maria disse", "— Estou feliz!", "Disse", "Feliz"],
+      "correctAnswer": "— Estou feliz!",
+      "topic": "Textos dialogados - Discurso direto"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "No texto dialogado, cada fala deve começar:",
+      "options": ["Com letra maiúscula e travessão", "Com letra minúscula", "Sem pontuação", "Com vírgula"],
+      "correctAnswer": "Com letra maiúscula e travessão",
+      "topic": "Textos dialogados - Regras de escrita"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O dicionário organiza as palavras em:",
+      "options": ["Tamanho", "Ordem alfabética", "Número de letras", "Cor"],
+      "correctAnswer": "Ordem alfabética",
+      "topic": "Dicionário - Ordem alfabética"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual palavra vem antes no dicionário?",
+      "options": ["Casa", "Carro", "Caminho", "Cachorro"],
+      "correctAnswer": "Cachorro",
+      "topic": "Dicionário - Ordem alfabética"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Em qual opção as palavras estão em ordem alfabética?",
+      "options": ["Bola, Abacate, Casa", "Abacate, Bola, Casa", "Casa, Bola, Abacate", "Bola, Casa, Abacate"],
+      "correctAnswer": "Abacate, Bola, Casa",
+      "topic": "Dicionário - Ordem alfabética"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O que encontramos em uma página do dicionário?",
+      "options": ["Histórias", "Significados das palavras", "Poemas", "Nomes de pessoas"],
+      "correctAnswer": "Significados das palavras",
+      "topic": "Dicionário - Uso do dicionário"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "As palavras-guia no alto da página do dicionário servem para:",
+      "options": ["Enfeitar", "Indicar a primeira e a última palavra daquela página", "Marcar o meio do livro", "Separar capítulos"],
+      "correctAnswer": "Indicar a primeira e a última palavra daquela página",
+      "topic": "Dicionário - Palavras-guia"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'gelo' é escrita com:",
+      "options": ["G", "GU", "J", "GH"],
+      "correctAnswer": "G",
+      "topic": "Estudo da escrita - G e GU"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'guitarra' é escrita com:",
+      "options": ["G", "GU", "GH", "J"],
+      "correctAnswer": "GU",
+      "topic": "Estudo da escrita - G e GU"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual palavra é escrita com 'G'?",
+      "options": ["Gato", "Guarda", "Guerra", "Água"],
+      "correctAnswer": "Gato",
+      "topic": "Estudo da escrita - G e GU"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual palavra é escrita com 'GU'?",
+      "options": ["Gelo", "Gato", "Guarda", "Gosto"],
+      "correctAnswer": "Guarda",
+      "topic": "Estudo da escrita - G e GU"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Na palavra 'pinguim', o 'GU' representa:",
+      "options": ["Som de 'gu'", "Som de 'g'", "Som de 'j'", "Som de 'z'"],
+      "correctAnswer": "Som de 'gu'",
+      "topic": "Estudo da escrita - G e GU"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O masculino de 'gata' é:",
+      "options": ["Gato", "Gatinho", "Gatona", "Gatice"],
+      "correctAnswer": "Gato",
+      "topic": "Gênero - Masculino e feminino"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O feminino de 'professor' é:",
+      "options": ["Professora", "Professorinha", "Professão", "Professorado"],
+      "correctAnswer": "Professora",
+      "topic": "Gênero - Masculino e feminino"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O masculino de 'menina' é:",
+      "options": ["Menino", "Meninão", "Meninice", "Meninada"],
+      "correctAnswer": "Menino",
+      "topic": "Gênero - Masculino e feminino"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O feminino de 'leão' é:",
+      "options": ["Leoa", "Leona", "Leã", "Leonina"],
+      "correctAnswer": "Leoa",
+      "topic": "Gênero - Masculino e feminino"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O aumentativo de 'casa' é:",
+      "options": ["Casinha", "Casarão", "Casebre", "Casota"],
+      "correctAnswer": "Casarão",
+      "topic": "Aumentativo e diminutivo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O diminutivo de 'bola' é:",
+      "options": ["Bolona", "Bolinha", "Boleira", "Bolada"],
+      "correctAnswer": "Bolinha",
+      "topic": "Aumentativo e diminutivo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O aumentativo de 'menino' é:",
+      "options": ["Meninão", "Menininho", "Meninote", "Meninice"],
+      "correctAnswer": "Meninão",
+      "topic": "Aumentativo e diminutivo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O diminutivo de 'flor' é:",
+      "options": ["Florinha", "Florzinha", "Florona", "Floreira"],
+      "correctAnswer": "Florzinha",
+      "topic": "Aumentativo e diminutivo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O aumentativo de 'barco' é:",
+      "options": ["Barquinho", "Barcão", "Barcada", "Barcote"],
+      "correctAnswer": "Barcão",
+      "topic": "Aumentativo e diminutivo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'ninho' é escrita com:",
+      "options": ["NH", "LH", "CH", "GN"],
+      "correctAnswer": "NH",
+      "topic": "Estudo da escrita - NH, LH e CH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'filho' é escrita com:",
+      "options": ["NH", "LH", "CH", "ILH"],
+      "correctAnswer": "LH",
+      "topic": "Estudo da escrita - NH, LH e CH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'chuva' é escrita com:",
+      "options": ["CH", "X", "SH", "SC"],
+      "correctAnswer": "CH",
+      "topic": "Estudo da escrita - NH, LH e CH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual dessas palavras usa NH?",
+      "options": ["Caminho", "Calho", "Chave", "Molho"],
+      "correctAnswer": "Caminho",
+      "topic": "Estudo da escrita - NH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual dessas palavras usa LH?",
+      "options": ["Telhado", "Canho", "Chato", "Chuva"],
+      "correctAnswer": "Telhado",
+      "topic": "Estudo da escrita - LH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual dessas palavras usa CH?",
+      "options": ["Chave", "Molho", "Caminho", "Palha"],
+      "correctAnswer": "Chave",
+      "topic": "Estudo da escrita - CH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'velhinho' tem quais encontros?",
+      "options": ["LH e NH", "CH e LH", "NH e CH", "LH e CH"],
+      "correctAnswer": "LH e NH",
+      "topic": "Estudo da escrita - NH e LH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'chuveiro' começa com:",
+      "options": ["CH", "X", "C", "S"],
+      "correctAnswer": "CH",
+      "topic": "Estudo da escrita - CH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O som de 'NH' aparece em:",
+      "options": ["Caminho", "Cavalo", "Cama", "Camisa"],
+      "correctAnswer": "Caminho",
+      "topic": "Estudo da escrita - NH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O som de 'LH' aparece em:",
+      "options": ["Palha", "Pano", "Pato", "Pena"],
+      "correctAnswer": "Palha",
+      "topic": "Estudo da escrita - LH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O som de 'CH' aparece em:",
+      "options": ["Chave", "Casa", "Sapo", "Gato"],
+      "correctAnswer": "Chave",
+      "topic": "Estudo da escrita - CH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Na palavra 'galinha', encontramos:",
+      "options": ["G e NH", "GU e LH", "CH e NH", "LH e NH"],
+      "correctAnswer": "G e NH",
+      "topic": "Estudo da escrita - G e NH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual palavra é o diminutivo de 'pão'?",
+      "options": ["Pãozinho", "Pãozão", "Pãozote", "Pãone"],
+      "correctAnswer": "Pãozinho",
+      "topic": "Aumentativo e diminutivo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual palavra é o aumentativo de 'cachorro'?",
+      "options": ["Cachorrão", "Cachorrinho", "Cachorrudo", "Cachorreiro"],
+      "correctAnswer": "Cachorrão",
+      "topic": "Aumentativo e diminutivo"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O feminino de 'tigre' é:",
+      "options": ["Tigresa", "Tigrona", "Tigrona", "Tigrinha"],
+      "correctAnswer": "Tigresa",
+      "topic": "Gênero - Masculino e feminino"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O masculino de 'vaca' é:",
+      "options": ["Boi", "Touro", "Bezerro", "Garrote"],
+      "correctAnswer": "Boi",
+      "topic": "Gênero - Masculino e feminino"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual palavra está em ordem alfabética antes de 'mala'?",
+      "options": ["Macaco", "Manga", "Mesa", "Mola"],
+      "correctAnswer": "Macaco",
+      "topic": "Dicionário - Ordem alfabética"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual palavra viria depois de 'café' no dicionário?",
+      "options": ["Cachorro", "Caixa", "Calma", "Cair"],
+      "correctAnswer": "Caixa",
+      "topic": "Dicionário - Ordem alfabética"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Na frase — Oi, tudo bem? disse João, o travessão indica:",
+      "options": ["Uma pergunta", "O início da fala do personagem", "Uma pausa", "Um erro de escrita"],
+      "correctAnswer": "O início da fala do personagem",
+      "topic": "Textos dialogados - Uso do travessão"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Em qual frase há discurso direto?",
+      "options": ["João disse que estava feliz.", "João disse: — Estou feliz!", "João estava feliz.", "João é feliz."],
+      "correctAnswer": "João disse: — Estou feliz!",
+      "topic": "Textos dialogados - Discurso direto"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'galho' é escrita com:",
+      "options": ["LH", "NH", "CH", "ILH"],
+      "correctAnswer": "LH",
+      "topic": "Estudo da escrita - LH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'chuva' tem o mesmo som inicial de:",
+      "options": ["Chave", "Casa", "Sapo", "Gelo"],
+      "correctAnswer": "Chave",
+      "topic": "Estudo da escrita - CH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'linha' é escrita com:",
+      "options": ["NH", "LH", "CH", "GN"],
+      "correctAnswer": "NH",
+      "topic": "Estudo da escrita - NH"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "A palavra 'molho' usa a combinação de letras:",
+      "options": ["LH", "NH", "CH", "ILH"],
+      "correctAnswer": "LH",
+      "topic": "Estudo da escrita - LH"
+    }
+  ]
 }
