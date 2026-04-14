@@ -60,21 +60,21 @@ function formatDisplayName(filename) {
     const baseName = filename.split('/').pop();
     // Remove a extensão .json e o prefixo questoes_
     let displayName = baseName.replace('.json', '').replace('questoes_', '');
-    
+
     // Formata casos especiais
     if (displayName === 'portugues') {
         return 'Português';
     } else if (displayName.includes('final')) {
         return displayName.replace('_', ' ').replace('final', 'Final');
     }
-    
+
     // Formata números
     if (!isNaN(displayName)) {
         return `Questões ${displayName}`;
     }
-    
+
     // Formata outros casos
-    return displayName.split('_').map(word => 
+    return displayName.split('_').map(word =>
         word.charAt(0).toUpperCase() + word.slice(1)
     ).join(' ');
 }
@@ -83,7 +83,7 @@ function formatDisplayName(filename) {
 async function listJsonFiles() {
     // Lista fixa de todos os arquivos
     return [
-        `questoes_portugues_60.json`
+        `questoes_matematica.json`
     ];
 }
 
@@ -116,7 +116,7 @@ async function createQuizMenu() {
             if (file === currentQuizFile) {
                 quizItem.classList.add('active');
             }
-            
+
             quizItem.textContent = formatDisplayName(file);
             quizItem.dataset.file = file;
             quizItem.addEventListener('click', () => selectQuiz(file));
@@ -142,11 +142,11 @@ async function selectQuiz(quizFile) {
         score = 0;
         userAnswers = [];
         answeredQuestions = new Set();
-        
+
         // Atualizar arquivo atual
         currentQuizFile = quizFile;
         console.log('Selecionando novo quiz:', currentQuizFile);
-        
+
         // Atualizar visual do menu
         document.querySelectorAll('.quiz-item').forEach(item => {
             item.classList.remove('active');
@@ -154,15 +154,15 @@ async function selectQuiz(quizFile) {
                 item.classList.add('active');
             }
         });
-        
+
         // Limpar UI
         questionText.textContent = 'Carregando questões...';
         optionsContainer.innerHTML = '';
         feedback.classList.add('hidden');
-        
+
         // Carregar novas questões
         await loadQuestions();
-        
+
     } catch (error) {
         console.error('Erro ao selecionar quiz:', error);
         questionText.textContent = 'Erro ao carregar o quiz. Por favor, tente novamente.';
@@ -175,23 +175,23 @@ async function loadQuestions() {
         if (!currentQuizFile) {
             throw new Error('Nenhum arquivo de questões selecionado');
         }
-        
+
         // Adicionar timestamp para evitar cache
         const timestamp = new Date().getTime();
         const response = await fetch(`${currentQuizFile}?t=${timestamp}`);
-        
+
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        
+
         const data = await response.json();
-        
+
         if (!data.questions || !Array.isArray(data.questions) || data.questions.length === 0) {
             throw new Error('Formato de arquivo inválido ou sem questões');
         }
-        
+
         console.log(`Carregadas ${data.questions.length} questões do arquivo ${currentQuizFile}`);
-        
+
         originalQuestions = [...data.questions];
         questions = shuffleArray([...originalQuestions]);
         userAnswers = new Array(questions.length).fill(null);
@@ -220,18 +220,18 @@ function updateStats() {
     const answeredCount = answeredQuestions.size;
     const incorrectAnswers = answeredCount - correctAnswers;
     const percentageScore = answeredCount > 0 ? Math.round((correctAnswers / answeredCount) * 100) : 0;
-    
+
     // Atualizar valores
     statsCorrect.textContent = correctAnswers;
     statsIncorrect.textContent = incorrectAnswers;
     statsPercentage.textContent = `${percentageScore}%`;
     statsAnswered.textContent = `${answeredCount}/${totalQuestions}`;
-    
+
     // Atualizar gráfico
     if (answeredCount > 0) {
         const correctPercentage = (correctAnswers / answeredCount) * 100;
         const incorrectPercentage = (incorrectAnswers / answeredCount) * 100;
-        
+
         correctBar.style.width = `${correctPercentage}%`;
         incorrectBar.style.width = `${incorrectPercentage}%`;
     } else {
@@ -246,11 +246,11 @@ function showQuestion() {
     const topicElement = document.createElement('div');
     topicElement.className = 'question-topic';
     topicElement.textContent = question.topic;
-    
+
     questionText.innerHTML = '';
     questionText.appendChild(topicElement);
     questionText.appendChild(document.createTextNode(question.question));
-    
+
     optionsContainer.innerHTML = '';
     currentQuestionSpan.textContent = currentQuestionIndex + 1;
 
@@ -263,11 +263,11 @@ function showQuestion() {
             const button = document.createElement('div');
             button.className = 'option';
             button.textContent = option;
-            
+
             if (userAnswers[currentQuestionIndex] === option) {
                 button.classList.add('selected');
             }
-            
+
             button.addEventListener('click', () => checkAnswer(option));
             optionsContainer.appendChild(button);
         });
@@ -312,14 +312,14 @@ function showQuestion() {
                 e.preventDefault();
                 const draggedText = e.dataTransfer.getData('text/plain');
                 const targetText = e.target.textContent;
-                
-                const isCorrect = question.correctAnswer ? 
+
+                const isCorrect = question.correctAnswer ?
                     question.correctAnswer.includes(`${draggedText}-${targetText}`) :
-                    question.options.some(opt => 
+                    question.options.some(opt =>
                         (opt.left === draggedText && opt.right === targetText) ||
                         (opt.right === draggedText && opt.left === targetText)
                     );
-                
+
                 if (isCorrect) {
                     e.target.classList.add('correct');
                     e.target.style.pointerEvents = 'none';
@@ -424,19 +424,19 @@ function showResults() {
     questions.forEach((question, index) => {
         const reviewItem = document.createElement('div');
         reviewItem.className = `review-item ${userAnswers[index] === question.correctAnswer ? 'correct' : 'incorrect'}`;
-        
+
         const questionText = document.createElement('div');
         questionText.className = 'review-question';
         questionText.textContent = `Questão ${index + 1}: ${question.question}`;
-        
+
         const userAnswer = document.createElement('div');
         userAnswer.className = 'review-answer';
         userAnswer.textContent = `Sua resposta: ${userAnswers[index] || 'Não respondida'}`;
-        
+
         const correctAnswer = document.createElement('div');
         correctAnswer.className = 'review-correct';
         correctAnswer.textContent = `Resposta correta: ${question.correctAnswer}`;
-        
+
         reviewItem.appendChild(questionText);
         reviewItem.appendChild(userAnswer);
         reviewItem.appendChild(correctAnswer);
@@ -454,7 +454,7 @@ function resetQuiz(forceReset = false) {
     if (forceReset || confirm('Tem certeza que deseja reiniciar? Todo o seu progresso será perdido.')) {
         // Randomizar questões novamente
         questions = shuffleArray([...originalQuestions]);
-        
+
         // Resetar variáveis
         currentQuestionIndex = 0;
         score = 0;

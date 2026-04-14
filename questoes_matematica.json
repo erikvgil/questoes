@@ -1,0 +1,292 @@
+{
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Em uma corrida, Ana chegou antes de todos. Em que posição ela ficou?",
+      "options": [
+        "Primeiro lugar",
+        "Segundo lugar",
+        "Terceiro lugar",
+        "Quarto lugar"
+      ],
+      "correctAnswer": "Primeiro lugar",
+      "topic": "Números ordinais - Posições"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Na fila da cantina, Pedro é o 2º aluno. Isso significa que ele está em:",
+      "options": [
+        "Primeiro",
+        "Segundo",
+        "Terceiro",
+        "Quinto"
+      ],
+      "correctAnswer": "Segundo",
+      "topic": "Números ordinais - Leitura"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O 5º lugar corresponde a qual palavra?",
+      "options": [
+        "Quarto",
+        "Quinto",
+        "Sexto",
+        "Sétimo"
+      ],
+      "correctAnswer": "Quinto",
+      "topic": "Números ordinais - Correspondência"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Em uma estante, o livro azul está na 3ª prateleira. Em qual prateleira ele está?",
+      "options": [
+        "Primeira",
+        "Segunda",
+        "Terceira",
+        "Quarta"
+      ],
+      "correctAnswer": "Terceira",
+      "topic": "Números ordinais - Posição"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual opção mostra corretamente o número ordinal 8º?",
+      "options": [
+        "Oitavo",
+        "Nono",
+        "Sétimo",
+        "Décimo"
+      ],
+      "correctAnswer": "Oitavo",
+      "topic": "Números ordinais - Escrita"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Marque a opção em que os números ordinais estão na ordem correta:",
+      "options": [
+        "Primeiro, segundo, terceiro",
+        "Segundo, primeiro, terceiro",
+        "Terceiro, primeiro, segundo",
+        "Primeiro, terceiro, segundo"
+      ],
+      "correctAnswer": "Primeiro, segundo, terceiro",
+      "topic": "Números ordinais - Sequência"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ao arredondar 47 para a dezena mais próxima, obtemos:",
+      "options": [
+        "40",
+        "45",
+        "50",
+        "47"
+      ],
+      "correctAnswer": "50",
+      "topic": "Arredondamento - Dezenas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ao arredondar 32 para a dezena mais próxima, o resultado é:",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "35"
+      ],
+      "correctAnswer": "30",
+      "topic": "Arredondamento - Dezenas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual é o arredondamento de 85 para a dezena mais próxima?",
+      "options": [
+        "80",
+        "85",
+        "90",
+        "100"
+      ],
+      "correctAnswer": "90",
+      "topic": "Arredondamento - Dezenas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Ao arredondar 61 para a dezena mais próxima, obtemos:",
+      "options": [
+        "60",
+        "70",
+        "61",
+        "50"
+      ],
+      "correctAnswer": "60",
+      "topic": "Arredondamento - Dezenas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O número 149, arredondado para a centena mais próxima, fica:",
+      "options": [
+        "100",
+        "150",
+        "200",
+        "149"
+      ],
+      "correctAnswer": "100",
+      "topic": "Arredondamento - Centenas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "O número 178, arredondado para a centena mais próxima, fica:",
+      "options": [
+        "100",
+        "150",
+        "200",
+        "180"
+      ],
+      "correctAnswer": "200",
+      "topic": "Arredondamento - Centenas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual número está mais próximo de 50?",
+      "options": [
+        "39",
+        "44",
+        "48",
+        "61"
+      ],
+      "correctAnswer": "48",
+      "topic": "Aproximação - Comparação"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual número está mais próximo de 100?",
+      "options": [
+        "82",
+        "91",
+        "97",
+        "108"
+      ],
+      "correctAnswer": "97",
+      "topic": "Aproximação - Comparação"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Se uma professora disser que a sala tem aproximadamente 30 alunos, isso quer dizer que:",
+      "options": [
+        "Tem exatamente 30 alunos",
+        "Tem perto de 30 alunos",
+        "Tem menos de 10 alunos",
+        "Tem exatamente 100 alunos"
+      ],
+      "correctAnswer": "Tem perto de 30 alunos",
+      "topic": "Aproximação - Significado"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual número é uma boa aproximação para 73?",
+      "options": [
+        "70",
+        "50",
+        "20",
+        "100"
+      ],
+      "correctAnswer": "70",
+      "topic": "Aproximação - Dezenas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Uma caixa tem 98 lápis. Uma boa aproximação desse número é:",
+      "options": [
+        "50",
+        "90",
+        "100",
+        "80"
+      ],
+      "correctAnswer": "100",
+      "topic": "Aproximação - Quantidades"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "João contou 41 figurinhas. Aproximando para a dezena mais próxima, ele tem cerca de:",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "41"
+      ],
+      "correctAnswer": "40",
+      "topic": "Aproximação - Dezenas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Estimar uma quantidade significa:",
+      "options": [
+        "Contar exatamente",
+        "Dar um valor aproximado",
+        "Escrever em ordem alfabética",
+        "Somar tudo com precisão"
+      ],
+      "correctAnswer": "Dar um valor aproximado",
+      "topic": "Estimativa - Conceito"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Em um pote há muitas balas. Sem contar uma por uma, dizer que há cerca de 20 balas é fazer uma:",
+      "options": [
+        "Divisão",
+        "Estimativa",
+        "Subtração",
+        "Multiplicação"
+      ],
+      "correctAnswer": "Estimativa",
+      "topic": "Estimativa - Situações do dia a dia"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Uma criança deu 9 passos para atravessar um tapete. Outra criança acha que seriam cerca de 10 passos. Esse valor de 10 é uma:",
+      "options": [
+        "Resposta exata",
+        "Estimativa",
+        "Medida em litros",
+        "Conta de multiplicação"
+      ],
+      "correctAnswer": "Estimativa",
+      "topic": "Estimativa - Medidas"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Qual é a melhor estimativa para a quantidade de dedos em 5 mãos?",
+      "options": [
+        "10",
+        "15",
+        "25",
+        "50"
+      ],
+      "correctAnswer": "25",
+      "topic": "Estimativa - Quantidades simples"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Se cada caixa tem cerca de 10 lápis, então 3 caixas têm aproximadamente:",
+      "options": [
+        "13 lápis",
+        "20 lápis",
+        "30 lápis",
+        "40 lápis"
+      ],
+      "correctAnswer": "30 lápis",
+      "topic": "Estimativa - Agrupamentos"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Uma boa estimativa para a idade de um aluno do 3º ano é:",
+      "options": [
+        "3 anos",
+        "8 anos",
+        "20 anos",
+        "40 anos"
+      ],
+      "correctAnswer": "8 anos",
+      "topic": "Estimativa - Situações do cotidiano"
+    }
+  ]
+}
