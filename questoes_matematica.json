@@ -2,291 +2,483 @@
   "questions": [
     {
       "type": "multiple-choice",
-      "question": "Em uma corrida, Ana chegou antes de todos. Em que posição ela ficou?",
+      "question": "Complete the question: ___ your town got a cinema?",
       "options": [
-        "Primeiro lugar",
-        "Segundo lugar",
-        "Terceiro lugar",
-        "Quarto lugar"
+        "Has",
+        "Have",
+        "Is",
+        "Are"
       ],
-      "correctAnswer": "Primeiro lugar",
-      "topic": "Números ordinais - Posições"
+      "correctAnswer": "Has",
+      "topic": "Has ... got ... ? - Question form"
     },
     {
       "type": "multiple-choice",
-      "question": "Na fila da cantina, Pedro é o 2º aluno. Isso significa que ele está em:",
+      "question": "Complete the question: ___ your town got a hospital?",
       "options": [
-        "Primeiro",
-        "Segundo",
-        "Terceiro",
-        "Quinto"
+        "Has",
+        "Have",
+        "Do",
+        "Am"
       ],
-      "correctAnswer": "Segundo",
-      "topic": "Números ordinais - Leitura"
+      "correctAnswer": "Has",
+      "topic": "Has ... got ... ? - Question form"
     },
     {
       "type": "multiple-choice",
-      "question": "O 5º lugar corresponde a qual palavra?",
+      "question": "Choose the correct question.",
       "options": [
-        "Quarto",
-        "Quinto",
-        "Sexto",
-        "Sétimo"
+        "Has your town got a swimming pool?",
+        "Have your town got a swimming pool?",
+        "Is your town got a swimming pool?",
+        "Are your town got a swimming pool?"
       ],
-      "correctAnswer": "Quinto",
-      "topic": "Números ordinais - Correspondência"
+      "correctAnswer": "Has your town got a swimming pool?",
+      "topic": "Has ... got ... ? - Question form"
     },
     {
       "type": "multiple-choice",
-      "question": "Em uma estante, o livro azul está na 3ª prateleira. Em qual prateleira ele está?",
+      "question": "Choose the correct question.",
       "options": [
-        "Primeira",
-        "Segunda",
-        "Terceira",
-        "Quarta"
+        "Has your town got a park?",
+        "Have your town got a park?",
+        "Has your town has got a park?",
+        "Is your town got a park?"
       ],
-      "correctAnswer": "Terceira",
-      "topic": "Números ordinais - Posição"
+      "correctAnswer": "Has your town got a park?",
+      "topic": "Has ... got ... ? - Question form"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual opção mostra corretamente o número ordinal 8º?",
+      "question": "Complete the answer: Yes, it ___.",
       "options": [
-        "Oitavo",
-        "Nono",
-        "Sétimo",
-        "Décimo"
+        "has",
+        "have",
+        "is",
+        "are"
       ],
-      "correctAnswer": "Oitavo",
-      "topic": "Números ordinais - Escrita"
+      "correctAnswer": "has",
+      "topic": "Has ... got ... ? - Short answers"
     },
     {
       "type": "multiple-choice",
-      "question": "Marque a opção em que os números ordinais estão na ordem correta:",
+      "question": "Complete the answer: No, it ___.",
       "options": [
-        "Primeiro, segundo, terceiro",
-        "Segundo, primeiro, terceiro",
-        "Terceiro, primeiro, segundo",
-        "Primeiro, terceiro, segundo"
+        "has",
+        "have",
+        "hasn't",
+        "haven't"
       ],
-      "correctAnswer": "Primeiro, segundo, terceiro",
-      "topic": "Números ordinais - Sequência"
+      "correctAnswer": "hasn't",
+      "topic": "Has ... got ... ? - Short answers"
     },
     {
       "type": "multiple-choice",
-      "question": "Ao arredondar 47 para a dezena mais próxima, obtemos:",
+      "question": "Choose the correct answer: Has your town got a school?",
       "options": [
-        "40",
-        "45",
-        "50",
-        "47"
+        "Yes, it has.",
+        "Yes, it have.",
+        "No, it has.",
+        "No, it have."
       ],
-      "correctAnswer": "50",
-      "topic": "Arredondamento - Dezenas"
+      "correctAnswer": "Yes, it has.",
+      "topic": "Has ... got ... ? - Short answers"
     },
     {
       "type": "multiple-choice",
-      "question": "Ao arredondar 32 para a dezena mais próxima, o resultado é:",
+      "question": "Choose the correct answer: Has your town got a zoo?",
       "options": [
-        "20",
-        "30",
-        "40",
-        "35"
+        "No, it hasn't.",
+        "No, it haven't.",
+        "Yes, it hasn't.",
+        "No, it is."
       ],
-      "correctAnswer": "30",
-      "topic": "Arredondamento - Dezenas"
+      "correctAnswer": "No, it hasn't.",
+      "topic": "Has ... got ... ? - Short answers"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual é o arredondamento de 85 para a dezena mais próxima?",
+      "question": "Choose the correct sentence.",
       "options": [
-        "80",
-        "85",
-        "90",
-        "100"
+        "My town has got a school.",
+        "My town have got a school.",
+        "My town got a school.",
+        "My town has school."
       ],
-      "correctAnswer": "90",
-      "topic": "Arredondamento - Dezenas"
+      "correctAnswer": "My town has got a school.",
+      "topic": "Has got - Affirmative sentences"
     },
     {
       "type": "multiple-choice",
-      "question": "Ao arredondar 61 para a dezena mais próxima, obtemos:",
+      "question": "Choose the correct sentence.",
       "options": [
-        "60",
-        "70",
-        "61",
-        "50"
+        "My town has got a bus stop.",
+        "My town have got a bus stop.",
+        "My town is got a bus stop.",
+        "My town has got bus stop."
       ],
-      "correctAnswer": "60",
-      "topic": "Arredondamento - Dezenas"
+      "correctAnswer": "My town has got a bus stop.",
+      "topic": "Has got - Affirmative sentences"
     },
     {
       "type": "multiple-choice",
-      "question": "O número 149, arredondado para a centena mais próxima, fica:",
+      "question": "Choose the correct negative sentence.",
       "options": [
-        "100",
-        "150",
-        "200",
-        "149"
+        "My town hasn't got a café.",
+        "My town haven't got a café.",
+        "My town not got a café.",
+        "My town hasn't got café."
       ],
-      "correctAnswer": "100",
-      "topic": "Arredondamento - Centenas"
+      "correctAnswer": "My town hasn't got a café.",
+      "topic": "Has got - Negative sentences"
     },
     {
       "type": "multiple-choice",
-      "question": "O número 178, arredondado para a centena mais próxima, fica:",
+      "question": "Choose the correct negative sentence.",
       "options": [
-        "100",
-        "150",
-        "200",
-        "180"
+        "My town hasn't got a zoo.",
+        "My town haven't got a zoo.",
+        "My town hasn't a zoo got.",
+        "My town not has got a zoo."
       ],
-      "correctAnswer": "200",
-      "topic": "Arredondamento - Centenas"
+      "correctAnswer": "My town hasn't got a zoo.",
+      "topic": "Has got - Negative sentences"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual número está mais próximo de 50?",
+      "question": "Complete the sentence: My town ___ got a hospital.",
       "options": [
-        "39",
-        "44",
-        "48",
-        "61"
+        "has",
+        "have",
+        "is",
+        "are"
       ],
-      "correctAnswer": "48",
-      "topic": "Aproximação - Comparação"
+      "correctAnswer": "has",
+      "topic": "Has got - Affirmative sentences"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual número está mais próximo de 100?",
+      "question": "Complete the sentence: My town ___ got a train station.",
       "options": [
-        "82",
-        "91",
-        "97",
-        "108"
+        "hasn't",
+        "haven't",
+        "don't",
+        "isn't"
       ],
-      "correctAnswer": "97",
-      "topic": "Aproximação - Comparação"
+      "correctAnswer": "hasn't",
+      "topic": "Has got - Negative sentences"
     },
     {
       "type": "multiple-choice",
-      "question": "Se uma professora disser que a sala tem aproximadamente 30 alunos, isso quer dizer que:",
+      "question": "Which word is a place in town?",
       "options": [
-        "Tem exatamente 30 alunos",
-        "Tem perto de 30 alunos",
-        "Tem menos de 10 alunos",
-        "Tem exatamente 100 alunos"
+        "cinema",
+        "banana",
+        "teacher",
+        "pencil"
       ],
-      "correctAnswer": "Tem perto de 30 alunos",
-      "topic": "Aproximação - Significado"
+      "correctAnswer": "cinema",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual número é uma boa aproximação para 73?",
+      "question": "Which word is a place in town?",
       "options": [
-        "70",
-        "50",
-        "20",
-        "100"
+        "hospital",
+        "window",
+        "apple",
+        "shoe"
       ],
-      "correctAnswer": "70",
-      "topic": "Aproximação - Dezenas"
+      "correctAnswer": "hospital",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "Uma caixa tem 98 lápis. Uma boa aproximação desse número é:",
+      "question": "Which word is a place in town?",
       "options": [
-        "50",
-        "90",
-        "100",
-        "80"
+        "train station",
+        "cat",
+        "notebook",
+        "kitchen"
       ],
-      "correctAnswer": "100",
-      "topic": "Aproximação - Quantidades"
+      "correctAnswer": "train station",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "João contou 41 figurinhas. Aproximando para a dezena mais próxima, ele tem cerca de:",
+      "question": "Which word is a place in town?",
       "options": [
-        "30",
-        "40",
-        "50",
-        "41"
+        "playground",
+        "juice",
+        "eraser",
+        "sock"
       ],
-      "correctAnswer": "40",
-      "topic": "Aproximação - Dezenas"
+      "correctAnswer": "playground",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "Estimar uma quantidade significa:",
+      "question": "Which word is a place in town?",
       "options": [
-        "Contar exatamente",
-        "Dar um valor aproximado",
-        "Escrever em ordem alfabética",
-        "Somar tudo com precisão"
+        "swimming pool",
+        "carrot",
+        "bird",
+        "book"
       ],
-      "correctAnswer": "Dar um valor aproximado",
-      "topic": "Estimativa - Conceito"
+      "correctAnswer": "swimming pool",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "Em um pote há muitas balas. Sem contar uma por uma, dizer que há cerca de 20 balas é fazer uma:",
+      "question": "Which word is a place in town?",
       "options": [
-        "Divisão",
-        "Estimativa",
-        "Subtração",
-        "Multiplicação"
+        "bus stop",
+        "chair",
+        "ruler",
+        "backpack"
       ],
-      "correctAnswer": "Estimativa",
-      "topic": "Estimativa - Situações do dia a dia"
+      "correctAnswer": "bus stop",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "Uma criança deu 9 passos para atravessar um tapete. Outra criança acha que seriam cerca de 10 passos. Esse valor de 10 é uma:",
+      "question": "Which word is a place in town?",
       "options": [
-        "Resposta exata",
-        "Estimativa",
-        "Medida em litros",
-        "Conta de multiplicação"
+        "school",
+        "orange",
+        "frog",
+        "lamp"
       ],
-      "correctAnswer": "Estimativa",
-      "topic": "Estimativa - Medidas"
+      "correctAnswer": "school",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "Qual é a melhor estimativa para a quantidade de dedos em 5 mãos?",
+      "question": "Which word is a place in town?",
       "options": [
-        "10",
-        "15",
-        "25",
-        "50"
+        "shop",
+        "elephant",
+        "bed",
+        "door"
       ],
-      "correctAnswer": "25",
-      "topic": "Estimativa - Quantidades simples"
+      "correctAnswer": "shop",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "Se cada caixa tem cerca de 10 lápis, então 3 caixas têm aproximadamente:",
+      "question": "Which word is a place in town?",
       "options": [
-        "13 lápis",
-        "20 lápis",
-        "30 lápis",
-        "40 lápis"
+        "park",
+        "pen",
+        "rain",
+        "ball"
       ],
-      "correctAnswer": "30 lápis",
-      "topic": "Estimativa - Agrupamentos"
+      "correctAnswer": "park",
+      "topic": "Places in town - Vocabulary"
     },
     {
       "type": "multiple-choice",
-      "question": "Uma boa estimativa para a idade de um aluno do 3º ano é:",
+      "question": "Which word is a place in town?",
       "options": [
-        "3 anos",
-        "8 anos",
-        "20 anos",
-        "40 anos"
+        "café",
+        "tree",
+        "table",
+        "shoe"
       ],
-      "correctAnswer": "8 anos",
-      "topic": "Estimativa - Situações do cotidiano"
+      "correctAnswer": "café",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the expression: next ___",
+      "options": [
+        "to",
+        "of",
+        "in",
+        "at"
+      ],
+      "correctAnswer": "to",
+      "topic": "Prepositions - next to"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The hospital is next to the school.",
+        "The hospital is next the school.",
+        "The hospital next to the school.",
+        "The hospital is next of the school."
+      ],
+      "correctAnswer": "The hospital is next to the school.",
+      "topic": "Prepositions - next to"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The bus stop is next to the shop.",
+        "The bus stop is next the shop.",
+        "The bus stop is to next the shop.",
+        "The bus stop next of the shop."
+      ],
+      "correctAnswer": "The bus stop is next to the shop.",
+      "topic": "Prepositions - next to"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the sentence: The tree is ___ the school.",
+      "options": [
+        "behind",
+        "between",
+        "next to",
+        "on"
+      ],
+      "correctAnswer": "behind",
+      "topic": "Prepositions - behind"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The cinema is behind the park.",
+        "The cinema is behind of the park.",
+        "The cinema behind the park.",
+        "The cinema is between the park."
+      ],
+      "correctAnswer": "The cinema is behind the park.",
+      "topic": "Prepositions - behind"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The ball is behind the chair.",
+        "The ball is behind of the chair.",
+        "The ball is next the chair.",
+        "The ball is in front the chair."
+      ],
+      "correctAnswer": "The ball is behind the chair.",
+      "topic": "Prepositions - behind"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the expression: in front ___",
+      "options": [
+        "of",
+        "to",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "of",
+      "topic": "Prepositions - in front of"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The bus is in front of the hospital.",
+        "The bus is front of the hospital.",
+        "The bus is in front the hospital.",
+        "The bus is in front to the hospital."
+      ],
+      "correctAnswer": "The bus is in front of the hospital.",
+      "topic": "Prepositions - in front of"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The dog is in front of the house.",
+        "The dog is in front the house.",
+        "The dog is front of the house.",
+        "The dog is in front to the house."
+      ],
+      "correctAnswer": "The dog is in front of the house.",
+      "topic": "Prepositions - in front of"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the sentence: The café is ___ the school and the cinema.",
+      "options": [
+        "between",
+        "behind",
+        "next to",
+        "under"
+      ],
+      "correctAnswer": "between",
+      "topic": "Prepositions - between"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The playground is between the school and the park.",
+        "The playground is next the school and the park.",
+        "The playground is behind the school and the park and.",
+        "The playground is in front the school and the park."
+      ],
+      "correctAnswer": "The playground is between the school and the park.",
+      "topic": "Prepositions - between"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the sentence: The toy is between the book ___ the pencil.",
+      "options": [
+        "and",
+        "of",
+        "to",
+        "in"
+      ],
+      "correctAnswer": "and",
+      "topic": "Prepositions - between"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question and answer.",
+      "options": [
+        "Has your town got a school? Yes, it has.",
+        "Have your town got a school? Yes, it has.",
+        "Has your town got a school? Yes, it have.",
+        "Has your town got a school? No, it has."
+      ],
+      "correctAnswer": "Has your town got a school? Yes, it has.",
+      "topic": "Has ... got ... ? - Question and answer"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question and answer.",
+      "options": [
+        "Has your town got a zoo? No, it hasn't.",
+        "Has your town got a zoo? No, it haven't.",
+        "Have your town got a zoo? No, it hasn't.",
+        "Has your town got a zoo? Yes, it hasn't."
+      ],
+      "correctAnswer": "Has your town got a zoo? No, it hasn't.",
+      "topic": "Has ... got ... ? - Question and answer"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "My town has got a park and a school.",
+        "My town have got a park and a school.",
+        "My town has got park and school.",
+        "My town got a park and a school."
+      ],
+      "correctAnswer": "My town has got a park and a school.",
+      "topic": "Has got - Affirmative sentences"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "My town hasn't got a zoo or a farm.",
+        "My town haven't got a zoo or a farm.",
+        "My town hasn't got zoo or farm.",
+        "My town not got a zoo or a farm."
+      ],
+      "correctAnswer": "My town hasn't got a zoo or a farm.",
+      "topic": "Has got - Negative sentences"
     }
   ]
 }
