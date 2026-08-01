@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Marombot - Entre no Grupo de WhatsApp</title>
+<meta name="description" content="Entre no canal oficial do Marombot no WhatsApp: treinos, dicas de nutrição e motivação todos os dias.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💪</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --blue-start: #275cff;
+    --blue-end: #2b80ff;
+    --green: #00a80d;
+    --green-hover: #00930b;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(270deg, var(--blue-start) 6%, var(--blue-end) 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    padding: 40px 20px 20px;
+    font-family: "Inter", sans-serif;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    z-index: 10;
+  }
+
+  .logo svg { width: 32px; height: 32px; }
+
+  .logo span {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 15px;
+    width: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 27px 20px 18px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .badge {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 26px;
+    height: 26px;
+    z-index: 20;
+  }
+
+  .profile-pic-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #d9e2ff 0%, #3967f5 100%);
+    margin-bottom: 11px;
+  }
+
+  .profile-pic-wrapper svg {
+    width: 54px;
+    height: 54px;
+  }
+
+  .title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #232323;
+    margin: 0;
+    text-align: center;
+    line-height: 1.33em;
+  }
+
+  .limited-spots {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.26em;
+    color: #6c6c6c;
+    margin: 6px 0 16px;
+  }
+
+  .cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--green);
+    border-radius: 6px;
+    width: 226px;
+    height: 51px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.52em;
+    gap: 8px;
+    transition: transform 0.2s, background 0.2s;
+  }
+
+  .cta-button svg { width: 22px; height: 22px; }
+
+  .cta-button:hover {
+    background: var(--green-hover);
+    transform: translateY(-2px);
+  }
+
+  .carousel-wrapper {
+    width: 274px;
+    overflow: hidden;
+    margin-top: 29px;
+    z-index: 1;
+    position: relative;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  }
+
+  .carousel-track {
+    display: flex;
+    gap: 22px;
+    width: max-content;
+    animation: scroll 12s linear infinite;
+  }
+
+  .carousel-track span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 32px;
+    flex-shrink: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+
+  .carousel-track svg { width: 20px; height: 20px; }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 260px;
+    margin-top: 40px;
+    z-index: 10;
+  }
+
+  .benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .benefit-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+  }
+
+  .benefit-icon svg { width: 18px; height: 18px; }
+
+  .benefit-text { display: flex; flex-direction: column; gap: 3px; }
+
+  .benefit-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 1.3em;
+  }
+
+  .benefit-description {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #e0eaff;
+    line-height: 1.35em;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 40px;
+    width: 100%;
+  }
+
+  .website-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    z-index: 10;
+  }
+
+  .footer-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 2.2em;
+    color: #a2c0ff;
+    margin-top: 6px;
+    text-align: center;
+    z-index: 10;
+  }
+</style>
+</head>
+<body>
+
+  <div class="main">
+    <div class="logo">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 12h2M20 12h2M5 8v8M19 8v8M8 10v4h8v-4H8Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>MAROMBOT</span>
+    </div>
+
+    <div class="card">
+      <svg class="badge" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="12" fill="#2b80ff"/>
+        <path d="M8 12.5l2.5 2.5 5.5-5.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+
+      <div class="profile-pic-wrapper">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 12h2M20 12h2M5 8v8M19 8v8M8 10v4h8v-4H8Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <h1 class="title">Marombot</h1>
+      <span class="limited-spots">Vagas limitadas</span>
+
+      <a href="https://chat.whatsapp.com/SEU-LINK-AQUI" target="_blank" rel="noopener noreferrer" class="cta-button">
+        <svg viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 14.05c-.24.68-1.4 1.3-1.93 1.37-.5.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.84-1.23-4.7-4.1-4.84-4.29-.14-.19-1.16-1.54-1.16-2.94 0-1.4.73-2.09 1-2.37.24-.28.53-.35.71-.35.18 0 .35 0 .5.01.16.01.38-.06.59.45.24.58.81 2.01.88 2.15.07.14.11.31.02.5-.09.19-.14.31-.28.47-.14.17-.29.37-.42.5-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.89 1.05.93 1.93 1.22 2.21 1.36.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.28.36-.23.6-.14.24.09 1.55.73 1.82.87.26.14.43.2.5.31.07.11.07.66-.17 1.28Z"/>
+        </svg>
+        Entrar no grupo
+      </a>
+    </div>
+
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carousel-track"></div>
+    </div>
+
+    <div class="benefits">
+      <div class="benefit-item">
+        <span class="benefit-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 12.5l2.2 2.2L16 9.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="12" r="9" stroke="#ffffff" stroke-width="2"/>
+          </svg>
+        </span>
+        <div class="benefit-text">
+          <span class="benefit-title">Treinos exclusivos</span>
+          <span class="benefit-description">Fichas de treino, séries e exercícios direto no seu WhatsApp.</span>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <span class="benefit-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2c-3 3-5 6-5 9a5 5 0 0 0 10 0c0-3-2-6-5-9Z" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M9 15c1 1 5 1 6 0" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <div class="benefit-text">
+          <span class="benefit-title">Dicas de nutrição</span>
+          <span class="benefit-description">Orientações sobre dieta e suplementação para render mais.</span>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <span class="benefit-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a6 6 0 0 0-6 6v3.6c0 .7-.28 1.37-.78 1.86L4 15h16l-1.22-1.54c-.5-.5-.78-1.16-.78-1.86V8a6 6 0 0 0-6-6Z" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M9.5 18a2.5 2.5 0 0 0 5 0" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <div class="benefit-text">
+          <span class="benefit-title">Motivação diária</span>
+          <span class="benefit-description">Mensagens todos os dias para você nunca perder o foco.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="website-text">www.marombot.com.br</div>
+    <div class="footer-text">Marombot 2026 © Todos os Direitos Reservados</div>
+  </div>
+
+<script>
+  var items = [
+    { label: "Treino", icon: 'M2 12h2M20 12h2M5 8v8M19 8v8M8 10v4h8v-4H8Z' },
+    { label: "Dieta", icon: 'M12 2c-3 3-5 6-5 9a5 5 0 0 0 10 0c0-3-2-6-5-9Z' },
+    { label: "Cardio", icon: 'M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z' },
+    { label: "Foco", icon: 'M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8' }
+  ];
+  var track = document.getElementById('carousel-track');
+  var doubled = items.concat(items);
+  doubled.forEach(function (item) {
+    var span = document.createElement('span');
+    span.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="' + item.icon + '"/></svg>' + item.label;
+    track.appendChild(span);
+  });
+</script>
+</body>
+</html>
