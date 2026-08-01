@@ -154,25 +154,15 @@
 
   .carousel-track {
     display: flex;
-    gap: 22px;
+    gap: 7px;
     width: max-content;
-    animation: scroll 12s linear infinite;
+    animation: scroll 10s linear infinite;
   }
 
-  .carousel-track span {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    height: 32px;
+  .carousel-track img {
+    height: 44px;
     flex-shrink: 0;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    color: #ffffff;
-    white-space: nowrap;
   }
-
-  .carousel-track svg { width: 20px; height: 20px; }
 
   @keyframes scroll {
     0% { transform: translateX(0); }
@@ -339,18 +329,19 @@
   </div>
 
 <script>
-  var items = [
-    { label: "Treino", icon: 'M2 12h2M20 12h2M5 8v8M19 8v8M8 10v4h8v-4H8Z' },
-    { label: "Dieta", icon: 'M12 2c-3 3-5 6-5 9a5 5 0 0 0 10 0c0-3-2-6-5-9Z' },
-    { label: "Cardio", icon: 'M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z' },
-    { label: "Foco", icon: 'M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8' }
+  var stores = [
+    { src: "assets/stores/shopee.svg", alt: "Shopee" },
+    { src: "assets/stores/magalu.svg", alt: "Magalu" },
+    { src: "assets/stores/mercado-livre.svg", alt: "Mercado Livre" },
+    { src: "assets/stores/amazon.svg", alt: "Amazon" }
   ];
   var track = document.getElementById('carousel-track');
-  var doubled = items.concat(items);
-  doubled.forEach(function (item) {
-    var span = document.createElement('span');
-    span.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="' + item.icon + '"/></svg>' + item.label;
-    track.appendChild(span);
+  var doubled = stores.concat(stores);
+  doubled.forEach(function (store) {
+    var img = document.createElement('img');
+    img.src = store.src;
+    img.alt = store.alt;
+    track.appendChild(img);
   });
 </script>
 </body>
