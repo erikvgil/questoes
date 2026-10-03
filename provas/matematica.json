@@ -1,366 +1,627 @@
 {
+  "title": "Matemática – Medidas e números",
   "questions": [
     {
       "type": "multiple-choice",
       "question": "Antigamente, como as pessoas mediam os objetos e distâncias?",
-      "options": ["Usando trenas", "Usando partes do corpo", "Usando balanças", "Usando termômetros"],
+      "options": [
+        "Usando trenas",
+        "Usando partes do corpo",
+        "Usando balanças",
+        "Usando termômetros"
+      ],
       "correctAnswer": "Usando partes do corpo",
       "topic": "Medidas - Formas antigas de medir"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é a medida-padrão de comprimento usada atualmente?",
-      "options": ["Centímetro", "Metro", "Pé", "Polegada"],
+      "options": [
+        "Centímetro",
+        "Metro",
+        "Pé",
+        "Polegada"
+      ],
       "correctAnswer": "Metro",
       "topic": "Medidas - Unidade padrão"
     },
     {
       "type": "multiple-choice",
       "question": "Quantos centímetros tem um metro?",
-      "options": ["10", "100", "1000", "60"],
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "60"
+      ],
       "correctAnswer": "100",
       "topic": "Medidas - Relação metro e centímetro"
     },
     {
       "type": "multiple-choice",
       "question": "Quantos milímetros há em 1 centímetro?",
-      "options": ["10", "100", "5", "1000"],
+      "options": [
+        "10",
+        "100",
+        "5",
+        "1000"
+      ],
       "correctAnswer": "10",
       "topic": "Medidas - Relação centímetro e milímetro"
     },
     {
       "type": "multiple-choice",
       "question": "Qual instrumento usamos para medir a altura de uma porta?",
-      "options": ["Régua", "Trena", "Paquímetro", "Colher"],
+      "options": [
+        "Régua",
+        "Trena",
+        "Paquímetro",
+        "Colher"
+      ],
       "correctAnswer": "Trena",
       "topic": "Instrumentos de medida - Uso da trena"
     },
     {
       "type": "multiple-choice",
       "question": "Qual instrumento é usado para medir objetos muito pequenos?",
-      "options": ["Metro comercial", "Paquímetro", "Fita métrica", "Trena"],
+      "options": [
+        "Metro comercial",
+        "Paquímetro",
+        "Fita métrica",
+        "Trena"
+      ],
       "correctAnswer": "Paquímetro",
       "topic": "Instrumentos de medida - Precisão"
     },
     {
       "type": "multiple-choice",
       "question": "A fita métrica é usada principalmente para:",
-      "options": ["Medir líquidos", "Medir comprimentos", "Medir peso", "Medir tempo"],
+      "options": [
+        "Medir líquidos",
+        "Medir comprimentos",
+        "Medir peso",
+        "Medir tempo"
+      ],
       "correctAnswer": "Medir comprimentos",
       "topic": "Instrumentos de medida - Fita métrica"
     },
     {
       "type": "multiple-choice",
       "question": "O metro comercial é muito usado para medir:",
-      "options": ["Temperatura", "Tecido", "Peso", "Tempo"],
+      "options": [
+        "Temperatura",
+        "Tecido",
+        "Peso",
+        "Tempo"
+      ],
       "correctAnswer": "Tecido",
       "topic": "Instrumentos de medida - Metro comercial"
     },
     {
       "type": "multiple-choice",
       "question": "Se o palmo de uma pessoa mede 15 cm, quantos centímetros tem uma mesa de 6 palmos?",
-      "options": ["45 cm", "60 cm", "90 cm", "120 cm"],
+      "options": [
+        "45 cm",
+        "60 cm",
+        "90 cm",
+        "120 cm"
+      ],
       "correctAnswer": "90 cm",
       "topic": "Medidas - Cálculo com palmos"
     },
     {
       "type": "multiple-choice",
       "question": "Medir usando o pé ou o braço é uma forma de medida:",
-      "options": ["Padrão", "Antiga e não exata", "Científica", "Automática"],
+      "options": [
+        "Padrão",
+        "Antiga e não exata",
+        "Científica",
+        "Automática"
+      ],
       "correctAnswer": "Antiga e não exata",
       "topic": "Medidas - Formas não padronizadas"
     },
     {
       "type": "multiple-choice",
       "question": "Cada número marcado na régua corresponde a:",
-      "options": ["1 metro", "1 milímetro", "1 centímetro", "1 decímetro"],
+      "options": [
+        "1 metro",
+        "1 milímetro",
+        "1 centímetro",
+        "1 decímetro"
+      ],
       "correctAnswer": "1 centímetro",
       "topic": "Instrumentos de medida - Régua"
     },
     {
       "type": "multiple-choice",
       "question": "Qual desses objetos mede mais de 1 metro?",
-      "options": ["Lápis", "Carteira escolar", "Armário", "Caderno"],
+      "options": [
+        "Lápis",
+        "Carteira escolar",
+        "Armário",
+        "Caderno"
+      ],
       "correctAnswer": "Armário",
       "topic": "Medidas - Comparação de comprimentos"
     },
     {
       "type": "multiple-choice",
       "question": "Qual desses objetos mede menos de 10 centímetros?",
-      "options": ["Borracha", "Cadeira", "Mesa", "Janela"],
+      "options": [
+        "Borracha",
+        "Cadeira",
+        "Mesa",
+        "Janela"
+      ],
       "correctAnswer": "Borracha",
       "topic": "Medidas - Comparação de tamanhos"
     },
     {
       "type": "multiple-choice",
       "question": "Qual unidade de medida é mais adequada para medir a unha do dedo mindinho?",
-      "options": ["Metro", "Centímetro", "Milímetro", "Quilômetro"],
+      "options": [
+        "Metro",
+        "Centímetro",
+        "Milímetro",
+        "Quilômetro"
+      ],
       "correctAnswer": "Milímetro",
       "topic": "Medidas - Unidade apropriada"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é a medida mais adequada para o comprimento de uma sala de aula?",
-      "options": ["Milímetro", "Centímetro", "Metro", "Quilômetro"],
+      "options": [
+        "Milímetro",
+        "Centímetro",
+        "Metro",
+        "Quilômetro"
+      ],
       "correctAnswer": "Metro",
       "topic": "Medidas - Unidade apropriada"
     },
     {
       "type": "multiple-choice",
       "question": "Um número é formado por algarismos. No número 359, o 3 representa:",
-      "options": ["3 unidades", "3 dezenas", "3 centenas", "30 unidades"],
+      "options": [
+        "3 unidades",
+        "3 dezenas",
+        "3 centenas",
+        "30 unidades"
+      ],
       "correctAnswer": "3 centenas",
       "topic": "Valor posicional - Centenas"
     },
     {
       "type": "multiple-choice",
       "question": "No número 745, o algarismo 4 representa:",
-      "options": ["4 dezenas", "4 unidades", "4 centenas", "400 unidades"],
+      "options": [
+        "4 dezenas",
+        "4 unidades",
+        "4 centenas",
+        "400 unidades"
+      ],
       "correctAnswer": "4 dezenas",
       "topic": "Valor posicional - Dezenas"
     },
     {
       "type": "multiple-choice",
       "question": "No número 213, o algarismo 3 representa:",
-      "options": ["3 centenas", "3 dezenas", "3 unidades", "30 unidades"],
+      "options": [
+        "3 centenas",
+        "3 dezenas",
+        "3 unidades",
+        "30 unidades"
+      ],
       "correctAnswer": "3 unidades",
       "topic": "Valor posicional - Unidades"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é o sucessor de 306?",
-      "options": ["305", "307", "308", "309"],
+      "options": [
+        "305",
+        "307",
+        "308",
+        "309"
+      ],
       "correctAnswer": "307",
       "topic": "Sequência numérica - Sucessor"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é o antecessor de 400?",
-      "options": ["399", "401", "398", "390"],
+      "options": [
+        "399",
+        "401",
+        "398",
+        "390"
+      ],
       "correctAnswer": "399",
       "topic": "Sequência numérica - Antecessor"
     },
     {
       "type": "multiple-choice",
       "question": "O número 574 é:",
-      "options": ["Ímpar", "Par", "Negativo", "Decimal"],
+      "options": [
+        "Ímpar",
+        "Par",
+        "Negativo",
+        "Decimal"
+      ],
       "correctAnswer": "Par",
       "topic": "Números pares e ímpares"
     },
     {
       "type": "multiple-choice",
       "question": "O número 201 é:",
-      "options": ["Par", "Ímpar", "Decimal", "Zero"],
+      "options": [
+        "Par",
+        "Ímpar",
+        "Decimal",
+        "Zero"
+      ],
       "correctAnswer": "Ímpar",
       "topic": "Números pares e ímpares"
     },
     {
       "type": "multiple-choice",
       "question": "O número menor que 400 e que tem o algarismo 6 na dezena é:",
-      "options": ["362", "426", "621", "460"],
+      "options": [
+        "362",
+        "426",
+        "621",
+        "460"
+      ],
       "correctAnswer": "362",
       "topic": "Comparação de números"
     },
     {
       "type": "multiple-choice",
       "question": "O número maior que 400 e menor que 660, com 5 na unidade, é:",
-      "options": ["653", "621", "425", "398"],
-      "correctAnswer": "655",
+      "options": [
+        "653",
+        "621",
+        "425",
+        "398"
+      ],
+      "correctAnswer": "425",
       "topic": "Comparação de números"
     },
     {
       "type": "multiple-choice",
       "question": "Complete: 100 + 100 + 100 + 100 + 75 =",
-      "options": ["375", "475", "400", "575"],
+      "options": [
+        "375",
+        "475",
+        "400",
+        "575"
+      ],
       "correctAnswer": "475",
       "topic": "Adição - Centenas"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é o resultado de 150 + 42?",
-      "options": ["182", "192", "202", "142"],
+      "options": [
+        "182",
+        "192",
+        "202",
+        "142"
+      ],
       "correctAnswer": "192",
       "topic": "Adição - Números de três dígitos"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é o resultado de 440 + 251?",
-      "options": ["691", "697", "701", "690"],
-      "correctAnswer": "697",
+      "options": [
+        "691",
+        "697",
+        "701",
+        "690"
+      ],
+      "correctAnswer": "691",
       "topic": "Adição - Números de três dígitos"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é o resultado de 504 + 444?",
-      "options": ["948", "944", "954", "940"],
+      "options": [
+        "948",
+        "944",
+        "954",
+        "940"
+      ],
       "correctAnswer": "948",
       "topic": "Adição - Números de três dígitos"
     },
     {
       "type": "multiple-choice",
       "question": "O resultado de 776 - 434 é:",
-      "options": ["332", "342", "336", "344"],
+      "options": [
+        "332",
+        "342",
+        "336",
+        "344"
+      ],
       "correctAnswer": "342",
       "topic": "Subtração - Números de três dígitos"
     },
     {
       "type": "multiple-choice",
       "question": "O resultado de 685 - 402 é:",
-      "options": ["283", "293", "2830", "383"],
+      "options": [
+        "283",
+        "293",
+        "2830",
+        "383"
+      ],
       "correctAnswer": "283",
       "topic": "Subtração - Números de três dígitos"
     },
     {
       "type": "multiple-choice",
       "question": "O número formado por 3 centenas, 5 dezenas e 8 unidades é:",
-      "options": ["358", "385", "538", "583"],
+      "options": [
+        "358",
+        "385",
+        "538",
+        "583"
+      ],
       "correctAnswer": "358",
       "topic": "Composição de números"
     },
     {
       "type": "multiple-choice",
       "question": "Qual número é formado por 4 centenas, 6 dezenas e 7 unidades?",
-      "options": ["467", "476", "647", "674"],
+      "options": [
+        "467",
+        "476",
+        "647",
+        "674"
+      ],
       "correctAnswer": "467",
       "topic": "Composição de números"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é o maior número entre 475, 467, 430 e 466?",
-      "options": ["430", "466", "467", "475"],
+      "options": [
+        "430",
+        "466",
+        "467",
+        "475"
+      ],
       "correctAnswer": "475",
       "topic": "Comparação de números"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é o menor número entre 475, 467, 430 e 466?",
-      "options": ["430", "466", "475", "467"],
+      "options": [
+        "430",
+        "466",
+        "475",
+        "467"
+      ],
       "correctAnswer": "430",
       "topic": "Comparação de números"
     },
     {
       "type": "multiple-choice",
       "question": "Uma dúzia tem quantas unidades?",
-      "options": ["10", "12", "6", "24"],
+      "options": [
+        "10",
+        "12",
+        "6",
+        "24"
+      ],
       "correctAnswer": "12",
       "topic": "Medidas - Dúzia"
     },
     {
       "type": "multiple-choice",
       "question": "Meia dúzia corresponde a quantas unidades?",
-      "options": ["3", "5", "6", "12"],
+      "options": [
+        "3",
+        "5",
+        "6",
+        "12"
+      ],
       "correctAnswer": "6",
       "topic": "Medidas - Dúzia"
     },
     {
       "type": "multiple-choice",
       "question": "Qual número vem depois de 579 em uma sequência subtraindo 1 unidade?",
-      "options": ["578", "580", "577", "581"],
+      "options": [
+        "578",
+        "580",
+        "577",
+        "581"
+      ],
       "correctAnswer": "578",
       "topic": "Sequência numérica - Subtração"
     },
     {
       "type": "multiple-choice",
       "question": "Se adicionarmos 1 dezena ao número 632, teremos:",
-      "options": ["642", "630", "622", "652"],
+      "options": [
+        "642",
+        "630",
+        "622",
+        "652"
+      ],
       "correctAnswer": "642",
       "topic": "Sequência numérica - Adição de dezenas"
     },
     {
       "type": "multiple-choice",
       "question": "Se adicionarmos 1 centena ao número 288, o resultado será:",
-      "options": ["388", "488", "288", "3880"],
+      "options": [
+        "388",
+        "488",
+        "288",
+        "3880"
+      ],
       "correctAnswer": "388",
       "topic": "Sequência numérica - Adição de centenas"
     },
     {
       "type": "multiple-choice",
       "question": "O número formado por 7 dezenas e 2 unidades é:",
-      "options": ["72", "27", "702", "720"],
+      "options": [
+        "72",
+        "27",
+        "702",
+        "720"
+      ],
       "correctAnswer": "72",
       "topic": "Valor posicional - Dezenas e unidades"
     },
     {
       "type": "multiple-choice",
       "question": "O número 371 tem:",
-      "options": ["3 centenas, 7 dezenas e 1 unidade", "3 dezenas e 7 unidades", "7 centenas e 3 unidades", "30 dezenas"],
+      "options": [
+        "3 centenas, 7 dezenas e 1 unidade",
+        "3 dezenas e 7 unidades",
+        "7 centenas e 3 unidades",
+        "30 dezenas"
+      ],
       "correctAnswer": "3 centenas, 7 dezenas e 1 unidade",
       "topic": "Valor posicional - Leitura de números"
     },
     {
       "type": "multiple-choice",
       "question": "No desenho do zoológico, Caio está em frente à área dos:",
-      "options": ["Leões", "Elefantes", "Macacos", "Girafas"],
+      "options": [
+        "Leões",
+        "Elefantes",
+        "Macacos",
+        "Girafas"
+      ],
       "correctAnswer": "Elefantes",
       "topic": "Localização no espaço - Direções"
     },
     {
       "type": "multiple-choice",
       "question": "Se Caio virar à esquerda, ele chegará à área dos:",
-      "options": ["Leões", "Girafas", "Tigres", "Macacos"],
+      "options": [
+        "Leões",
+        "Girafas",
+        "Tigres",
+        "Macacos"
+      ],
       "correctAnswer": "Leões",
       "topic": "Localização no espaço - Direções"
     },
     {
       "type": "multiple-choice",
       "question": "Na figura da escola, o prédio azul fica:",
-      "options": ["À direita da escola", "Em frente à escola", "Atrás da escola", "Ao lado do hospital"],
+      "options": [
+        "À direita da escola",
+        "Em frente à escola",
+        "Atrás da escola",
+        "Ao lado do hospital"
+      ],
       "correctAnswer": "Em frente à escola",
       "topic": "Localização no espaço - Posição relativa"
     },
     {
       "type": "multiple-choice",
       "question": "Se a diretora está em frente à escola, a igreja está:",
-      "options": ["À direita da escola", "À esquerda da escola", "Atrás da escola", "Em frente à escola"],
+      "options": [
+        "À direita da escola",
+        "À esquerda da escola",
+        "Atrás da escola",
+        "Em frente à escola"
+      ],
       "correctAnswer": "À esquerda da escola",
       "topic": "Localização no espaço - Orientação"
     },
     {
       "type": "multiple-choice",
       "question": "O número 372 tem quantos algarismos ímpares?",
-      "options": ["1", "2", "3", "0"],
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
       "correctAnswer": "2",
       "topic": "Números pares e ímpares"
     },
     {
       "type": "multiple-choice",
       "question": "Se cada quadrado em um mapa vale 10 metros, 19 quadrados equivalem a:",
-      "options": ["190 metros", "19 metros", "100 metros", "210 metros"],
+      "options": [
+        "190 metros",
+        "19 metros",
+        "100 metros",
+        "210 metros"
+      ],
       "correctAnswer": "190 metros",
       "topic": "Medidas - Proporção em mapas"
     },
     {
       "type": "multiple-choice",
       "question": "O número formado por 8 dezenas e 5 unidades é:",
-      "options": ["805", "85", "58", "850"],
+      "options": [
+        "805",
+        "85",
+        "58",
+        "850"
+      ],
       "correctAnswer": "85",
       "topic": "Valor posicional - Dezenas e unidades"
     },
     {
       "type": "multiple-choice",
       "question": "O número ímpar entre 750 e 760 é:",
-      "options": ["752", "754", "755", "758"],
+      "options": [
+        "752",
+        "754",
+        "755",
+        "758"
+      ],
       "correctAnswer": "755",
       "topic": "Números pares e ímpares"
     },
     {
       "type": "multiple-choice",
       "question": "O resultado de 280 - 80 é:",
-      "options": ["100", "180", "200", "220"],
+      "options": [
+        "100",
+        "180",
+        "200",
+        "220"
+      ],
       "correctAnswer": "200",
       "topic": "Subtração - Números redondos"
     },
     {
       "type": "multiple-choice",
       "question": "O resultado de 120 - 20 é:",
-      "options": ["80", "90", "100", "110"],
+      "options": [
+        "80",
+        "90",
+        "100",
+        "110"
+      ],
       "correctAnswer": "100",
       "topic": "Subtração - Dezenas"
     },
     {
       "type": "multiple-choice",
       "question": "Qual é o valor posicional do algarismo 6 no número 462?",
-      "options": ["6 unidades", "6 dezenas", "6 centenas", "60 centenas"],
+      "options": [
+        "6 unidades",
+        "6 dezenas",
+        "6 centenas",
+        "60 centenas"
+      ],
       "correctAnswer": "6 dezenas",
       "topic": "Valor posicional - Dezenas"
     }

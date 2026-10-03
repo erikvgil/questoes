@@ -1,0 +1,485 @@
+{
+  "title": "Inglês – Places in town",
+  "questions": [
+    {
+      "type": "multiple-choice",
+      "question": "Complete the question: ___ your town got a cinema?",
+      "options": [
+        "Has",
+        "Have",
+        "Is",
+        "Are"
+      ],
+      "correctAnswer": "Has",
+      "topic": "Has ... got ... ? - Question form"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the question: ___ your town got a hospital?",
+      "options": [
+        "Has",
+        "Have",
+        "Do",
+        "Am"
+      ],
+      "correctAnswer": "Has",
+      "topic": "Has ... got ... ? - Question form"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question.",
+      "options": [
+        "Has your town got a swimming pool?",
+        "Have your town got a swimming pool?",
+        "Is your town got a swimming pool?",
+        "Are your town got a swimming pool?"
+      ],
+      "correctAnswer": "Has your town got a swimming pool?",
+      "topic": "Has ... got ... ? - Question form"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question.",
+      "options": [
+        "Has your town got a park?",
+        "Have your town got a park?",
+        "Has your town has got a park?",
+        "Is your town got a park?"
+      ],
+      "correctAnswer": "Has your town got a park?",
+      "topic": "Has ... got ... ? - Question form"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the answer: Yes, it ___.",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "are"
+      ],
+      "correctAnswer": "has",
+      "topic": "Has ... got ... ? - Short answers"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the answer: No, it ___.",
+      "options": [
+        "has",
+        "have",
+        "hasn't",
+        "haven't"
+      ],
+      "correctAnswer": "hasn't",
+      "topic": "Has ... got ... ? - Short answers"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct answer: Has your town got a school?",
+      "options": [
+        "Yes, it has.",
+        "Yes, it have.",
+        "No, it has.",
+        "No, it have."
+      ],
+      "correctAnswer": "Yes, it has.",
+      "topic": "Has ... got ... ? - Short answers"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct answer: Has your town got a zoo?",
+      "options": [
+        "No, it hasn't.",
+        "No, it haven't.",
+        "Yes, it hasn't.",
+        "No, it is."
+      ],
+      "correctAnswer": "No, it hasn't.",
+      "topic": "Has ... got ... ? - Short answers"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "My town has got a school.",
+        "My town have got a school.",
+        "My town got a school.",
+        "My town has school."
+      ],
+      "correctAnswer": "My town has got a school.",
+      "topic": "Has got - Affirmative sentences"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "My town has got a bus stop.",
+        "My town have got a bus stop.",
+        "My town is got a bus stop.",
+        "My town has got bus stop."
+      ],
+      "correctAnswer": "My town has got a bus stop.",
+      "topic": "Has got - Affirmative sentences"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct negative sentence.",
+      "options": [
+        "My town hasn't got a café.",
+        "My town haven't got a café.",
+        "My town not got a café.",
+        "My town hasn't got café."
+      ],
+      "correctAnswer": "My town hasn't got a café.",
+      "topic": "Has got - Negative sentences"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct negative sentence.",
+      "options": [
+        "My town hasn't got a zoo.",
+        "My town haven't got a zoo.",
+        "My town hasn't a zoo got.",
+        "My town not has got a zoo."
+      ],
+      "correctAnswer": "My town hasn't got a zoo.",
+      "topic": "Has got - Negative sentences"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the sentence: My town ___ got a hospital.",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "are"
+      ],
+      "correctAnswer": "has",
+      "topic": "Has got - Affirmative sentences"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the sentence: My town ___ got a train station.",
+      "options": [
+        "hasn't",
+        "haven't",
+        "don't",
+        "isn't"
+      ],
+      "correctAnswer": "hasn't",
+      "topic": "Has got - Negative sentences"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "cinema",
+        "banana",
+        "teacher",
+        "pencil"
+      ],
+      "correctAnswer": "cinema",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "hospital",
+        "window",
+        "apple",
+        "shoe"
+      ],
+      "correctAnswer": "hospital",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "train station",
+        "cat",
+        "notebook",
+        "kitchen"
+      ],
+      "correctAnswer": "train station",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "playground",
+        "juice",
+        "eraser",
+        "sock"
+      ],
+      "correctAnswer": "playground",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "swimming pool",
+        "carrot",
+        "bird",
+        "book"
+      ],
+      "correctAnswer": "swimming pool",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "bus stop",
+        "chair",
+        "ruler",
+        "backpack"
+      ],
+      "correctAnswer": "bus stop",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "school",
+        "orange",
+        "frog",
+        "lamp"
+      ],
+      "correctAnswer": "school",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "shop",
+        "elephant",
+        "bed",
+        "door"
+      ],
+      "correctAnswer": "shop",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "park",
+        "pen",
+        "rain",
+        "ball"
+      ],
+      "correctAnswer": "park",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which word is a place in town?",
+      "options": [
+        "café",
+        "tree",
+        "table",
+        "shoe"
+      ],
+      "correctAnswer": "café",
+      "topic": "Places in town - Vocabulary"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the expression: next ___",
+      "options": [
+        "to",
+        "of",
+        "in",
+        "at"
+      ],
+      "correctAnswer": "to",
+      "topic": "Prepositions - next to"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The hospital is next to the school.",
+        "The hospital is next the school.",
+        "The hospital next to the school.",
+        "The hospital is next of the school."
+      ],
+      "correctAnswer": "The hospital is next to the school.",
+      "topic": "Prepositions - next to"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The bus stop is next to the shop.",
+        "The bus stop is next the shop.",
+        "The bus stop is to next the shop.",
+        "The bus stop next of the shop."
+      ],
+      "correctAnswer": "The bus stop is next to the shop.",
+      "topic": "Prepositions - next to"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the sentence: The tree is ___ the school.",
+      "options": [
+        "behind",
+        "between",
+        "next to",
+        "on"
+      ],
+      "correctAnswer": "behind",
+      "topic": "Prepositions - behind"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The cinema is behind the park.",
+        "The cinema is behind of the park.",
+        "The cinema behind the park.",
+        "The cinema is between the park."
+      ],
+      "correctAnswer": "The cinema is behind the park.",
+      "topic": "Prepositions - behind"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The ball is behind the chair.",
+        "The ball is behind of the chair.",
+        "The ball is next the chair.",
+        "The ball is in front the chair."
+      ],
+      "correctAnswer": "The ball is behind the chair.",
+      "topic": "Prepositions - behind"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the expression: in front ___",
+      "options": [
+        "of",
+        "to",
+        "at",
+        "on"
+      ],
+      "correctAnswer": "of",
+      "topic": "Prepositions - in front of"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The bus is in front of the hospital.",
+        "The bus is front of the hospital.",
+        "The bus is in front the hospital.",
+        "The bus is in front to the hospital."
+      ],
+      "correctAnswer": "The bus is in front of the hospital.",
+      "topic": "Prepositions - in front of"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The dog is in front of the house.",
+        "The dog is in front the house.",
+        "The dog is front of the house.",
+        "The dog is in front to the house."
+      ],
+      "correctAnswer": "The dog is in front of the house.",
+      "topic": "Prepositions - in front of"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the sentence: The café is ___ the school and the cinema.",
+      "options": [
+        "between",
+        "behind",
+        "next to",
+        "under"
+      ],
+      "correctAnswer": "between",
+      "topic": "Prepositions - between"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "The playground is between the school and the park.",
+        "The playground is next the school and the park.",
+        "The playground is behind the school and the park and.",
+        "The playground is in front the school and the park."
+      ],
+      "correctAnswer": "The playground is between the school and the park.",
+      "topic": "Prepositions - between"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Complete the sentence: The toy is between the book ___ the pencil.",
+      "options": [
+        "and",
+        "of",
+        "to",
+        "in"
+      ],
+      "correctAnswer": "and",
+      "topic": "Prepositions - between"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question and answer.",
+      "options": [
+        "Has your town got a school? Yes, it has.",
+        "Have your town got a school? Yes, it has.",
+        "Has your town got a school? Yes, it have.",
+        "Has your town got a school? No, it has."
+      ],
+      "correctAnswer": "Has your town got a school? Yes, it has.",
+      "topic": "Has ... got ... ? - Question and answer"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct question and answer.",
+      "options": [
+        "Has your town got a zoo? No, it hasn't.",
+        "Has your town got a zoo? No, it haven't.",
+        "Have your town got a zoo? No, it hasn't.",
+        "Has your town got a zoo? Yes, it hasn't."
+      ],
+      "correctAnswer": "Has your town got a zoo? No, it hasn't.",
+      "topic": "Has ... got ... ? - Question and answer"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "My town has got a park and a school.",
+        "My town have got a park and a school.",
+        "My town has got park and school.",
+        "My town got a park and a school."
+      ],
+      "correctAnswer": "My town has got a park and a school.",
+      "topic": "Has got - Affirmative sentences"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "My town hasn't got a zoo or a farm.",
+        "My town haven't got a zoo or a farm.",
+        "My town hasn't got zoo or farm.",
+        "My town not got a zoo or a farm."
+      ],
+      "correctAnswer": "My town hasn't got a zoo or a farm.",
+      "topic": "Has got - Negative sentences"
+    }
+  ]
+}
