@@ -7,105 +7,139 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="sidebar">
-        <div class="sidebar-header">
-            <h3>Selecione o Tema</h3>
-        </div>
-        <div class="quiz-list" id="quiz-list">
-            <!-- Lista de quizzes será preenchida via JavaScript -->
-        </div>
-    </div>
-
-    <div class="main-container">
-        <div class="container">
+    <header class="topbar">
+        <div class="brand">
             <h1>Site do HEITOR</h1>
-            <h2 class="subtitle">Questões Divertidas</h2>
-            
-            <div class="progress-bar">
-                <div class="progress"></div>
-            </div>
-            
-            <div class="question-counter">
-                Questão <span id="current-question">1</span> de <span id="total-questions">0</span>
-            </div>
-
-            <div id="question-container">
-                <div id="question-text"></div>
-                <div id="options-container"></div>
-                <div id="feedback" class="hidden"></div>
-            </div>
-
-            <div class="navigation-buttons">
-                <button id="prev-button" class="nav-button">← Anterior</button>
-                <button id="next-button" class="nav-button">Próxima →</button>
-            </div>
+            <span class="subtitle">Questões Divertidas</span>
         </div>
+        <nav class="tabs">
+            <button type="button" class="tab active" data-nav="home">📚 Provas</button>
+            <button type="button" class="tab" data-nav="manage">⚙️ Gerenciar provas</button>
+        </nav>
+    </header>
 
-        <div id="stats-panel" class="stats-panel">
-            <div class="stats-header">
-                <h3>Estatísticas</h3>
-                <button id="toggle-stats" class="toggle-button">◀</button>
+    <main>
+        <!-- Lista de provas -->
+        <section id="view-home" class="view">
+            <h2 class="view-title">Escolha uma prova</h2>
+            <div id="prova-grid" class="prova-grid"></div>
+            <div id="home-empty" class="empty" hidden>
+                <p>Nenhuma prova cadastrada ainda.</p>
+                <button type="button" class="btn primary" data-nav="manage">Enviar um arquivo .json</button>
             </div>
-            <div class="stats-content">
-                <div class="stat-item">
-                    <span class="stat-label">Acertos:</span>
-                    <span id="stats-correct" class="stat-value correct">0</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Erros:</span>
-                    <span id="stats-incorrect" class="stat-value incorrect">0</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Porcentagem:</span>
-                    <span id="stats-percentage" class="stat-value">0%</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Respondidas:</span>
-                    <span id="stats-answered" class="stat-value">0/0</span>
-                </div>
-                <div class="stat-chart">
-                    <div class="chart-bar">
-                        <div id="correct-bar" class="correct-bar"></div>
-                        <div id="incorrect-bar" class="incorrect-bar"></div>
-                    </div>
-                    <div class="chart-labels">
-                        <span>Acertos</span>
-                        <span>Erros</span>
-                    </div>
-                </div>
-                <button id="reset-button" class="nav-button reset-button">↺ Reiniciar</button>
-            </div>
-        </div>
+        </section>
 
-        <div id="results" class="hidden">
-            <h2>Resultados</h2>
-            <div class="score-container">
+        <!-- Prova em andamento -->
+        <section id="view-quiz" class="view" hidden>
+            <div class="card">
+                <div class="quiz-header">
+                    <button type="button" class="btn ghost small" data-nav="home">← Provas</button>
+                    <h2 id="quiz-title"></h2>
+                </div>
+
+                <div class="progress-bar"><div id="progress" class="progress"></div></div>
+
+                <div class="quiz-status">
+                    <span>Questão <strong id="current-question">1</strong> de <strong id="total-questions">0</strong></span>
+                    <span class="chips">
+                        <span class="chip correct">✓ <span id="stats-correct">0</span></span>
+                        <span class="chip incorrect">✗ <span id="stats-incorrect">0</span></span>
+                    </span>
+                </div>
+
+                <div id="question-topic" class="question-topic"></div>
+                <p id="question-text" class="question-text"></p>
+                <div id="options" class="options"></div>
+                <div id="feedback" class="feedback" hidden></div>
+
+                <div class="navigation-buttons">
+                    <button type="button" id="prev-button" class="btn">← Anterior</button>
+                    <button type="button" id="next-button" class="btn primary">Próxima →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resultado -->
+        <section id="view-results" class="view" hidden>
+            <div class="card">
+                <h2 class="view-title" id="results-title">Resultado</h2>
+                <p id="results-message" class="results-message"></p>
                 <div class="score-circle">
-                    <span id="final-score">0</span>
-                    <span class="score-label">pontos</span>
+                    <span id="final-percentage">0%</span>
+                    <span class="score-label">de acertos</span>
                 </div>
+                <div class="results-details">
+                    <div class="result-item"><span class="result-label">Acertos</span><span id="correct-count" class="result-value correct-text">0</span></div>
+                    <div class="result-item"><span class="result-label">Erros</span><span id="incorrect-count" class="result-value incorrect-text">0</span></div>
+                    <div class="result-item"><span class="result-label">Sem resposta</span><span id="skipped-count" class="result-value">0</span></div>
+                </div>
+                <div class="results-actions">
+                    <button type="button" id="restart-button" class="btn primary">↺ Tentar novamente</button>
+                    <button type="button" class="btn" data-nav="home">Escolher outra prova</button>
+                </div>
+
+                <div class="review-header">
+                    <h3>Revisão das questões</h3>
+                    <label class="toggle"><input type="checkbox" id="only-wrong"> Mostrar só as que errei</label>
+                </div>
+                <div id="questions-review" class="question-review"></div>
             </div>
-            <div class="results-details">
-                <div class="result-item">
-                    <span class="result-label">Acertos</span>
-                    <span id="correct-count" class="correct-count">0</span>
+        </section>
+
+        <!-- Gerenciar provas -->
+        <section id="view-manage" class="view" hidden>
+            <h2 class="view-title">Gerenciar provas</h2>
+
+            <div class="card">
+                <h3>Enviar provas</h3>
+                <label id="dropzone" class="dropzone">
+                    <input type="file" id="file-input" accept=".json,application/json" multiple>
+                    <span class="dropzone-icon">📄</span>
+                    <strong>Clique para escolher ou arraste arquivos .json aqui</strong>
+                    <span class="muted">Cada arquivo vira uma prova. Você dá o nome antes de salvar.</span>
+                </label>
+
+                <div id="pending" class="pending" hidden>
+                    <div id="pending-list"></div>
+                    <div class="pending-actions">
+                        <button type="button" id="pending-cancel" class="btn">Cancelar</button>
+                        <button type="button" id="pending-save" class="btn primary">Salvar provas</button>
+                    </div>
                 </div>
-                <div class="result-item">
-                    <span class="result-label">Erros</span>
-                    <span id="incorrect-count" class="incorrect-count">0</span>
-                </div>
-                <div class="result-item">
-                    <span class="result-label">Porcentagem</span>
-                    <span id="percentage">0%</span>
-                </div>
+
+                <details class="help">
+                    <summary>Como deve ser o arquivo .json?</summary>
+                    <p>Uma lista <code>questions</code> em que cada questão tem enunciado, opções e a resposta correta (escrita igual a uma das opções). O <code>topic</code> é opcional. A ordem das questões e das opções é embaralhada na hora da prova.</p>
+                    <pre>{
+  "title": "Matemática – Bimestre 1",
+  "questions": [
+    {
+      "question": "Quanto é 2 + 3?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": "5",
+      "topic": "Adição"
+    }
+  ]
+}</pre>
+                    <button type="button" id="download-template" class="btn small">⬇ Baixar modelo</button>
+                </details>
             </div>
-            <div id="questions-review" class="question-review">
-                <h3>Revisão das Questões</h3>
+
+            <div class="card">
+                <h3>Minhas provas</h3>
+                <div id="manage-list" class="manage-list"></div>
             </div>
-            <button id="restart-button" class="restart-button">Tentar Novamente</button>
-        </div>
-    </div>
+
+            <div class="card">
+                <h3>Backup</h3>
+                <p class="muted">As provas enviadas ficam salvas neste navegador. Para usá-las em outro aparelho, exporte o backup e envie o arquivo lá pela área “Enviar provas”.</p>
+                <button type="button" id="export-all" class="btn">⬇ Exportar backup das provas enviadas</button>
+            </div>
+        </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>

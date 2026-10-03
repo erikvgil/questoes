@@ -1,500 +1,733 @@
-// Variáveis globais
-let questions = [];
-let originalQuestions = []; // Array para manter as questões originais
-let currentQuestionIndex = 0;
-let score = 0;
-let userAnswers = [];
-let answeredQuestions = new Set();
-let currentQuizFile = null; // Será definido dinamicamente
+'use strict';
 
-// Elementos do DOM
-const questionText = document.getElementById('question-text');
-const optionsContainer = document.getElementById('options-container');
-const feedback = document.getElementById('feedback');
-const nextButton = document.getElementById('next-button');
-const prevButton = document.getElementById('prev-button');
-const resetButton = document.getElementById('reset-button');
-const currentQuestionSpan = document.getElementById('current-question');
-const totalQuestionsSpan = document.getElementById('total-questions');
-const progressBar = document.querySelector('.progress');
-const results = document.getElementById('results');
-const finalScore = document.getElementById('final-score');
-const correctCount = document.getElementById('correct-count');
-const incorrectCount = document.getElementById('incorrect-count');
-const percentage = document.getElementById('percentage');
-const questionsReview = document.getElementById('questions-review');
-const restartButton = document.getElementById('restart-button');
+// Provas enviadas pelo usuário ficam no localStorage deste navegador.
+// Provas do site ficam em provas/ e são listadas em provas/index.json.
+const STORAGE_KEY = 'questoes.provas.v1';
+const MANIFEST_URL = 'provas/index.json';
+const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
 
-// Elementos do painel de estatísticas
-const statsPanel = document.getElementById('stats-panel');
-const toggleStatsButton = document.getElementById('toggle-stats');
-const statsCorrect = document.getElementById('stats-correct');
-const statsIncorrect = document.getElementById('stats-incorrect');
-const statsPercentage = document.getElementById('stats-percentage');
-const statsAnswered = document.getElementById('stats-answered');
-const correctBar = document.getElementById('correct-bar');
-const incorrectBar = document.getElementById('incorrect-bar');
+let provas = [];   // { id, name, questions, source: 'site' | 'upload', file? }
+let pending = [];  // arquivos enviados aguardando nome/confirmação
+let quiz = null;   // { prova, questions, answers, index, finished }
+let currentView = 'home';
 
-// Função para randomizar array usando o algoritmo Fisher-Yates
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+const $ = (selector) => document.querySelector(selector);
+
+// Cria um elemento com classes, texto e atributos
+function el(tag, props = {}, children = []) {
+    const node = document.createElement(tag);
+    for (const [key, value] of Object.entries(props)) {
+        if (value === undefined || value === null || value === false) continue;
+        if (key === 'className') node.className = value;
+        else if (key === 'text') node.textContent = value;
+        else if (key.startsWith('on')) node.addEventListener(key.slice(2), value);
+        else node.setAttribute(key, value === true ? '' : value);
     }
-    return array;
+    for (const child of [].concat(children)) {
+        if (child) node.append(child);
+    }
+    return node;
 }
 
-// Função para verificar se um arquivo JSON existe
-async function checkFileExists(file) {
+// Algoritmo Fisher-Yates (retorna uma cópia embaralhada)
+function shuffle(array) {
+    const copy = [...array];
+    for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+}
+
+function uid() {
+    return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
+function shorten(text, max = 50) {
+    return text.length > max ? `${text.slice(0, max - 1)}…` : text;
+}
+
+function normalizeName(name) {
+    return name.trim().toLocaleLowerCase('pt-BR');
+}
+
+// "questoes_portugues_60.json" -> "Portugues 60"
+function nameFromFile(fileName) {
+    const base = fileName.split('/').pop().replace(/\.json$/i, '').replace(/^questoes[_-]?/i, '');
+    const words = base.split(/[_-]+/).filter(Boolean);
+    if (words.length === 0) return 'Nova prova';
+    return words.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+}
+
+let toastTimer = null;
+function toast(message, type = 'info') {
+    const node = $('#toast');
+    node.textContent = message;
+    node.className = `toast ${type}`;
+    node.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { node.hidden = true; }, 3500);
+}
+
+function downloadJson(fileName, data) {
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = el('a', { href: url, download: fileName });
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function fileSlug(name) {
+    return name.normalize('NFD').replace(/[̀-ͯ]/g, '')
+        .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'prova';
+}
+
+/* ---------- Validação das questões ---------- */
+
+// Aceita { questions: [...] } ou uma lista direta de questões
+function validateQuestions(data) {
+    const list = Array.isArray(data) ? data : data && data.questions;
+    if (!Array.isArray(list)) {
+        return { questions: [], errors: ['O arquivo precisa ter uma lista "questions".'] };
+    }
+
+    const questions = [];
+    const errors = [];
+    list.forEach((q, i) => {
+        const label = `Questão ${i + 1}`;
+        if (!q || typeof q !== 'object') {
+            errors.push(`${label}: formato inválido.`);
+            return;
+        }
+        const type = q.type || 'multiple-choice';
+        if (type !== 'multiple-choice' && type !== 'complete') {
+            errors.push(`${label}: o tipo "${type}" não é suportado.`);
+            return;
+        }
+        const text = typeof q.question === 'string' ? q.question.trim() : '';
+        if (!text) {
+            errors.push(`${label}: falta o enunciado ("question").`);
+            return;
+        }
+        const where = `${label} ("${shorten(text)}")`;
+        if (!Array.isArray(q.options) || q.options.length < 2) {
+            errors.push(`${where}: precisa de pelo menos 2 opções.`);
+            return;
+        }
+        const options = q.options.map(option => String(option ?? '').trim());
+        if (options.some(option => !option)) {
+            errors.push(`${where}: tem uma opção vazia.`);
+            return;
+        }
+        if (new Set(options).size !== options.length) {
+            errors.push(`${where}: tem opções repetidas.`);
+            return;
+        }
+        const correct = String(q.correctAnswer ?? '').trim();
+        if (!options.includes(correct)) {
+            errors.push(`${where}: a resposta correta "${correct}" não está entre as opções.`);
+            return;
+        }
+        questions.push({
+            question: text,
+            options,
+            correctAnswer: correct,
+            topic: typeof q.topic === 'string' ? q.topic.trim() : ''
+        });
+    });
+
+    if (list.length === 0) errors.push('O arquivo não tem nenhuma questão.');
+    return { questions, errors };
+}
+
+/* ---------- Armazenamento ---------- */
+
+function loadUploads() {
     try {
-        const response = await fetch(file);
-        return response.ok;
-    } catch {
+        const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+        if (!Array.isArray(stored)) return [];
+        return stored
+            .map(item => ({
+                id: item.id,
+                name: String(item.name || 'Prova'),
+                questions: validateQuestions(item).questions,
+                createdAt: item.createdAt,
+                source: 'upload'
+            }))
+            .filter(item => item.id && item.questions.length > 0);
+    } catch (error) {
+        console.error('Erro ao ler provas salvas:', error);
+        return [];
+    }
+}
+
+function saveUploads() {
+    const uploads = provas
+        .filter(prova => prova.source === 'upload')
+        .map(({ id, name, questions, createdAt }) => ({ id, name, questions, createdAt }));
+    try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(uploads));
+        return true;
+    } catch (error) {
+        console.error('Erro ao salvar provas:', error);
+        toast('Não foi possível salvar neste navegador (armazenamento cheio ou bloqueado).', 'error');
         return false;
     }
 }
 
-// Função para formatar o nome do arquivo para exibição
-function formatDisplayName(filename) {
-    // Remove o caminho do diretório, se houver
-    const baseName = filename.split('/').pop();
-    // Remove a extensão .json e o prefixo questoes_
-    let displayName = baseName.replace('.json', '').replace('questoes_', '');
-
-    // Formata casos especiais
-    if (displayName === 'portugues') {
-        return 'Português';
-    } else if (displayName.includes('final')) {
-        return displayName.replace('_', ' ').replace('final', 'Final');
-    }
-
-    // Formata números
-    if (!isNaN(displayName)) {
-        return `Questões ${displayName}`;
-    }
-
-    // Formata outros casos
-    return displayName.split('_').map(word =>
-        word.charAt(0).toUpperCase() + word.slice(1)
-    ).join(' ');
+async function fetchJson(url) {
+    const response = await fetch(`${url}?t=${Date.now()}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
 }
 
-// Função para listar arquivos JSON no diretório
-async function listJsonFiles() {
-    // Lista fixa de todos os arquivos
-    return [
-        `questoes_matematica.json`
-    ];
-}
-
-// Função para criar o menu de quizzes
-async function createQuizMenu() {
-    const quizList = document.getElementById('quiz-list');
-    quizList.innerHTML = '';
-
+async function loadSiteProvas() {
+    let files = [];
     try {
-        // Obter lista de arquivos JSON
-        const knownFiles = await listJsonFiles();
-
-        // Verifica quais arquivos existem
-        const existingFiles = [];
-        for (const file of knownFiles) {
-            if (await checkFileExists(file)) {
-                existingFiles.push(file);
-            }
-        }
-
-        // Define o arquivo inicial se ainda não foi definido
-        if (!currentQuizFile && existingFiles.length > 0) {
-            currentQuizFile = existingFiles[0];
-        }
-
-        // Cria os itens do menu para cada arquivo encontrado
-        existingFiles.forEach(file => {
-            const quizItem = document.createElement('div');
-            quizItem.className = 'quiz-item';
-            if (file === currentQuizFile) {
-                quizItem.classList.add('active');
-            }
-
-            quizItem.textContent = formatDisplayName(file);
-            quizItem.dataset.file = file;
-            quizItem.addEventListener('click', () => selectQuiz(file));
-            quizList.appendChild(quizItem);
-        });
-
-        if (existingFiles.length === 0) {
-            quizList.innerHTML = '<div class="error-message">Nenhum arquivo de questões encontrado</div>';
-        }
+        const manifest = await fetchJson(MANIFEST_URL);
+        files = Array.isArray(manifest.provas) ? manifest.provas : [];
     } catch (error) {
-        console.error('Erro ao carregar lista de arquivos:', error);
-        quizList.innerHTML = '<div class="error-message">Erro ao carregar lista de arquivos</div>';
+        console.warn('Sem lista de provas do site:', error.message);
+        return [];
     }
-}
 
-// Função para selecionar um quiz
-async function selectQuiz(quizFile) {
-    try {
-        // Limpar estado atual
-        questions = [];
-        originalQuestions = [];
-        currentQuestionIndex = 0;
-        score = 0;
-        userAnswers = [];
-        answeredQuestions = new Set();
-
-        // Atualizar arquivo atual
-        currentQuizFile = quizFile;
-        console.log('Selecionando novo quiz:', currentQuizFile);
-
-        // Atualizar visual do menu
-        document.querySelectorAll('.quiz-item').forEach(item => {
-            item.classList.remove('active');
-            if (item.dataset.file === quizFile) {
-                item.classList.add('active');
-            }
-        });
-
-        // Limpar UI
-        questionText.textContent = 'Carregando questões...';
-        optionsContainer.innerHTML = '';
-        feedback.classList.add('hidden');
-
-        // Carregar novas questões
-        await loadQuestions();
-
-    } catch (error) {
-        console.error('Erro ao selecionar quiz:', error);
-        questionText.textContent = 'Erro ao carregar o quiz. Por favor, tente novamente.';
-    }
-}
-
-// Carregar questões do arquivo JSON
-async function loadQuestions() {
-    try {
-        if (!currentQuizFile) {
-            throw new Error('Nenhum arquivo de questões selecionado');
+    const loaded = await Promise.all(files.map(async (file) => {
+        try {
+            const data = await fetchJson(`provas/${file}`);
+            const { questions, errors } = validateQuestions(data);
+            if (errors.length) console.warn(`Problemas em provas/${file}:`, errors);
+            if (questions.length === 0) return null;
+            return {
+                id: `site:${file}`,
+                name: typeof data.title === 'string' && data.title.trim() ? data.title.trim() : nameFromFile(file),
+                questions,
+                source: 'site',
+                file
+            };
+        } catch (error) {
+            console.warn(`Não foi possível carregar provas/${file}:`, error.message);
+            return null;
         }
+    }));
+    return loaded.filter(Boolean);
+}
 
-        // Adicionar timestamp para evitar cache
-        const timestamp = new Date().getTime();
-        const response = await fetch(`${currentQuizFile}?t=${timestamp}`);
+function nameTaken(name, ignoreId = null) {
+    const target = normalizeName(name);
+    return provas.some(prova => prova.id !== ignoreId && normalizeName(prova.name) === target);
+}
 
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
+/* ---------- Navegação ---------- */
 
-        const data = await response.json();
+function showView(name) {
+    currentView = name;
+    for (const view of document.querySelectorAll('.view')) {
+        view.hidden = view.id !== `view-${name}`;
+    }
+    const activeTab = name === 'manage' ? 'manage' : 'home';
+    for (const tab of document.querySelectorAll('.tab')) {
+        tab.classList.toggle('active', tab.dataset.nav === activeTab);
+    }
+    window.scrollTo({ top: 0 });
+}
 
-        if (!data.questions || !Array.isArray(data.questions) || data.questions.length === 0) {
-            throw new Error('Formato de arquivo inválido ou sem questões');
-        }
+function navigate(name) {
+    if (currentView === 'quiz' && name !== 'quiz' && quiz && !quiz.finished && answeredCount() > 0) {
+        if (!confirm('Sair da prova? As respostas desta tentativa serão perdidas.')) return;
+    }
+    if (name === 'home') renderHome();
+    if (name === 'manage') renderManage();
+    showView(name);
+}
 
-        console.log(`Carregadas ${data.questions.length} questões do arquivo ${currentQuizFile}`);
+/* ---------- Lista de provas ---------- */
 
-        originalQuestions = [...data.questions];
-        questions = shuffleArray([...originalQuestions]);
-        userAnswers = new Array(questions.length).fill(null);
-        totalQuestionsSpan.textContent = questions.length;
-        updateProgress();
-        updateStats();
-        showQuestion();
-    } catch (error) {
-        console.error('Erro ao carregar questões:', error);
-        console.error('Arquivo atual:', currentQuizFile);
-        // Mostrar mensagem de erro para o usuário
-        questionText.textContent = `Erro ao carregar as questões: ${error.message}`;
+function renderHome() {
+    const grid = $('#prova-grid');
+    grid.replaceChildren();
+    $('#home-empty').hidden = provas.length > 0;
+
+    for (const prova of provas) {
+        const topics = [...new Set(prova.questions.map(q => q.topic).filter(Boolean))];
+        const topicText = topics.length > 3
+            ? `${topics.slice(0, 3).join(' · ')} e mais ${topics.length - 3}`
+            : topics.join(' · ');
+        grid.append(el('button', {
+            type: 'button',
+            className: 'prova-card',
+            onclick: () => startQuiz(prova)
+        }, [
+            el('span', { className: 'prova-name', text: prova.name }),
+            el('span', { className: 'prova-count', text: `${prova.questions.length} questões` }),
+            topicText ? el('span', { className: 'prova-topics', text: topicText }) : null,
+            prova.source === 'upload' ? el('span', { className: 'badge', text: 'Enviada' }) : null
+        ]));
     }
 }
 
-// Função para atualizar a barra de progresso
-function updateProgress() {
-    const progress = (answeredQuestions.size / questions.length) * 100;
-    progressBar.style.width = `${progress}%`;
+/* ---------- Prova ---------- */
+
+function startQuiz(prova) {
+    const questions = shuffle(prova.questions).map(q => ({ ...q, options: shuffle(q.options) }));
+    quiz = {
+        prova,
+        questions,
+        answers: new Array(questions.length).fill(null),
+        index: 0,
+        finished: false
+    };
+    $('#quiz-title').textContent = prova.name;
+    $('#total-questions').textContent = questions.length;
+    showView('quiz');
+    renderQuestion();
 }
 
-// Função para atualizar as estatísticas
-function updateStats() {
-    const totalQuestions = questions.length;
-    const correctAnswers = score;
-    const answeredCount = answeredQuestions.size;
-    const incorrectAnswers = answeredCount - correctAnswers;
-    const percentageScore = answeredCount > 0 ? Math.round((correctAnswers / answeredCount) * 100) : 0;
-
-    // Atualizar valores
-    statsCorrect.textContent = correctAnswers;
-    statsIncorrect.textContent = incorrectAnswers;
-    statsPercentage.textContent = `${percentageScore}%`;
-    statsAnswered.textContent = `${answeredCount}/${totalQuestions}`;
-
-    // Atualizar gráfico
-    if (answeredCount > 0) {
-        const correctPercentage = (correctAnswers / answeredCount) * 100;
-        const incorrectPercentage = (incorrectAnswers / answeredCount) * 100;
-
-        correctBar.style.width = `${correctPercentage}%`;
-        incorrectBar.style.width = `${incorrectPercentage}%`;
-    } else {
-        correctBar.style.width = '0%';
-        incorrectBar.style.width = '0%';
-    }
+function answeredCount() {
+    return quiz.answers.filter(answer => answer !== null).length;
 }
 
-// Função para mostrar a questão atual
-function showQuestion() {
-    const question = questions[currentQuestionIndex];
-    const topicElement = document.createElement('div');
-    topicElement.className = 'question-topic';
-    topicElement.textContent = question.topic;
-
-    questionText.innerHTML = '';
-    questionText.appendChild(topicElement);
-    questionText.appendChild(document.createTextNode(question.question));
-
-    optionsContainer.innerHTML = '';
-    currentQuestionSpan.textContent = currentQuestionIndex + 1;
-
-    // Atualizar estado dos botões de navegação
-    prevButton.disabled = currentQuestionIndex === 0;
-    nextButton.textContent = currentQuestionIndex === questions.length - 1 ? 'Finalizar' : 'Próxima →';
-
-    if (question.type === 'multiple-choice' || question.type === 'complete') {
-        question.options.forEach(option => {
-            const button = document.createElement('div');
-            button.className = 'option';
-            button.textContent = option;
-
-            if (userAnswers[currentQuestionIndex] === option) {
-                button.classList.add('selected');
-            }
-
-            button.addEventListener('click', () => checkAnswer(option));
-            optionsContainer.appendChild(button);
-        });
-    } else if (question.type === 'match') {
-        const leftContainer = document.createElement('div');
-        leftContainer.className = 'match-left-container';
-        const rightContainer = document.createElement('div');
-        rightContainer.className = 'match-right-container';
-
-        question.options.forEach(option => {
-            const leftSide = document.createElement('div');
-            leftSide.className = 'match-left';
-            leftSide.textContent = option.left;
-            leftSide.draggable = true;
-            leftSide.addEventListener('dragstart', (e) => {
-                e.dataTransfer.setData('text/plain', option.left);
-            });
-
-            const rightSide = document.createElement('div');
-            rightSide.className = 'match-right';
-            rightSide.textContent = option.right;
-            rightSide.draggable = true;
-            rightSide.addEventListener('dragstart', (e) => {
-                e.dataTransfer.setData('text/plain', option.right);
-            });
-
-            leftContainer.appendChild(leftSide);
-            rightContainer.appendChild(rightSide);
-        });
-
-        optionsContainer.appendChild(leftContainer);
-        optionsContainer.appendChild(rightContainer);
-
-        // Adicionar eventos de drag and drop
-        const matchElements = document.querySelectorAll('.match-left, .match-right');
-        matchElements.forEach(element => {
-            element.addEventListener('dragover', (e) => {
-                e.preventDefault();
-            });
-
-            element.addEventListener('drop', (e) => {
-                e.preventDefault();
-                const draggedText = e.dataTransfer.getData('text/plain');
-                const targetText = e.target.textContent;
-
-                const isCorrect = question.correctAnswer ?
-                    question.correctAnswer.includes(`${draggedText}-${targetText}`) :
-                    question.options.some(opt =>
-                        (opt.left === draggedText && opt.right === targetText) ||
-                        (opt.right === draggedText && opt.left === targetText)
-                    );
-
-                if (isCorrect) {
-                    e.target.classList.add('correct');
-                    e.target.style.pointerEvents = 'none';
-                    if (!userAnswers[currentQuestionIndex]) {
-                        score++;
-                        userAnswers[currentQuestionIndex] = true;
-                        answeredQuestions.add(currentQuestionIndex);
-                        updateStats();
-                        updateProgress();
-                    }
-                } else {
-                    e.target.classList.add('incorrect');
-                }
-            });
-        });
-    }
-
-    // Mostrar feedback se a questão já foi respondida
-    if (userAnswers[currentQuestionIndex] !== null) {
-        showFeedback(userAnswers[currentQuestionIndex]);
-    }
+function correctCount() {
+    return quiz.answers.filter((answer, i) => answer === quiz.questions[i].correctAnswer).length;
 }
 
-// Função para verificar a resposta
-function checkAnswer(selectedAnswer) {
-    const question = questions[currentQuestionIndex];
-    const isCorrect = selectedAnswer === question.correctAnswer;
+function renderQuestion() {
+    const q = quiz.questions[quiz.index];
+    const answer = quiz.answers[quiz.index];
+    const answered = answer !== null;
 
-    // Desabilitar todas as opções
-    const options = document.querySelectorAll('.option');
-    options.forEach(option => {
-        option.style.pointerEvents = 'none';
-        if (option.textContent === question.correctAnswer) {
-            option.classList.add('correct');
-        } else if (option.textContent === selectedAnswer && !isCorrect) {
-            option.classList.add('incorrect');
-        }
+    $('#current-question').textContent = quiz.index + 1;
+    $('#question-topic').textContent = q.topic;
+    $('#question-topic').hidden = !q.topic;
+    $('#question-text').textContent = q.question;
+
+    const options = $('#options');
+    options.replaceChildren();
+    q.options.forEach((option, i) => {
+        let state = '';
+        if (answered && option === q.correctAnswer) state = 'correct';
+        else if (answered && option === answer) state = 'incorrect';
+        options.append(el('button', {
+            type: 'button',
+            className: `option ${state}`,
+            disabled: answered,
+            onclick: () => choose(option)
+        }, [
+            el('span', { className: 'option-letter', text: LETTERS[i] || String(i + 1) }),
+            el('span', { className: 'option-text', text: option })
+        ]));
     });
 
-    // Salvar resposta do usuário e atualizar score
-    if (!userAnswers[currentQuestionIndex]) { // Só atualiza se ainda não respondeu
-        userAnswers[currentQuestionIndex] = selectedAnswer;
-        answeredQuestions.add(currentQuestionIndex);
-        if (isCorrect) {
-            score++;
+    const feedback = $('#feedback');
+    feedback.hidden = !answered;
+    if (answered) {
+        const isCorrect = answer === q.correctAnswer;
+        feedback.className = `feedback ${isCorrect ? 'correct' : 'incorrect'}`;
+        feedback.textContent = isCorrect
+            ? 'Parabéns! Você acertou! 🎉'
+            : `Não foi dessa vez. A resposta certa é: ${q.correctAnswer}`;
+    }
+
+    const isLast = quiz.index === quiz.questions.length - 1;
+    $('#prev-button').disabled = quiz.index === 0;
+    $('#next-button').textContent = isLast ? 'Ver resultado ✓' : 'Próxima →';
+
+    updateStatus();
+}
+
+function updateStatus() {
+    const correct = correctCount();
+    const answered = answeredCount();
+    $('#stats-correct').textContent = correct;
+    $('#stats-incorrect').textContent = answered - correct;
+    $('#progress').style.width = `${(answered / quiz.questions.length) * 100}%`;
+}
+
+function choose(option) {
+    if (!quiz || quiz.answers[quiz.index] !== null) return;
+    quiz.answers[quiz.index] = option;
+    renderQuestion();
+}
+
+function goTo(index) {
+    if (index < 0 || index >= quiz.questions.length) return;
+    quiz.index = index;
+    renderQuestion();
+}
+
+function next() {
+    if (quiz.index < quiz.questions.length - 1) {
+        goTo(quiz.index + 1);
+        return;
+    }
+    const missing = quiz.questions.length - answeredCount();
+    if (missing > 0) {
+        const firstMissing = quiz.answers.indexOf(null);
+        const plural = missing === 1 ? 'questão sem resposta' : 'questões sem resposta';
+        if (!confirm(`Ainda há ${missing} ${plural}. Ver o resultado mesmo assim?\n\n(Cancelar leva até a primeira que falta.)`)) {
+            goTo(firstMissing);
+            return;
         }
     }
-
-    // Atualizar progresso e estatísticas
-    updateProgress();
-    updateStats();
-
-    // Mostrar feedback
-    showFeedback(selectedAnswer);
+    showResults();
 }
 
-// Função para mostrar feedback
-function showFeedback(selectedAnswer) {
-    const question = questions[currentQuestionIndex];
-    const isCorrect = selectedAnswer === question.correctAnswer;
+/* ---------- Resultado ---------- */
 
-    feedback.textContent = isCorrect ? 'Parabéns! Você acertou!' : 'Ops! Tente novamente.';
-    feedback.className = isCorrect ? 'feedback-correct' : 'feedback-incorrect';
-    feedback.classList.remove('hidden');
+function resultMessage(percent) {
+    if (percent >= 90) return 'Incrível! Você mandou muito bem! 🏆';
+    if (percent >= 70) return 'Muito bem! Continue assim! ⭐';
+    if (percent >= 50) return 'Bom trabalho! Dá para melhorar ainda mais! 💪';
+    return 'Vamos treinar mais um pouco? Você consegue! 📚';
 }
 
-// Evento para o botão de próxima questão
-nextButton.addEventListener('click', () => {
-    if (currentQuestionIndex === questions.length - 1) {
-        showResults();
-    } else {
-        currentQuestionIndex++;
-        showQuestion();
-        feedback.classList.add('hidden');
-    }
-});
-
-// Evento para o botão de questão anterior
-prevButton.addEventListener('click', () => {
-    if (currentQuestionIndex > 0) {
-        currentQuestionIndex--;
-        showQuestion();
-        feedback.classList.add('hidden');
-    }
-});
-
-// Função para mostrar resultados
 function showResults() {
-    const totalQuestions = questions.length;
-    const correctAnswers = score;
-    const incorrectAnswers = totalQuestions - correctAnswers;
-    const percentageScore = Math.round((correctAnswers / totalQuestions) * 100);
+    quiz.finished = true;
+    const total = quiz.questions.length;
+    const correct = correctCount();
+    const answered = answeredCount();
+    const percent = Math.round((correct / total) * 100);
 
-    // Atualizar elementos do resultado
-    finalScore.textContent = correctAnswers;
-    correctCount.textContent = correctAnswers;
-    incorrectCount.textContent = incorrectAnswers;
-    percentage.textContent = `${percentageScore}%`;
+    $('#results-title').textContent = `Resultado – ${quiz.prova.name}`;
+    $('#results-message').textContent = resultMessage(percent);
+    $('#final-percentage').textContent = `${percent}%`;
+    $('#correct-count').textContent = correct;
+    $('#incorrect-count').textContent = answered - correct;
+    $('#skipped-count').textContent = total - answered;
+    $('#only-wrong').checked = false;
 
-    // Criar revisão das questões
-    questionsReview.innerHTML = '';
-    questions.forEach((question, index) => {
-        const reviewItem = document.createElement('div');
-        reviewItem.className = `review-item ${userAnswers[index] === question.correctAnswer ? 'correct' : 'incorrect'}`;
-
-        const questionText = document.createElement('div');
-        questionText.className = 'review-question';
-        questionText.textContent = `Questão ${index + 1}: ${question.question}`;
-
-        const userAnswer = document.createElement('div');
-        userAnswer.className = 'review-answer';
-        userAnswer.textContent = `Sua resposta: ${userAnswers[index] || 'Não respondida'}`;
-
-        const correctAnswer = document.createElement('div');
-        correctAnswer.className = 'review-correct';
-        correctAnswer.textContent = `Resposta correta: ${question.correctAnswer}`;
-
-        reviewItem.appendChild(questionText);
-        reviewItem.appendChild(userAnswer);
-        reviewItem.appendChild(correctAnswer);
-        questionsReview.appendChild(reviewItem);
-    });
-
-    // Mostrar resultados
-    document.getElementById('question-container').classList.add('hidden');
-    document.querySelector('.navigation-buttons').classList.add('hidden');
-    results.classList.remove('hidden');
+    renderReview();
+    showView('results');
 }
 
-// Função para reiniciar o quiz
-function resetQuiz(forceReset = false) {
-    if (forceReset || confirm('Tem certeza que deseja reiniciar? Todo o seu progresso será perdido.')) {
-        // Randomizar questões novamente
-        questions = shuffleArray([...originalQuestions]);
+function renderReview() {
+    const onlyWrong = $('#only-wrong').checked;
+    const review = $('#questions-review');
+    review.replaceChildren();
 
-        // Resetar variáveis
-        currentQuestionIndex = 0;
-        score = 0;
-        userAnswers = new Array(questions.length).fill(null);
-        answeredQuestions = new Set();
+    quiz.questions.forEach((q, i) => {
+        const answer = quiz.answers[i];
+        const status = answer === null ? 'skipped' : answer === q.correctAnswer ? 'correct' : 'incorrect';
+        if (onlyWrong && status === 'correct') return;
 
-        // Limpar feedback
-        feedback.classList.add('hidden');
-        feedback.textContent = '';
+        const statusText = { correct: '✓ Acertou', incorrect: '✗ Errou', skipped: '– Sem resposta' }[status];
+        const optionList = el('ul', { className: 'review-options' }, q.options.map(option => {
+            const classes = [];
+            if (option === q.correctAnswer) classes.push('is-correct');
+            if (option === answer && option !== q.correctAnswer) classes.push('is-wrong');
+            const mark = option === q.correctAnswer ? ' ✓' : option === answer ? ' ✗ (sua resposta)' : '';
+            return el('li', { className: classes.join(' '), text: option + mark });
+        }));
 
-        // Resetar UI
-        results.classList.add('hidden');
-        document.getElementById('question-container').classList.remove('hidden');
-        document.querySelector('.navigation-buttons').classList.remove('hidden');
+        review.append(el('div', { className: `review-item ${status}` }, [
+            el('div', { className: 'review-meta' }, [
+                el('span', { text: `Questão ${i + 1}${q.topic ? ` · ${q.topic}` : ''}` }),
+                el('span', { className: 'review-status', text: statusText })
+            ]),
+            el('div', { className: 'review-question', text: q.question }),
+            optionList
+        ]));
+    });
 
-        // Atualizar progresso e estatísticas
-        updateProgress();
-        updateStats();
-
-        // Mostrar primeira questão
-        showQuestion();
+    if (!review.children.length) {
+        review.append(el('p', { className: 'muted', text: 'Nenhum erro para revisar. Parabéns! 🎉' }));
     }
 }
 
-// Adicionar evento de clique ao botão de reiniciar
-resetButton.addEventListener('click', () => resetQuiz(false));
+/* ---------- Gerenciar provas ---------- */
 
-// Evento para o botão de alternar painel de estatísticas
-toggleStatsButton.addEventListener('click', () => {
-    statsPanel.classList.toggle('collapsed');
-    toggleStatsButton.textContent = statsPanel.classList.contains('collapsed') ? '▶' : '◀';
-});
+async function handleFiles(fileList) {
+    for (const file of fileList) {
+        if (!/\.json$/i.test(file.name)) {
+            pending.push({ key: uid(), fileName: file.name, name: '', questions: [], errors: ['Não é um arquivo .json.'] });
+            continue;
+        }
+        let data;
+        try {
+            data = JSON.parse(await file.text());
+        } catch (error) {
+            pending.push({ key: uid(), fileName: file.name, name: '', questions: [], errors: [`O arquivo não é um JSON válido: ${error.message}`] });
+            continue;
+        }
 
-// Inicializar o aplicativo
-async function initializeApp() {
-    await createQuizMenu();
-    await loadQuestions();
+        // Backup com várias provas ou arquivo com uma prova só
+        const entries = data && Array.isArray(data.provas)
+            ? data.provas.map(item => ({ data: item, name: item && (item.name || item.title) }))
+            : [{ data, name: data && data.title }];
+
+        for (const entry of entries) {
+            const { questions, errors } = validateQuestions(entry.data);
+            const name = typeof entry.name === 'string' && entry.name.trim() ? entry.name.trim() : nameFromFile(file.name);
+            pending.push({ key: uid(), fileName: file.name, name, questions, errors });
+        }
+    }
+    renderPending();
 }
 
-initializeApp().catch(error => {
-    console.error('Erro ao inicializar o aplicativo:', error);
-    questionText.textContent = 'Erro ao carregar as questões. Por favor, recarregue a página.';
-}); 
+function renderPending() {
+    const list = $('#pending-list');
+    list.replaceChildren();
+    $('#pending').hidden = pending.length === 0;
+
+    for (const item of pending) {
+        const usable = item.questions.length > 0;
+        const nameInput = el('input', {
+            type: 'text',
+            value: item.name,
+            placeholder: 'Nome da prova',
+            'aria-label': `Nome da prova do arquivo ${item.fileName}`,
+            disabled: !usable,
+            oninput: (event) => { item.name = event.target.value; }
+        });
+
+        let summary;
+        if (!usable) {
+            summary = el('p', { className: 'pending-summary error-text', text: 'Nenhuma questão válida — este arquivo não será salvo.' });
+        } else if (item.errors.length) {
+            summary = el('p', { className: 'pending-summary warning-text', text: `${item.questions.length} questões válidas · ${item.errors.length} ${item.errors.length === 1 ? 'ignorada' : 'ignoradas'} (veja abaixo)` });
+        } else {
+            summary = el('p', { className: 'pending-summary ok-text', text: `${item.questions.length} questões válidas` });
+        }
+
+        const errorList = item.errors.length
+            ? el('details', { className: 'pending-errors', open: !usable }, [
+                el('summary', { text: 'Problemas encontrados' }),
+                el('ul', {}, item.errors.map(error => el('li', { text: error })))
+            ])
+            : null;
+
+        list.append(el('div', { className: `pending-item ${usable ? '' : 'unusable'}`, 'data-key': item.key }, [
+            el('div', { className: 'pending-top' }, [
+                el('span', { className: 'pending-file', text: `📄 ${item.fileName}` }),
+                el('button', {
+                    type: 'button',
+                    className: 'btn ghost small',
+                    'aria-label': `Remover ${item.fileName}`,
+                    onclick: () => { pending = pending.filter(p => p !== item); renderPending(); },
+                    text: 'Remover'
+                })
+            ]),
+            usable ? el('label', { className: 'field' }, [el('span', { text: 'Nome da prova' }), nameInput]) : null,
+            summary,
+            el('p', { className: 'field-error error-text', hidden: true }),
+            errorList
+        ]));
+    }
+
+    const saveButton = $('#pending-save');
+    const usableCount = pending.filter(p => p.questions.length > 0).length;
+    saveButton.disabled = usableCount === 0;
+    saveButton.textContent = usableCount === 1 ? 'Salvar prova' : `Salvar ${usableCount} provas`;
+}
+
+function savePending() {
+    const usable = pending.filter(p => p.questions.length > 0);
+    let valid = true;
+    const seen = new Set();
+
+    for (const item of usable) {
+        const name = item.name.trim();
+        let message = '';
+        if (!name) message = 'Dê um nome para a prova.';
+        else if (nameTaken(name) || seen.has(normalizeName(name))) message = 'Já existe uma prova com esse nome.';
+        seen.add(normalizeName(name));
+
+        const node = document.querySelector(`[data-key="${item.key}"] .field-error`);
+        node.textContent = message;
+        node.hidden = !message;
+        if (message) valid = false;
+    }
+    if (!valid) return;
+
+    const now = new Date().toISOString();
+    const added = usable.map(item => ({
+        id: `upload:${uid()}`,
+        name: item.name.trim(),
+        questions: item.questions,
+        createdAt: now,
+        source: 'upload'
+    }));
+    provas.push(...added);
+    if (!saveUploads()) {
+        provas = provas.filter(prova => !added.includes(prova));
+        return;
+    }
+
+    pending = [];
+    renderPending();
+    renderManage();
+    toast(added.length === 1 ? `Prova "${added[0].name}" salva!` : `${added.length} provas salvas!`, 'success');
+}
+
+function renameProva(prova, input) {
+    const name = input.value.trim();
+    if (name === prova.name) return;
+    if (!name) {
+        toast('O nome não pode ficar vazio.', 'error');
+        input.value = prova.name;
+        return;
+    }
+    if (nameTaken(name, prova.id)) {
+        toast('Já existe uma prova com esse nome.', 'error');
+        input.value = prova.name;
+        return;
+    }
+    const previous = prova.name;
+    prova.name = name;
+    if (saveUploads()) {
+        toast('Nome atualizado.', 'success');
+    } else {
+        prova.name = previous;
+        input.value = previous;
+    }
+}
+
+function deleteProva(prova) {
+    if (!confirm(`Excluir a prova "${prova.name}"? Isso não pode ser desfeito.`)) return;
+    provas = provas.filter(p => p !== prova);
+    saveUploads();
+    renderManage();
+    toast('Prova excluída.');
+}
+
+function provaFile(prova) {
+    return {
+        title: prova.name,
+        questions: prova.questions.map(q => ({
+            type: 'multiple-choice',
+            question: q.question,
+            options: q.options,
+            correctAnswer: q.correctAnswer,
+            topic: q.topic
+        }))
+    };
+}
+
+function renderManage() {
+    const list = $('#manage-list');
+    list.replaceChildren();
+
+    if (provas.length === 0) {
+        list.append(el('p', { className: 'muted', text: 'Nenhuma prova ainda. Envie um arquivo .json acima.' }));
+    }
+
+    for (const prova of provas) {
+        const isUpload = prova.source === 'upload';
+        const nameNode = isUpload
+            ? el('input', {
+                type: 'text',
+                className: 'name-input',
+                value: prova.name,
+                'aria-label': 'Nome da prova',
+                onchange: (event) => renameProva(prova, event.target),
+                onkeydown: (event) => { if (event.key === 'Enter') event.target.blur(); }
+            })
+            : el('span', { className: 'name-static', text: prova.name });
+
+        list.append(el('div', { className: 'manage-item' }, [
+            el('div', { className: 'manage-info' }, [
+                nameNode,
+                el('span', { className: 'muted small-text' }, [
+                    `${prova.questions.length} questões · `,
+                    isUpload ? 'enviada neste navegador' : `do site (provas/${prova.file})`
+                ])
+            ]),
+            el('div', { className: 'manage-actions' }, [
+                el('button', { type: 'button', className: 'btn small primary', text: '▶ Fazer', onclick: () => startQuiz(prova) }),
+                el('button', { type: 'button', className: 'btn small', text: '⬇ Baixar', onclick: () => downloadJson(`${fileSlug(prova.name)}.json`, provaFile(prova)) }),
+                isUpload ? el('button', { type: 'button', className: 'btn small danger', text: 'Excluir', onclick: () => deleteProva(prova) }) : null
+            ])
+        ]));
+    }
+
+    $('#export-all').disabled = !provas.some(prova => prova.source === 'upload');
+}
+
+function exportAll() {
+    const uploads = provas.filter(prova => prova.source === 'upload');
+    const date = new Date().toISOString().slice(0, 10);
+    downloadJson(`provas-backup-${date}.json`, {
+        provas: uploads.map(prova => ({ name: prova.name, questions: provaFile(prova).questions }))
+    });
+}
+
+function downloadTemplate() {
+    downloadJson('modelo-prova.json', {
+        title: 'Nome da prova',
+        questions: [
+            {
+                question: 'Quanto é 2 + 3?',
+                options: ['4', '5', '6', '7'],
+                correctAnswer: '5',
+                topic: 'Adição'
+            },
+            {
+                question: 'Qual palavra está escrita corretamente?',
+                options: ['cachorro', 'cachoro', 'caxorro', 'cachorru'],
+                correctAnswer: 'cachorro',
+                topic: 'Ortografia'
+            }
+        ]
+    });
+}
+
+/* ---------- Eventos ---------- */
+
+function bindEvents() {
+    document.addEventListener('click', (event) => {
+        const target = event.target.closest('[data-nav]');
+        if (target) navigate(target.dataset.nav);
+    });
+
+    $('#prev-button').addEventListener('click', () => goTo(quiz.index - 1));
+    $('#next-button').addEventListener('click', next);
+    $('#restart-button').addEventListener('click', () => startQuiz(quiz.prova));
+    $('#only-wrong').addEventListener('change', renderReview);
+
+    // Atalhos: 1-4 / A-D escolhem, setas navegam
+    document.addEventListener('keydown', (event) => {
+        if (currentView !== 'quiz' || event.ctrlKey || event.metaKey || event.altKey) return;
+        if (event.target.closest('input, textarea')) return;
+        const key = event.key.toUpperCase();
+        const q = quiz.questions[quiz.index];
+        let optionIndex = LETTERS.indexOf(key);
+        if (optionIndex === -1 && /^[1-9]$/.test(key)) optionIndex = Number(key) - 1;
+        if (optionIndex >= 0 && optionIndex < q.options.length) choose(q.options[optionIndex]);
+        else if (event.key === 'ArrowRight') next();
+        else if (event.key === 'ArrowLeft') goTo(quiz.index - 1);
+    });
+
+    const fileInput = $('#file-input');
+    fileInput.addEventListener('change', async () => {
+        await handleFiles(fileInput.files);
+        fileInput.value = '';
+    });
+
+    const dropzone = $('#dropzone');
+    dropzone.addEventListener('dragover', (event) => {
+        event.preventDefault();
+        dropzone.classList.add('dragging');
+    });
+    dropzone.addEventListener('dragleave', () => dropzone.classList.remove('dragging'));
+    dropzone.addEventListener('drop', (event) => {
+        event.preventDefault();
+        dropzone.classList.remove('dragging');
+        handleFiles(event.dataTransfer.files);
+    });
+
+    $('#pending-save').addEventListener('click', savePending);
+    $('#pending-cancel').addEventListener('click', () => { pending = []; renderPending(); });
+    $('#export-all').addEventListener('click', exportAll);
+    $('#download-template').addEventListener('click', downloadTemplate);
+}
+
+async function init() {
+    bindEvents();
+    const siteProvas = await loadSiteProvas();
+    provas = [...siteProvas, ...loadUploads()];
+    renderHome();
+    showView('home');
+}
+
+init();
