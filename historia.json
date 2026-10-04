@@ -1,0 +1,437 @@
+{
+    "title": "História – Patrimônio – Revisão",
+    "questions": [
+        {
+            "question": "O que é patrimônio?",
+            "options": [
+                "Algo considerado importante para preservar a história, a cultura e a memória de um grupo",
+                "Somente uma construção muito antiga",
+                "Qualquer objeto que uma pessoa compra",
+                "Somente lugares que recebem turistas"
+            ],
+            "correctAnswer": "Algo considerado importante para preservar a história, a cultura e a memória de um grupo",
+            "topic": "Conceito de patrimônio"
+        },
+        {
+            "question": "Complete: O patrimônio ajuda a preservar a história, a cultura e a ______ de um povo.",
+            "options": [
+                "memória",
+                "riqueza",
+                "tecnologia",
+                "velocidade"
+            ],
+            "correctAnswer": "memória",
+            "topic": "Conceito de patrimônio"
+        },
+        {
+            "question": "Verdadeiro ou falso: Somente prédios e construções podem ser considerados patrimônios.",
+            "options": [
+                "Verdadeiro",
+                "Falso"
+            ],
+            "correctAnswer": "Falso",
+            "topic": "Conceito de patrimônio"
+        },
+        {
+            "question": "Qual alternativa apresenta coisas que podem ser consideradas patrimônios?",
+            "options": [
+                "Construções, costumes, danças, comidas e lugares naturais",
+                "Somente prédios antigos",
+                "Somente festas",
+                "Somente objetos de museu"
+            ],
+            "correctAnswer": "Construções, costumes, danças, comidas e lugares naturais",
+            "topic": "Conceito de patrimônio"
+        },
+        {
+            "question": "Existem patrimônios que podemos ver e tocar e outros que fazem parte principalmente:",
+            "options": [
+                "das tradições e dos saberes",
+                "dos brinquedos",
+                "dos esportes modernos",
+                "dos aparelhos eletrônicos"
+            ],
+            "correctAnswer": "das tradições e dos saberes",
+            "topic": "Tipos de patrimônio"
+        },
+        {
+            "question": "Os principais tipos de patrimônio estudados são:",
+            "options": [
+                "material, imaterial e natural",
+                "velho, novo e moderno",
+                "grande, médio e pequeno",
+                "público, particular e escolar"
+            ],
+            "correctAnswer": "material, imaterial e natural",
+            "topic": "Tipos de patrimônio"
+        },
+        {
+            "question": "Um patrimônio que possui forma física e pode ser visto e tocado é chamado de:",
+            "options": [
+                "material",
+                "imaterial",
+                "natural",
+                "imaginário"
+            ],
+            "correctAnswer": "material",
+            "topic": "Patrimônio material"
+        },
+        {
+            "question": "Qual destas características pertence ao patrimônio material?",
+            "options": [
+                "Pode ser visto e tocado",
+                "Existe somente na memória",
+                "É sempre uma dança",
+                "Não possui forma física"
+            ],
+            "correctAnswer": "Pode ser visto e tocado",
+            "topic": "Patrimônio material"
+        },
+        {
+            "question": "Construções, monumentos, pinturas e objetos antigos podem ser exemplos de patrimônio:",
+            "options": [
+                "material",
+                "imaterial",
+                "natural",
+                "oral"
+            ],
+            "correctAnswer": "material",
+            "topic": "Patrimônio material"
+        },
+        {
+            "question": "O Farol da Barra aparece na apostila como exemplo de patrimônio:",
+            "options": [
+                "material",
+                "imaterial",
+                "natural",
+                "musical"
+            ],
+            "correctAnswer": "material",
+            "topic": "Patrimônio material"
+        },
+        {
+            "question": "As pinturas rupestres da Serra da Capivara são exemplo de patrimônio:",
+            "options": [
+                "material",
+                "imaterial",
+                "natural",
+                "musical"
+            ],
+            "correctAnswer": "material",
+            "topic": "Patrimônio material"
+        },
+        {
+            "question": "O Mercado Ver-o-Peso é utilizado na apostila como exemplo de patrimônio:",
+            "options": [
+                "material",
+                "imaterial",
+                "natural",
+                "oral"
+            ],
+            "correctAnswer": "material",
+            "topic": "Patrimônio material"
+        },
+        {
+            "question": "Verdadeiro ou falso: Um patrimônio material possui forma física.",
+            "options": [
+                "Verdadeiro",
+                "Falso"
+            ],
+            "correctAnswer": "Verdadeiro",
+            "topic": "Patrimônio material"
+        },
+        {
+            "question": "Qual alternativa apresenta apenas exemplos de patrimônio material estudados?",
+            "options": [
+                "Farol da Barra e Mercado Ver-o-Peso",
+                "Capoeira e Samba de Roda",
+                "Maracatu e Capoeira",
+                "Samba de Roda e ofício das Baianas de Acarajé"
+            ],
+            "correctAnswer": "Farol da Barra e Mercado Ver-o-Peso",
+            "topic": "Patrimônio material"
+        },
+        {
+            "question": "Patrimônio imaterial é aquilo que vive principalmente:",
+            "options": [
+                "na memória, nas tradições e nos saberes de uma comunidade",
+                "dentro de prédios antigos",
+                "somente nos museus",
+                "nas paisagens naturais"
+            ],
+            "correctAnswer": "na memória, nas tradições e nos saberes de uma comunidade",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "Qual alternativa apresenta uma característica do patrimônio imaterial?",
+            "options": [
+                "Pode ser aprendido, vivido e ensinado",
+                "Sempre pode ser tocado",
+                "É obrigatoriamente uma construção",
+                "Existe apenas dentro de museus"
+            ],
+            "correctAnswer": "Pode ser aprendido, vivido e ensinado",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "Complete: O patrimônio imaterial é transmitido de geração em ______.",
+            "options": [
+                "geração",
+                "construção",
+                "cidade",
+                "objeto"
+            ],
+            "correctAnswer": "geração",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "Verdadeiro ou falso: O patrimônio imaterial pode envolver modos de fazer, cozinhar, dançar e celebrar.",
+            "options": [
+                "Verdadeiro",
+                "Falso"
+            ],
+            "correctAnswer": "Verdadeiro",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "A Capoeira é apresentada como exemplo de patrimônio:",
+            "options": [
+                "imaterial",
+                "material",
+                "natural",
+                "arquitetônico"
+            ],
+            "correctAnswer": "imaterial",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "O Samba de Roda é exemplo de patrimônio:",
+            "options": [
+                "imaterial",
+                "material",
+                "natural",
+                "arquitetônico"
+            ],
+            "correctAnswer": "imaterial",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "O Maracatu de Baque Solto é um exemplo de patrimônio:",
+            "options": [
+                "imaterial",
+                "material",
+                "natural",
+                "arquitetônico"
+            ],
+            "correctAnswer": "imaterial",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "O ofício das Baianas de Acarajé é exemplo de patrimônio:",
+            "options": [
+                "imaterial",
+                "material",
+                "natural",
+                "industrial"
+            ],
+            "correctAnswer": "imaterial",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "Qual alternativa apresenta somente patrimônios imateriais estudados?",
+            "options": [
+                "Capoeira e Samba de Roda",
+                "Farol da Barra e Capoeira",
+                "Mercado Ver-o-Peso e Maracatu",
+                "Serra da Capivara e Samba de Roda"
+            ],
+            "correctAnswer": "Capoeira e Samba de Roda",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "Se uma tradição é ensinada pelos mais velhos aos mais jovens, ela está sendo:",
+            "options": [
+                "transmitida entre gerações",
+                "destruída",
+                "esquecida",
+                "transformada em patrimônio material"
+            ],
+            "correctAnswer": "transmitida entre gerações",
+            "topic": "Patrimônio imaterial"
+        },
+        {
+            "question": "O que significa proteger um patrimônio imaterial?",
+            "options": [
+                "Continuar praticando tradições e transmitindo saberes",
+                "Guardar a tradição dentro de uma caixa",
+                "Construir um muro ao seu redor",
+                "Impedir que outras pessoas aprendam"
+            ],
+            "correctAnswer": "Continuar praticando tradições e transmitindo saberes",
+            "topic": "Preservação do patrimônio"
+        },
+        {
+            "question": "Para manter um costume tradicional vivo, é importante:",
+            "options": [
+                "praticá-lo e ensiná-lo às novas gerações",
+                "deixar de praticá-lo",
+                "escondê-lo das outras pessoas",
+                "transformá-lo em uma construção"
+            ],
+            "correctAnswer": "praticá-lo e ensiná-lo às novas gerações",
+            "topic": "Preservação do patrimônio"
+        },
+        {
+            "question": "Um patrimônio formado pela própria natureza é chamado de patrimônio:",
+            "options": [
+                "natural",
+                "material",
+                "imaterial",
+                "histórico construído"
+            ],
+            "correctAnswer": "natural",
+            "topic": "Patrimônio natural"
+        },
+        {
+            "question": "Os Lençóis Maranhenses aparecem na apostila como exemplo de patrimônio:",
+            "options": [
+                "natural",
+                "imaterial",
+                "material construído",
+                "musical"
+            ],
+            "correctAnswer": "natural",
+            "topic": "Patrimônio natural"
+        },
+        {
+            "question": "Qual alternativa mostra corretamente a relação entre exemplo e tipo de patrimônio?",
+            "options": [
+                "Lençóis Maranhenses – natural",
+                "Capoeira – material",
+                "Farol da Barra – imaterial",
+                "Samba de Roda – natural"
+            ],
+            "correctAnswer": "Lençóis Maranhenses – natural",
+            "topic": "Tipos de patrimônio"
+        },
+        {
+            "question": "Qual alternativa está correta?",
+            "options": [
+                "Farol da Barra é material e Capoeira é imaterial",
+                "Farol da Barra é imaterial e Capoeira é material",
+                "Os dois são patrimônios naturais",
+                "Os dois são patrimônios materiais"
+            ],
+            "correctAnswer": "Farol da Barra é material e Capoeira é imaterial",
+            "topic": "Tipos de patrimônio"
+        },
+        {
+            "question": "Quando um patrimônio recebe uma proteção oficial, dizemos que ele foi:",
+            "options": [
+                "tombado",
+                "abandonado",
+                "vendido",
+                "esquecido"
+            ],
+            "correctAnswer": "tombado",
+            "topic": "Tombamento"
+        },
+        {
+            "question": "Um bem tombado:",
+            "options": [
+                "não pode ser destruído ou modificado sem autorização",
+                "deve ser demolido",
+                "pode ser modificado por qualquer pessoa",
+                "deixa de ter importância histórica"
+            ],
+            "correctAnswer": "não pode ser destruído ou modificado sem autorização",
+            "topic": "Tombamento"
+        },
+        {
+            "question": "Verdadeiro ou falso: O tombamento é uma forma de proteger patrimônios importantes.",
+            "options": [
+                "Verdadeiro",
+                "Falso"
+            ],
+            "correctAnswer": "Verdadeiro",
+            "topic": "Tombamento"
+        },
+        {
+            "question": "Por que alguns bens são tombados?",
+            "options": [
+                "Para ajudar a preservar seu valor histórico e cultural",
+                "Para que sejam destruídos mais rapidamente",
+                "Para que ninguém possa conhecê-los",
+                "Para transformá-los em patrimônios naturais"
+            ],
+            "correctAnswer": "Para ajudar a preservar seu valor histórico e cultural",
+            "topic": "Tombamento"
+        },
+        {
+            "question": "A proteção dos patrimônios pode ser feita por órgãos dos governos:",
+            "options": [
+                "federal, estadual e municipal",
+                "apenas federal",
+                "apenas municipal",
+                "apenas estadual"
+            ],
+            "correctAnswer": "federal, estadual e municipal",
+            "topic": "Preservação do patrimônio"
+        },
+        {
+            "question": "Cuidar dos patrimônios é importante porque eles ajudam a preservar:",
+            "options": [
+                "memórias, histórias, cultura e identidade",
+                "somente objetos caros",
+                "apenas construções novas",
+                "somente lugares turísticos"
+            ],
+            "correctAnswer": "memórias, histórias, cultura e identidade",
+            "topic": "Importância do patrimônio"
+        },
+        {
+            "question": "Se um patrimônio deixa de ser preservado, podemos perder:",
+            "options": [
+                "parte da memória e da cultura de um povo",
+                "somente dinheiro",
+                "apenas objetos novos",
+                "as matérias da escola"
+            ],
+            "correctAnswer": "parte da memória e da cultura de um povo",
+            "topic": "Importância do patrimônio"
+        },
+        {
+            "question": "Complete: Conhecer e preservar patrimônios ajuda a compreender quem somos e a história das pessoas que vieram ______.",
+            "options": [
+                "antes de nós",
+                "depois de nós",
+                "somente de outros países",
+                "somente das cidades grandes"
+            ],
+            "correctAnswer": "antes de nós",
+            "topic": "Importância do patrimônio"
+        },
+        {
+            "question": "A cultura brasileira possui costumes, festas, comidas, músicas e saberes diferentes porque:",
+            "options": [
+                "diferentes povos contribuíram para a formação do Brasil",
+                "todos os brasileiros possuem exatamente os mesmos costumes",
+                "somente um povo formou a cultura brasileira",
+                "a cultura brasileira não mudou ao longo do tempo"
+            ],
+            "correctAnswer": "diferentes povos contribuíram para a formação do Brasil",
+            "topic": "Diversidade cultural"
+        },
+        {
+            "question": "Segundo o conteúdo estudado, quais povos contribuíram para a formação cultural do Brasil?",
+            "options": [
+                "Povos indígenas, africanos, europeus e outros imigrantes",
+                "Somente povos europeus",
+                "Somente povos indígenas",
+                "Somente povos africanos"
+            ],
+            "correctAnswer": "Povos indígenas, africanos, europeus e outros imigrantes",
+            "topic": "Diversidade cultural"
+        }
+    ]
+}
