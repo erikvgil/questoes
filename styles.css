@@ -28,7 +28,7 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', cursive, sans-serif;
+    font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
     background-color: var(--bg);
     color: var(--text);
     min-height: 100vh;
@@ -59,6 +59,7 @@ button, input {
 
 .brand h1 {
     color: var(--blue);
+    font-weight: 800;
     font-size: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -320,6 +321,7 @@ main {
 
 .question-text {
     font-size: 1.45rem;
+    font-weight: 600;
     margin-bottom: 1.25rem;
 }
 
